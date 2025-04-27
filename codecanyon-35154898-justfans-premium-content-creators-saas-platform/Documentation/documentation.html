@@ -1,0 +1,2738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JustFans - Premium Content Creators SaaS platform | Docs</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="author" content="Qdev Techs">
+	<meta name="description" content="Bootstrap based documentation template">
+	<meta name="keywords" content="bootstrap,documentation,template">
+
+	<link rel="shortcut icon" href="assets/images/logo-square-colored-radius.png" type="image/x-icon">
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+
+	<!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" href="assets/plugins/highlight/atom-one-dark.min.css">
+	<link rel="stylesheet" href="assets/plugins/simplelightbox/simple-lightbox.min.css">
+
+	<!-- Theme CSS -->
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+
+
+	<script>
+		docsConfig = {
+			initSidebar: true,
+		}
+	</script>
+
+</head>
+
+<body class="docs-page">
+<header class="header fixed-top">
+	<div class="branding docs-branding">
+		<div class="container-fluid position-relative py-2">
+			<div class="docs-logo-wrapper">
+				<button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<div class="site-logo">
+					<a class="navbar-brand" href="index.html">
+						<img class="logo-icon me-2" src="assets/images/logo-square-colored-radius.png" alt="logo">
+						<span class="logo-text"><span class="text-alt">Just</span>Fans</span>
+					</a>
+				</div>
+			</div><!--//docs-logo-wrapper-->
+			<div class="docs-top-utilities d-flex justify-content-end align-items-center">
+				<div class="top-search-box d-none d-lg-flex">
+					<form class="search-form">
+						<input type="text" id="search-input" placeholder="Search the docs..." name="search" class="form-control search-input">
+						<button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
+					</form>
+					<!-- Bootstrap 5 styled dropdown for search results -->
+					<ul id="search-results" class="list-unstyled mt-2" style="display:none; position: absolute; background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); width: 100%;"></ul>
+				</div>
+				<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
+					<li class="list-inline-item"><a href="https://github.com/theqdev"><i class="fa-brands fa-github fa-fw"></i></a></li>
+					<li class="list-inline-item"><a href="https://x.com/Qwebdev"><i class="fa-brands fa-x-twitter fa-fw"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.facebook.com/qwebdev"><i class="fa-brands fa-facebook-f fa-fw"></i></a></li>
+				</ul><!--//social-list-->
+				<a href="https://codecanyon.net/item/justfans-premium-content-creators-saas-platform/35154898" class="btn btn-primary d-none d-lg-flex" target="_blank" rel="nofollow">Buy on Envato</a>
+			</div><!--//docs-top-utilities-->
+		</div><!--//container-->
+	</div><!--//branding-->
+</header><!--//header-->
+
+
+<div class="docs-wrapper">
+	<div id="docs-sidebar" class="docs-sidebar">
+
+		<nav id="docs-nav" class="docs-nav navbar">
+			<ul class="section-items list-unstyled nav flex-column pb-3">
+
+				<!-- Introduction -->
+				<li class="nav-item section-title">
+					<a class="nav-link scrollto" href="#introduction">
+						<span class="theme-icon-holder me-2"><i class="fas fa-map-signs"></i></span>
+						Introduction
+					</a>
+				</li>
+
+				<!-- Requirements -->
+				<li class="nav-item section-title mt-3">
+					<a class="nav-link scrollto" href="#requirements">
+						<span class="theme-icon-holder me-2"><i class="fas fa-tasks"></i></span>
+						Requirements
+					</a>
+				</li>
+
+				<!-- Installation -->
+				<li class="nav-item section-title mt-3">
+					<a class="nav-link scrollto" href="#installation">
+						<span class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>
+						Installation
+					</a>
+				</li>
+				<!-- Sub-items for Installation -->
+				<li class="nav-item ms-4">
+					<a class="nav-link scrollto" href="#files-setup">Files Setup</a>
+				</li>
+				<li class="nav-item ms-4">
+					<a class="nav-link scrollto" href="#database-setup">Database Setup</a>
+				</li>
+				<li class="nav-item ms-4">
+					<a class="nav-link scrollto" href="#installer">Installer</a>
+				</li>
+
+				<!-- Configuration -->
+				<li class="nav-item section-title mt-3">
+					<a class="nav-link scrollto" href="#configuration">
+						<span class="theme-icon-holder me-2"><i class="fas fa-cogs"></i></span>
+						Configuration
+					</a>
+				</li>
+				<!-- Sub-items for Configuration -->
+				<li class="nav-item ms-4">
+					<a class="nav-link scrollto" href="#payments">Payments</a>
+				</li>
+				<li class="nav-item ms-4">
+					<a class="nav-link scrollto" href="#withdrawals">Withdrawals</a>
+				</li>
+
+
+				<li class="nav-item ms-4">
+					<a class="nav-link scrollto" href="#crons">Crons setup</a>
+				</li>
+				<li class="nav-item ms-4">
+					<a class="nav-link scrollto" href="#emails">Emails</a>
+				</li>
+				<li class="nav-item ms-4">
+					<a class="nav-link scrollto" href="#websockets">Websockets</a>
+				</li>
+				<li class="nav-item ms-4">
+					<a class="nav-link scrollto" href="#storage">Storage</a>
+				</li>
+				<li class="nav-item ms-4">
+					<a class="nav-link scrollto" href="#video-transcoding">Video transcoding</a>
+				</li>
+				<li class="nav-item ms-4">
+					<a class="nav-link scrollto" href="#streaming">Live streaming</a>
+				</li>
+				<li class="nav-item ms-4">
+					<a class="nav-link scrollto" href="#captcha">Captcha</a>
+				</li>
+				<li class="nav-item ms-4">
+					<a class="nav-link scrollto" href="#geo-blocking">GEO-Blocking</a>
+				</li>
+				<li class="nav-item ms-4">
+					<a class="nav-link scrollto" href="#social-login">Social login</a>
+				</li>
+				<li class="nav-item ms-4">
+					<a class="nav-link scrollto" href="#openai">OpenAI</a>
+				</li>
+				<li class="nav-item ms-4">
+					<a class="nav-link scrollto" href="#referrals">Referrals</a>
+				</li>
+				<li class="nav-item ms-4">
+					<a class="nav-link scrollto" href="#translations">Languages</a>
+				</li>
+
+				<!-- Admin panel -->
+				<li class="nav-item section-title mt-3">
+					<a class="nav-link scrollto" href="#admin">
+						<span class="theme-icon-holder me-2"><i class="fas fa-user-cog"></i></span>
+						Admin panel
+					</a>
+				</li>
+
+				<!-- Update -->
+				<li class="nav-item section-title mt-3">
+					<a class="nav-link scrollto" href="#update">
+						<span class="theme-icon-holder me-2"><i class="fas fa-redo-alt"></i></span>
+						Update
+					</a>
+				</li>
+
+				<!-- FAQ -->
+				<li class="nav-item section-title mt-3">
+					<a class="nav-link scrollto" href="#faq">
+						<span class="theme-icon-holder me-2"><i class="fas fa-question-circle"></i></span>
+						FAQ
+					</a>
+				</li>
+
+
+
+			</ul>
+		</nav>
+
+
+		<!--		old -->
+	</div><!--//docs-sidebar-->
+
+	<div class="docs-content">
+		<div class="container">
+
+			<!-- ===============================
+            Introduction
+       ================================ -->
+			<article class="docs-article" id="introduction">
+				<header class="docs-header">
+					<h1 class="docs-heading">Introduction <span class="docs-time" id="last-updated-label">Last updated: 3 days ago</span></h1>
+				</header>
+
+				<section class="docs-section">
+					<!--					<h2 class="pt-2 section-header">-->
+					<!--						<span class="doc-index-label">1.</span> Getting started-->
+					<!--					</h2>-->
+					<p>
+						Thanks for checking out the documentation of our
+						<a href="https://codecanyon.net/item/justfans-premium-content-creators-saas-platform/35154898" target="_blank"><span class="appNameLabel">JustFans</span></a> product. Here you'll find about everything you need in order to get started with launching your app.
+					</p>
+					<p>
+						If you are not familiar with the terms or the techstack or if you don't have the time to install and configure the application, we cand handle the installation <a href="https://qdev.tech/services" target="_blank">services</a> for an additional fee.
+					</p>
+				</section>
+			</article>
+			<!--//article-->
+
+
+			<!-- ===============================
+                 Requirements
+            ================================ -->
+			<article class="docs-article" id="requirements">
+				<header class="docs-header">
+					<h1 class="docs-heading">Requirements</h1>
+				</header>
+
+				<section class="docs-section" id="server-requirements">
+					<h2 class="section-heading">Server requirements</h2>
+					<p>Before proceeding with the installation, please make sure your instance meets the following criteria.</p>
+					<!-- Compact the main requirements into a table -->
+					<div class="table-responsive mb-4">
+						<table class="table table-bordered">
+							<thead class="theme-bg-light">
+							<tr>
+								<th scope="col">Requirement</th>
+								<th scope="col">Minimum Version / Details</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td>Webserver</td>
+								<td>Apache (with <code>mod_rewrite</code>), Nginx, or Litespeed</td>
+							</tr>
+							<tr>
+								<td>Database</td>
+								<td>MySQL 5.7.7+ or MariaDB 10.3.17+ (with <code>PHP-PDO/mysqlnd</code> driver)</td>
+							</tr>
+							<tr>
+								<td>PHP Version</td>
+								<td>PHP &ge; 8.1</td>
+							</tr>
+							<tr>
+								<td>PHP Extensions</td>
+								<td>
+									BCMath, Ctype, Fileinfo, JSON, Mbstring, OpenSSL,<br>
+									PDO, Tokenizer, XML, cURL, exif, GD
+								</td>
+							</tr>
+							<tr>
+								<td>PHP Functions</td>
+								<td>
+									symlink, readlink
+								</td>
+							</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<ol class="text-muted small">
+						<li>Nginx requires a vhost similar to the default <a href="https://laravel.com/docs/11.x/deployment#nginx" target="_blank">laravel</a> one.</li>
+						<li>The script can ran on pretty much everything, but for hosting, we usually recommend <a href="https://m.do.co/c/dec4efd6a4d7" target="_blank">DigitalOcean</a> servers.</li>
+						<li>If having less tech experience, we strongly recommend using a panel-based server. EG: cPanel/Cyberpanel.</li>
+					</ol>
+
+					<!-- The commented-out "General notes" portion remains unchanged -->
+					<!--
+                    <div>
+                      ...
+                    </div>
+                    -->
+				</section>
+
+
+			</article>
+
+			<!--//article-->
+
+
+			<article class="docs-article" id="installation">
+				<header class="docs-header">
+					<h1 class="docs-heading">Installation</h1>
+				</header>
+
+				<!-- ===============================
+                     1) FILES SETUP
+                ================================ -->
+				<section class="docs-section" id="files-setup">
+					<h2 class="section-heading">Files Setup</h2>
+					<p>
+						Before proceeding with the installation, you need to extract the script contents
+						onto the directory that will serve your domain. This can be done via cPanel’s
+						File Manager, FTP, or command line.
+					</p>
+					<h5 class="mt-4">
+						Upload and extract the archive
+					</h5>
+					<ul>
+						<li>1. If you’re using cPanel, navigate to <strong>File Manager</strong> and upload
+							your <code>.zip</code> file containing the script.</li>
+						<li>2. Once uploaded, <strong>right-click</strong> and choose <strong>Extract</strong>
+							to unpack all contents.</li>
+						<li>3. Copy the contents of the <code>Script</code> folder onto the <code>public_html</code> directory of the domain your are about to use.
+						</li>
+						<li>4. Make sure you also copy any hidden files (e.g., <code>.env</code>,
+							<code>.htaccess</code>).</li>
+					</ul>
+
+
+					<h5 class="mt-4">
+						Configure file permissions
+					</h5>
+					<p>
+						In order for the script to work properly, set the following folders to
+						<code>CHMOD 755</code>: <code>vendor</code>, <code>storage</code>, <code>bootstrap</code> .
+					</p>
+					<p>
+
+					</p>
+					<div class="alert alert-info mt-3 small">
+						<p class="mb-1">
+							<i class="fa fa-info-circle mr-2"></i>
+							For more info on setting permissions, see:
+						</p>
+						<ul class="mb-0">
+							<li class="py-1">
+								<a href="https://docs.cpanel.net/cpanel/files/file-manager/#update-file-or-folder-permissions" target="_blank">
+									cPanel - Update file or folder permissions
+								</a>
+							</li>
+							<li class="py-1">
+								<a href="https://docs.plesk.com/en-US/obsidian/customer-guide/websites-and-domains/website-content/setting-file-and-directory-access-permissions.70738" target="_blank">
+									Plesk - Setting File and Directory Access Permissions
+								</a>
+							</li>
+							<li class="py-1">
+								For CLI usage:
+								<code>chmod -R 755 directory</code>
+								or check your hosting panel for file permission options.
+							</li>
+						</ul>
+					</div>
+
+					<h5 id="docroot" class="mt-4">
+						<a href="#docroot" class="link-primary fw-light no-underline in-doc-link extra-scroll-nav" >#</a> Changing the public directory
+						<span class="badge text-light bg-danger">Important</span>
+					</h5>
+					<p>
+						Configure your web server’s document root to point to the <code>public</code>
+						directory of the software. For example, if you uploaded the code into
+						<code>example.com</code>, update the doc root to <code>example.com/public</code>.
+					</p>
+
+					<p class="alert alert-primary">
+						If your hosting provider doesn’t allow changing your DocumentRoot,
+						you can temporarily rename <code>.htaccess.sample</code> to <code>.htaccess</code>.
+						Use this only as a <strong>temporary solution</strong>.
+					</p>
+
+					<div class="alert alert-info mt-3 small">
+						<p class="mb-1">
+							<i class="fa fa-info-circle mr-2"></i>
+							For more info on changing the Document Root:
+						</p>
+						<ul class="mb-0">
+							<li class="py-1">
+								<a href="https://support.cpanel.net/hc/en-us/articles/360057802373-How-can-I-change-the-document-root-for-an-Addon-Domain-or-Subdomain" target="_blank">
+									cPanel - Update document Root for add-on domains
+								</a>
+							</li>
+							<li class="py-1">
+								<a href="https://docs.plesk.com/en-US/obsidian/administrator-guide/77500/" target="_blank">
+									Defining a Custom Document Root
+								</a>
+							</li>
+							<li class="py-1">
+								For a VPS or custom server, edit <code>DocumentRoot</code> in your site’s
+								<em>virtual host</em> configuration.
+							</li>
+						</ul>
+					</div>
+				</section>
+				<!--//section (Files Setup)-->
+
+
+				<!-- ===============================
+                     2) DATABASE SETUP
+                ================================ -->
+				<section class="docs-section" id="database-setup">
+					<h2 class="section-heading">Database Setup</h2>
+					<p>
+						You need a MySQL or MariaDB database ready for the script.
+						If using cPanel, go to <strong>MySQL Databases</strong> or the
+						<strong>MySQL Database Wizard</strong> to create a new database and user.
+					</p>
+					<ul>
+						<li><strong>Create a new database</strong> (e.g., <code>myapp_db</code>).</li>
+						<li><strong>Create a new user</strong> (e.g., <code>myapp_user</code>) with a secure password.</li>
+						<li>
+							<strong>Assign the user</strong> to the database, ensuring it has
+							<em>ALL PRIVILEGES</em> or the privileges required by your script.
+						</li>
+					</ul>
+					<p>
+						Once done, you should have the following info:
+					</p>
+					<ul>
+						<li>Database Name (e.g., <code>myapp_db</code>)</li>
+						<li>Database Username (e.g., <code>myapp_user</code>)</li>
+						<li>Database Password (e.g., <code>123456</code>)</li>
+						<li>Database Host (often <code>localhost</code>)</li>
+					</ul>
+					<div class="alert alert-info mt-3 small">
+						<p class="mb-1">
+							<i class="fa fa-info-circle mr-2"></i>
+							For more detailed instructions, see:
+						</p>
+						<ul class="mb-0">
+							<li class="py-1">
+								<a href="https://docs.cpanel.net/cpanel/databases/mysql-database-wizard/" target="_blank">
+									cPanel - MySQL® Database Wizard
+								</a>
+							</li>
+							<li class="py-1">
+								<a href="https://docs.plesk.com/en-US/obsidian/customer-guide/website-databases.69535/" target="_blank">
+									Plesk - Website databases
+								</a>
+							</li>
+							<li class="py-1">
+								<a href="https://www.digitalocean.com/community/tutorials/how-to-create-and-manage-databases-in-mysql-and-mariadb-on-a-cloud-server" target="_blank">
+									Command line - Creating and managing databases
+								</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<!--//section (Database Setup)-->
+
+
+				<!-- ===============================
+                     3) INSTALLER
+                ================================ -->
+				<section class="docs-section" id="installer">
+					<h2 class="section-heading">Installer</h2>
+					<p>
+						After preparing your files and database, run the <strong>web-based installer</strong> by visiting
+						<code>https://your-domain.com/install</code>. This panel will guide you through a
+						simple, 3-step process:
+					</p>
+					<ol>
+						<li>
+							<strong>Requirements Check</strong>: The installer verifies if your server meets the
+							minimum requirements (PHP version, extensions, etc.). If something is missing,
+							you’ll need to fix it before proceeding.
+						</li>
+						<li>
+							<strong>Database Setup</strong>: Provide the DB name, user, password, and host you created above.
+						</li>
+						<li>
+							<strong>Site & Admin Settings</strong>: Configure your site’s name, admin login credentials,
+							and <a href="https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code-" target="_blank">license</a> details.
+						</li>
+					</ol>
+					<p>
+						Once you finish, the installer will set up your database tables, and you’ll be
+						ready to log in to your admin panel to customize additional aspects of the platform.
+					</p>
+					<!-- Keep your installer image(s) here if desired -->
+					<img src="assets/images/installer.png" class="img-fluid" alt="installer screenshot">
+
+					<p class="alert alert-info mt-4">
+						If the web-installer is not available at <code>https://your-domain.com/install</code>, check out the <code>https://your-domain.com/public/install</code> one as well. If that one functions, it means you're <a href="#docroot">DocumentRoot</a> isn't properly set.
+					</p>
+
+
+				</section>
+				<!--//section (Installer)-->
+
+			</article>
+
+			<!--//article-->
+
+			<!-- ===============================
+                 Configuration (Parent Article)
+            ================================ -->
+			<article class="docs-article" id="configuration">
+				<header class="docs-header">
+					<h1 class="docs-heading">Configuration</h1>
+				</header>
+
+				<section class="docs-section" id="additional-requirements">
+					<h2 class="section-heading">Basic configuration</h2>
+					<p>There are many services and features you can configure and enable. However, for a working platform, these services will have to be configured first.</p>
+					<!--					<p>Once you covered the server requirements, or once you installed the script, you will also need to configure the following services.</p>-->
+
+					<div class="table-responsive mb-4">
+						<table class="table table-bordered">
+							<thead class="theme-bg-light">
+							<tr>
+								<th scope="col">Requirement</th>
+								<th scope="col">Details</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td><a href="#payments">Payments</a></td>
+								<td>Required for receiving payments.</td>
+							</tr>
+							<tr>
+								<td><a href="#websockets">Websockets</a></td>
+								<td>Required for the messenger and other live functionalities</td>
+							</tr>
+							<tr>
+								<td><a href="#emails">Emails</a></td>
+								<td>Required for sending platform's transactional email</td>
+							</tr>
+							<tr>
+								<td><a href="#crons">Cronjobs</a></td>
+								<td>Required for different scheduled tasks.</td>
+							</tr>
+							</tbody>
+						</table>
+					</div>
+					<!--					<p>Besides these, there are many other 3rd-party providers and features that can be enabled and configured, which you can check out down below.</p>-->
+				</section>
+
+				<!-- ===== Introduction ===== -->
+				<section class="docs-section" id="payments">
+					<h2 class="section-heading">Payments system</h2>
+					<p>
+						Below are instructions for each supported gateway. Follow the relevant steps
+						for the provider(s) you plan to use.
+					</p>
+
+<!--					nEW-->
+<!--					nEW-->
+<!--					nEW-->
+<!--					nEW-->
+
+					<div class="table-responsive mb-4">
+						<table class="table table-bordered">
+							<thead class="theme-bg-light">
+							<tr>
+								<th scope="col">Provider</th>
+								<!--								<th scope="col">Details</th>-->
+								<th scope="col">Deposits</th>
+								<th scope="col">Tips & PPV</th>
+								<th scope="col">Subscriptions</th>
+								<th scope="col">Adult content</th>
+								<th scope="col">Region</th>
+								<th scope="col">Currencies</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td><a href="#paypal">Paypal</a></td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-danger"><i class="fa fa-times"></i></span> </td>
+								<td><span class="">Global</span> </td>
+								<td><a href="https://developer.paypal.com/docs/reports/reference/paypal-supported-currencies/" target="_blank" rel="nofollow">Multiple</a> </td>
+							</tr>
+							<tr>
+								<td><a href="#stripe">Stripe</a></td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-danger"><i class="fa fa-times"></i></span> </td>
+								<td><span class="">Global</span> </td>
+								<td><a href="https://docs.stripe.com/currencies" target="_blank" rel="nofollow">Multiple</a> </td>
+							</tr>
+							<tr>
+								<td><a href="#ccbill">CCBill</a></td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="">Global</span> </td>
+								<td><a href="https://ccbill.com/doc/accepted-payment-methods" target="_blank" rel="nofollow">Multiple</a> </td>
+								<!--								<td>Required for the messenger and other live functionalities</td>-->
+							</tr>
+							<tr>
+								<td><a href="#nowpayments">NowPayments</a></td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td>
+									<span class="text-warning">
+									<span data-bs-toggle="tooltip" data-bs-placement="top" title="Users can deposit currency into their local wallet, then use that balance to do recurring subscriptions.">
+										<i class="fa fa-warning"></i>
+									</span>
+									</span>
+								</td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="">Global</span> </td>
+
+								<td><a href="https://ccbill.com/doc/accepted-payment-methods" target="_blank" rel="nofollow">Multiple</a> </td>
+								<!--								<td>Required for the messenger and other live functionalities</td>-->
+							</tr>
+							<tr>
+								<td><a href="#coinbase">Coinbase</a></td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td>
+									<span class="text-warning">
+									<span data-bs-toggle="tooltip" data-bs-placement="top" title="Users can deposit currency into their local wallet, then use that balance to do recurring subscriptions.">
+										<i class="fa fa-warning"></i>
+									</span>
+									</span>
+								</td>
+								<td><span class="text-danger"><i class="fa fa-times"></i></span> </td>
+
+								<td><span class="">Global</span> </td>
+
+								<td><a href="https://ccbill.com/doc/accepted-payment-methods" target="_blank" rel="nofollow">Multiple</a> </td>
+								<!--								<td>Required for the messenger and other live functionalities</td>-->
+							</tr>
+							<tr>
+								<td><a href="#paystack">Paystack</a></td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td>
+									<span class="text-warning">
+									<span data-bs-toggle="tooltip" data-bs-placement="top" title="Users can deposit currency into their local wallet, then use that balance to do recurring subscriptions.">
+										<i class="fa fa-warning"></i>
+									</span>
+									</span>
+								</td>
+								<td>
+									<span class="text-warning">
+									<span data-bs-toggle="tooltip" data-bs-placement="top" title="Provider's terms and conditions are not clear or do not explicitly ban the use for high-risk payments.">
+										<i class="fa fa-warning"></i>
+									</span>
+									</span>
+								</td>
+								<td><span class="">Africa</span> </td>
+								<!--								<td><a href="https://paystack.com/docs/api/#supported-currency" target="_blank" rel="nofollow">Multiple</a> </td>-->
+								<td>USD, NGN, GHS, ZAR, KES</td>
+							</tr>
+							<tr>
+								<td><a href="#mercadopago">MercadoPago</a></td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td>
+									<span class="text-warning">
+									<span data-bs-toggle="tooltip" data-bs-placement="top" title="Users can deposit currency into their local wallet, then use that balance to do recurring subscriptions.">
+										<i class="fa fa-warning"></i>
+									</span>
+									</span>
+								</td>
+								<td><span class="text-danger"><i class="fa fa-times"></i></span> </td>
+								<td><span class="">South America</span> </td>
+								<td>ARS, BRL, MXN, CLP, COP, PEN, UYU </td>
+								<!--								<td>Required for the messenger and other live functionalities</td>-->
+							</tr>
+							<tr>
+								<td><a href="#offline-payments">Offline payments</a></td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td>
+									<span class="text-warning">
+									<span data-bs-toggle="tooltip" data-bs-placement="top" title="Users can deposit currency into their local wallet, then use that balance to do recurring subscriptions.">
+										<i class="fa fa-warning"></i>
+									</span>
+									</span>
+								</td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="">Global</span> </td>
+								<td>Multiple </td>
+								<!--								<td>Required for the messenger and other live functionalities</td>-->
+							</tr>
+							</tbody>
+						</table>
+					</div>
+
+
+
+					<p>
+						To receive payments, you need to set up at least one payment provider.
+					</p>
+					<p>
+						Go to
+						<code>Admin &gt; Settings &gt; Payments</code> to configure your general payments settings and configure the chosen provider(s).
+					</p>
+
+				</section><!--//section-->
+
+				<!-- ===== Stripe ===== -->
+				<section class="docs-section" id="stripe">
+					<h2 class="section-heading"><a href="#stripe" class="link-primary fw-light no-underline in-doc-link">#</a> Stripe</h2>
+					<ul>
+						<li>
+							Log in to your
+							<a href="https://dashboard.stripe.com/login" target="_blank">Stripe Dashboard</a>.
+						</li>
+						<li>
+							From the sidebar, go to
+							<a href="https://dashboard.stripe.com/developers" target="_blank">Developers</a>
+							&gt;
+							<a href="https://dashboard.stripe.com/apikeys" target="_blank">API Keys</a>.
+						</li>
+						<li>
+							Copy the <code>Publishable key</code> and <code>Secret key</code> and paste them into
+							<code>Admin &gt; Settings &gt; Payments &gt; Processors &gt; Stripe</code>.
+						</li>
+						<li>
+							Next, open
+							<a href="https://dashboard.stripe.com/webhooks" target="_blank">Webhooks</a>
+							and click <code>Add endpoint</code>.
+						</li>
+						<li>
+							For the <code>Endpoint URL</code>, use the webhook endpoint from
+							<code>Admin &gt; Settings &gt; Payments &gt; Processors &gt; Stripe</code>.
+						</li>
+						<li>
+							Select the <code>Version</code> (latest) and choose
+							<code>Select all events</code> under <code>events to listen to</code>.
+						</li>
+						<li>
+							Once created, Stripe provides a <strong>Webhook secret</strong>.
+							Copy that into <code>Admin &gt; Settings &gt; Payments &gt;
+							Stripe Webhooks Secret</code>.
+						</li>
+						<li>
+							<strong>Enable OXXO with Stripe</strong>
+							<ul>
+								<li>Complete the general setup steps outlined above.</li>
+								<li>
+									Log in to your Stripe account and navigate to <code>Payment methods</code>. Enable OXXO as a payment method.
+								</li>
+								<li>
+									In the admin panel, go to <code>Settings &gt; Payments &gt; Processors &gt; Stripe</code> and enable OXXO.
+								</li>
+								<li>
+									Update the existing <a href="https://dashboard.stripe.com/webhooks" target="_blank">webhook</a> to listen for the following events:
+									<ul>
+										<li><code>checkout.session.async_payment_succeeded</code></li>
+										<li><code>checkout.session.async_payment_failed</code></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<strong>Enable iDEAL, Blik, Bancontact, EPS, Giropay, and Przelewy24 with Stripe</strong>
+							<ul>
+								<li>Complete the general setup steps outlined above. Enabling OXXO is optional.</li>
+								<li>
+									Log in to your Stripe account and navigate to <code>Payment methods</code>. Enable the desired payment methods.
+								</li>
+								<li>
+									In the admin panel, go to <code>Settings &gt; Payments &gt; Processors &gt; Stripe</code> and enable the desired payment methods so they appear on the Stripe checkout page.
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section><!--//section-->
+
+
+				<!-- ===== PayPal ===== -->
+				<section class="docs-section" id="paypal">
+					<h2 class="section-heading"><a href="#paypal" class="link-primary fw-light no-underline in-doc-link">#</a> PayPal</h2>
+					<ul>
+						<li>
+							Log in via the
+							<a href="https://developer.paypal.com/developer/applications/" target="_blank">
+								PayPal Developer Dashboard
+							</a>.
+						</li>
+						<li>
+							Go to <a href="https://developer.paypal.com/developer/applications/" target="_blank">
+							My apps &amp; credentials
+						</a>, set <code>Live</code>, and click <code>Create App</code> to make a new PayPal app.
+						</li>
+						<li>
+							Copy the <code>ClientID</code> &amp; <code>Secret Key</code> and add them into
+							<strong>Settings &gt; Payments</strong> in your admin panel.
+						</li>
+						<li>
+							Back in the PayPal dashboard, select your newly created app (under <code>Live</code>).
+						</li>
+						<li>
+							Scroll down to <code>Production Webhooks</code> and click <code>Add Webhook</code>.
+						</li>
+						<li>
+							For <strong>Webhook URL</strong>, use the endpoint from
+							<code>Admin &gt; Settings &gt; Payments</code>.
+						</li>
+						<li>
+							Under <strong>Event types</strong>, select <code>All Events</code> and click
+							<code>Save</code>.
+						</li>
+					</ul>
+				</section><!--//section-->
+
+				<!-- ===== Coinbase ===== -->
+				<section class="docs-section" id="coinbase">
+					<h2 class="section-heading"><a href="#coinbase" class="link-primary fw-light no-underline in-doc-link">#</a> Coinbase</h2>
+					<ul>
+						<li>
+							Log in to
+							<a href="https://commerce.coinbase.com/signin" target="_blank">Coinbase Commerce</a>.
+						</li>
+						<li>
+							Go to the
+							<a href="https://commerce.coinbase.com/dashboard/settings" target="_blank">
+								Settings</a> section.
+						</li>
+						<li>
+							Under <strong>API keys</strong>, click <b>Create an API key</b> and copy it.
+							Paste it into <strong>Settings &gt; Payments</strong> in your admin panel.
+						</li>
+						<li>
+							For <strong>Webhook subscriptions</strong>, click <b>Add an endpoint</b>.
+							The webhook URL is in <code>Admin &gt; Settings &gt; Payments</code>.
+						</li>
+						<li>
+							Click <b>Show shared secret</b> and add it into the admin panel as well.
+						</li>
+					</ul>
+				</section><!--//section-->
+
+				<!-- ===== NowPayments ===== -->
+				<section class="docs-section" id="nowpayments">
+					<h2 class="section-heading"><a href="#nowpayments" class="link-primary fw-light no-underline in-doc-link">#</a> NowPayments</h2>
+					<ul>
+						<li>
+							Log in at
+							<a href="https://account.nowpayments.io/sign-in" target="_blank">NowPayments</a>.
+						</li>
+						<li>
+							Go to
+							<a href="https://account.nowpayments.io/store-settings" target="_blank">
+								Store settings
+							</a> and add a new <b>API Key</b>.
+						</li>
+						<li>
+							Copy the key and paste it into <strong>Settings &gt; Payments</strong>
+							as <code>NowPayments Api Key</code>.
+						</li>
+						<li>
+							Generate an <code>IPN secret key</code> there and add it into
+							<code>Admin &gt; Settings &gt; Payments &gt; NowPayments IPN Secret Key</code>.
+						</li>
+						<li>
+							Add crypto wallets in your NowPayments account. We recommend adding many to
+							lower conversion rates.
+						</li>
+						<li>
+							<strong>We recommend</strong> setting a <b>payment covering percentage</b>
+							so that slightly underpaid transactions can still count as completed.
+							Example: If set to 5%, a $100 invoice will be treated as paid in full
+							if $95 is received.
+						</li>
+					</ul>
+					<div class="alert alert-info mt-3 small">
+						<p><i class="fa fa-info-circle"></i>
+							If a payment is <strong>partially paid</strong> below your threshold,
+							you will receive an email to manually process or refund.</p>
+					</div>
+				</section><!--//section-->
+
+				<!-- ===== CCBill ===== -->
+				<section class="docs-section" id="ccbill">
+					<h2 class="section-heading"><a href="#ccbill" class="link-primary fw-light no-underline in-doc-link">#</a> CCBill</h2>
+					<ul>
+						<li>
+							Log in via
+							<a href="https://admin.ccbill.com/loginMM.cgi" target="_blank">CCBill sign in</a>.
+						</li>
+						<li>
+							Go to <strong>FlexForms Systems</strong> and note your <b>Flex ID</b>.
+						</li>
+						<li>
+							Add the <code>FlexForm Id</code> in
+							<code>Settings &gt; Payments &gt; Processors &gt; CCBill</code>.
+						</li>
+						<li>
+							Add your <code>CCBill Account Number</code> in admin settings.
+						</li>
+						<li>
+							Go to <code>Account Info &gt; Sub Account Admin</code>, under <code>Basic</code>
+							to set your approval &amp; denial URLs (from <code>Admin &gt; Settings &gt; Payments</code>).
+						</li>
+						<li>
+							In <code>Webhooks</code>, add your admin <strong>CCBill Webhook URL</strong>
+							(format: <b>JSON</b>).
+						</li>
+						<li>
+							For recurring payments, repeat steps for your <em>recurring sub account</em>.
+						</li>
+						<li>
+							Request your <code>Salt key</code> from CCBill and fill it in the admin panel.
+						</li>
+						<li>
+							To automatically cancel subscriptions, set up a <strong>DataLink API user</strong>:
+							<ul>
+								<li>In your CCBill recurring sub account, go to
+									<code>Account info &gt; DataLink Services Suite</code>.</li>
+								<li>Click <code>Add user</code>, fill in a username and password,
+									enable <code>Subsystem</code> checkboxes, and add your server IP to <code>Valid Ips</code>.
+								</li>
+								<li>Click <b>Store user</b> and add these credentials in
+									<code>Settings &gt; Payments &gt; Processors &gt; CCBill</code>
+									as <code>CCBill DataLink Username / Password</code>.
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section><!--//section-->
+
+				<!-- ===== Paystack ===== -->
+				<section class="docs-section" id="paystack">
+					<h2 class="section-heading"><a href="#paystack" class="link-primary fw-light no-underline in-doc-link">#</a> Paystack</h2>
+					<ul>
+						<li>
+							Log in at
+							<a href="https://dashboard.paystack.com/#/login" target="_blank">
+								Paystack dashboard
+							</a>.
+						</li>
+						<li>
+							Go to <a href="https://dashboard.paystack.com/#/settings/developer" target="_blank">
+							Settings &gt; Developer
+						</a>.
+						</li>
+						<li>
+							Under <b>API Keys &amp; Webhooks</b>, copy the <code>Secret key</code>
+							and paste it into
+							<strong>Settings &gt; Payments &gt; Processors &gt; Paystack</strong>.
+						</li>
+						<li>
+							Copy your <code>Webhook &amp; Callback</code> URLs from the admin panel
+							and add them to Paystack’s <code>Settings &gt; Developer</code> as well.
+						</li>
+					</ul>
+				</section><!--//section-->
+
+				<!-- ===== MercadoPago ===== -->
+				<section class="docs-section" id="mercadopago">
+					<h2 class="section-heading"><a href="#mercadopago" class="link-primary fw-light no-underline in-doc-link">#</a> MercadoPago</h2>
+					<ul>
+						<li>
+							Log in to your MercadoPago developer account at
+							<a href="https://www.mercadopago.com.br/developers" target="_blank">MercadoPago Developer Portal</a>.
+						</li>
+						<li>
+							Navigate to <a href="https://www.mercadopago.com.br/developers/panel/app" target="_blank">Your Applications</a>.
+						</li>
+						<li>
+							Click <b>Create Application</b>.
+						</li>
+						<li>
+							Choose a name for your application.
+						</li>
+						<li>
+							Under <code>What type of payment solution will you integrate?</code>, select <code>Online payments</code>.
+						</li>
+						<li>
+							For <code>Are you using an e-commerce platform?</code>, select <code>No</code>.
+						</li>
+						<li>
+							Under <code>Which product are you integrating?</code>, select <code>CheckoutPro</code>.
+						</li>
+						<li>
+							The <code>Integration model</code> field is optional, so you can leave it empty.
+						</li>
+						<li>
+							After successfully creating the application, go to the <code>Production Credentials</code> section.
+						</li>
+						<li>
+							Copy the <code>Access Token</code> and add it into the admin panel under
+							<code>Settings &gt; Payments &gt; Processors &gt; Mercado</code>.
+						</li>
+					</ul>
+				</section><!--//section-->
+
+
+				<!-- ===== MercadoPago ===== -->
+				<section class="docs-section" id="offline-payments">
+					<h2 class="section-heading"><a href="#offline-payments" class="link-primary fw-light no-underline in-doc-link">#</a> Offline Payments</h2>
+					<ul>
+
+					<li>You can set up the offline payments by going to <code>Admin > Settings > Payments > Processors</code>, and select <code>Offline payments</code> under the <code>Payment provider</code> field.</li>
+					<li>In there, you can setup your bank account details or additional details, which users can use to send you manual payments.</li>
+					<li>After a user deposited via manual payments, you will be able to preview his request over <code>Admin > Money > Payment Request</code>. <!--You will be also email-notified.--></li>
+					<li>If you confirm the money have been received, you can approve the user request. He will then be notified that the request has been approved or not.</li>
+					</ul>
+
+				</section><!--//section-->
+
+
+
+				<section class="docs-section" id="withdrawals">
+					<h2 class="section-heading">Withdrawals</h2>
+					<p>Withdrawals can be done either manually, EG: you send the money yourself to the creator via selected/allowed payment providers, or automatically, via Stripe Connect, where users go through Stripe onboarding flow.</p>
+				</section><!--//docs-article-->
+
+				<!-- Manual Withdrawals Section -->
+				<section class="docs-section" id="manual-withdrawals">
+					<h2 class="section-heading">
+						<a href="#manual-withdrawals" class="link-primary fw-light no-underline in-doc-link">#</a> Manual Withdrawals
+					</h2>
+					<ul>
+						<li>
+							Navigate to <code>Admin > Settings > Payments > Withdrawal</code> to enable the available manual payout methods and other details.
+						</li>
+						<li>
+							Users can create new withdrawal requests over <code>User menu > Wallet > Withdrawals</code>, filling in the required data based on the provider (e.g., PayPal, Bank Account, etc.).
+						</li>
+						<li>
+							You can preview the request in the admin panel, over at <code>Admin > Money > Withdrawals</code>, process the payout, and approve or disapprove the request. You will also receive an email notification when a withdrawal request is made.
+						</li>
+						<li>
+							Users will be notified when their request is approved or disapproved.
+						</li>
+					</ul>
+				</section><!--//section-->
+
+				<!-- Stripe Connect Section -->
+				<section class="docs-section" id="stripe-connect">
+					<h2 class="section-heading">
+						<a href="#stripe-connect" class="link-primary fw-light no-underline in-doc-link">#</a> Stripe Connect Withdrawals
+					</h2>
+					<ul>
+						<li>
+							If you haven't already, <a href="https://dashboard.stripe.com/register" target="_blank">create a Stripe account</a> and add all required details.
+						</li>
+						<li>
+							Log in to your Stripe account and navigate to the <a href="https://dashboard.stripe.com/dashboard" target="_blank">Stripe Dashboard</a>.
+						</li>
+						<li>
+							Go to <code>Settings > Connect settings</code> and enable Stripe Connect by agreeing to the terms and conditions.
+						</li>
+						<li>
+							Set up your <a href="https://dashboard.stripe.com/test/settings/connect/onboarding-interface" target="_blank">branding</a>, including logos and colors, to customize the onboarding experience.
+						</li>
+						<li>
+							Navigate to the <a href="https://dashboard.stripe.com/test/settings/connect/payouts/external_accounts" target="_blank">Payout settings</a> page:
+							<ul>
+								<li><strong>External Accounts Tab:</strong>
+									<ul>
+										<li>Require at least one bank account? -> Recommended: <code>Yes</code></li>
+										<li>Allow debit cards? -> Optional</li>
+										<li>
+											Under <code>Stripe-hosted onboarding for Custom accounts</code>, set
+											<code>Collect external account information for Custom accounts</code> to <code>Yes</code>.
+										</li>
+									</ul>
+								</li>
+								<li><strong>Payout Schedules Tab:</strong>
+									<ul>
+										<li>Disable <code>Allow accounts to manage their payout schedule</code>, as payouts are created manually.</li>
+									</ul>
+								</li>
+								<li><strong>Alternative Currency Payouts Tab:</strong>
+									<ul>
+										<li>Enable <code>Allow accounts to receive payouts in alternative currencies</code> for users with accounts in different currencies.</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							Set up a webhook endpoint:
+							<ul>
+								<li>Go to <a href="https://dashboard.stripe.com/webhooks" target="_blank">Developers > Webhooks</a>.</li>
+								<li>
+									Configure the following settings:
+									<ul>
+										<li>Endpoint URL: Found in <code>Admin > Settings > Payments > Withdrawals</code>.</li>
+										<li>Listen to: <code>Events on Connected accounts</code>.</li>
+										<li>Events to listen: <code>account.updated, payout.canceled, payout.failed, payout.paid</code>.</li>
+									</ul>
+								</li>
+								<li>Click <code>Add endpoint</code> and copy the <code>Signing secret</code> into the admin panel under
+									<code>Settings > Payments > Withdrawals > Stripe Connect Webhooks Secret</code>.
+								</li>
+							</ul>
+						</li>
+						<li>
+							Enable Stripe Connect for withdrawals in the admin panel by toggling
+							<code>Enable Stripe Connect for withdrawals</code>.
+						</li>
+					</ul>
+					<div class="alert alert-info mt-3 small">
+						<p><i class="fa fa-info-circle"></i>
+
+							Stripe Connect does not allow adult content platforms.
+							Since this platform uses Stripe Connect with Custom accounts, ensure you meet
+							<a href="https://docs.stripe.com/connect/custom-accounts#requirements" target="_blank">their requirements</a>.
+
+						</p>
+					</div>
+				</section><!--//section-->
+
+
+				<section class="docs-section" id="crons">
+					<h2 class="section-heading"> Cron Setup</h2>
+					<p>
+						In order for the platform to function fully, including payment processing,
+						emails, offers, and more, you need to set up the following cron job.
+					</p>
+
+					<p>
+						You can get the exact cron command path out of <code>Admin > Settings > Payments</code> area.
+					</p>
+
+					<pre><code class="language-bash">* * * * * cd /path-to-your-project && php artisan schedule:run &gt;&gt; /dev/null 2&gt;&1 </code></pre>
+
+					<p>
+						Some hosting panels might require the cron command in a different format.
+						If needed, you can run it with absolute paths or specific PHP versions:
+					</p>
+
+					<pre><code class="language-bash">* * * * * php /path-to-your-project/artisan schedule:run &gt;&gt; /dev/null 2&gt;&1</code></pre>
+
+					<p>Other hosting panels with have you set the task interval out of their own UI, so you might end up using a command that doesn't include the <code>* * * * *</code> prefix.</p>
+
+					<h5 class="mt-4">
+						Ensure Cron Jobs Are Running
+					</h5>
+					<p>
+						Cron jobs are crucial for payments, emails, and other scheduled tasks.</p>
+					<ul>
+
+						<li>Ensure they’re not returning any errors by manually running
+							<code>cd /path-to-your-project &amp;&amp; php artisan schedule:run</code> via <code>CLI</code>.</li>
+						<li>Check that <code>storage/logs/cronjobs.log</code> exists within 24h since the task has been setup.</li>
+					</ul>
+
+					<div class="alert alert-info mt-3 small">
+						<p class="mb-1">
+							<i class="fa fa-info-circle mr-2"></i>
+							For more info on setting up cron jobs:
+						</p>
+						<ul class="mb-0">
+							<li class="py-1">
+								<a href="https://docs.cpanel.net/cpanel/advanced/cron-jobs/#add-a-cron-job"
+								   target="_blank">
+									cPanel - Add a Cron Job
+								</a>
+							</li>
+							<li class="py-1">
+								<a href="https://docs.plesk.com/en-US/obsidian/administrator-guide/server-administration/scheduling-tasks.64993/"
+								   target="_blank">
+									Plesk - Scheduling Tasks
+								</a>
+							</li>
+							<li class="py-1">
+								For VPS servers, add the line to
+								<code>/etc/crontab</code>. Depending on your distribution,
+								you might need to specify the user as well.
+							</li>
+						</ul>
+					</div>
+				</section><!--//section-->
+
+
+				<section class="docs-section" id="emails">
+					<h2 class="section-heading">
+						Emails
+					</h2>
+					<p>
+						You can choose among three main email drivers—Mailgun (via API), SMTP, or PHP’s
+						<code>mail()</code> function, if available. There’s also a logging driver
+						option for debugging.
+					</p>
+					<p>
+						All email-related settings are located under
+						<code>Admin &gt; Settings &gt; Emails</code>. Below is a quick summary:
+					</p>
+					<ol>
+						<li>
+							<strong>Mail from name:</strong> The display name used when sending emails.
+						</li>
+						<li>
+							<strong>Mail from address:</strong> The sending address
+							(e.g., <code>no-reply@domain.com</code>).
+						</li>
+					</ol>
+				</section><!--//section-->
+
+				<!-- ===== Log Driver ===== -->
+				<section class="docs-section" id="emails-log-driver">
+					<h2 class="section-heading">
+						<a href="#emails-log-driver" class="link-primary fw-light no-underline in-doc-link">#</a> Log Driver
+					</h2>
+					<p>
+						The Log driver is mostly used for debugging. Any outgoing emails are
+						recorded in <code>storage/logs/laravel.log</code> instead of being sent.
+					</p>
+				</section><!--//section-->
+
+				<!-- ===== Sendmail Driver ===== -->
+				<section class="docs-section" id="emails-sendmail-driver">
+					<h2 class="section-heading">
+						<a href="#emails-sendmail-driver" class="link-primary fw-light no-underline in-doc-link">#</a> Sendmail Driver
+					</h2>
+					<p>
+						This driver relies on the PHP <code>mail()</code> function being active.
+						Many cPanel-based shared hosting providers enable it by default.
+					</p>
+				</section><!--//section-->
+
+				<!-- ===== Mailgun Driver ===== -->
+				<section class="docs-section" id="emails-mailgun-driver">
+					<h2 class="section-heading">
+						<a href="#emails-mailgun-driver" class="link-primary fw-light no-underline in-doc-link">#</a> Mailgun Driver
+					</h2>
+					<p>
+						Mailgun is an API-based service. To use it, you’ll need:
+					</p>
+					<ol>
+						<li>
+							<strong>Mailgun domain</strong> – The custom domain/subdomain you set
+							up on Mailgun, along with valid DNS records.
+						</li>
+						<li>
+							<strong>Mailgun secret</strong> –
+							<a href="https://help.mailgun.com/hc/en-us/articles/203380100-Where-Can-I-Find-My-API-Key-and-SMTP-Credentials-"
+							   target="_blank" rel="nofollow">
+								Domain API key
+							</a>
+						</li>
+						<li>
+							<strong>Mailgun endpoint</strong> – Typically
+							<code>api.mailgun.net</code> for US or
+							<code>api.eu.mailgun.net</code> for EU.
+						</li>
+					</ol>
+				</section><!--//section-->
+
+				<!-- ===== SMTP Driver ===== -->
+				<section class="docs-section" id="emails-smtp-driver">
+					<h2 class="section-heading">
+						<a href="#emails-smtp-driver" class="link-primary fw-light no-underline in-doc-link">#</a> SMTP Driver
+					</h2>
+					<p>
+						Using SMTP requires the following:
+					</p>
+					<ol>
+						<li>
+							<strong>SMTP Host</strong> – e.g., your mail server’s hostname or IP
+						</li>
+						<li>
+							<strong>SMTP Port</strong> –
+							<code>587</code> (TLS) or <code>465</code> (SSL), depending on provider
+						</li>
+						<li>
+							<strong>SMTP Encryption</strong> – <code>TLS</code> or <code>SSL</code>
+						</li>
+						<li>
+							<strong>SMTP Username</strong>
+						</li>
+						<li>
+							<strong>SMTP Password</strong>
+						</li>
+					</ol>
+
+					<!-- ===== Notes/Alerts ===== -->
+					<div class="alert alert-info mt-2 small">
+						<p class="mb-1">
+							<i class="fa fa-info-circle mr-2"></i>
+							<strong>Notes:</strong>
+						</p>
+						<ul class="mb-0">
+							<li class="py-1">
+								To test email configuration, create a new user account and see if
+								a confirmation or welcome email is successfully generated.
+								If misconfigured, you may get a 500 error (though the user
+								might still be created in your database).
+							</li>
+							<li class="py-1">
+								All drivers are fine if configured properly,
+								but Mailgun via API often yields the fastest send times.
+							</li>
+						</ul>
+					</div><!--//alert-->
+
+				</section><!--//section-->
+
+				<!-- ===== Websockets Overview ===== -->
+				<section class="docs-section" id="websockets">
+					<h2 class="section-heading">
+						Websockets
+					</h2>
+					<p>
+						The platform utilizes Websockets to provide real-time capabilities, such as instant messaging and live notifications.
+						Follow the respective driver setup instructions below to configure Websockets for your platform.
+					</p>
+				</section><!--//section-->
+
+				<!-- ===== Pusher Websockets ===== -->
+				<section class="docs-section" id="websockets-pusher">
+					<h2 class="section-heading">
+						<a href="#websockets-pusher" class="link-primary fw-light no-underline in-doc-link">#</a> Pusher Websockets
+					</h2>
+					<p>
+						Pusher is a managed Websockets service, offering simplicity and reliability. To set it up:
+					</p>
+					<ol>
+						<li>
+							Log in to the <a href="https://dashboard.pusher.com/" target="_blank">Pusher Dashboard</a> and navigate to the
+							<a href="https://dashboard.pusher.com/channels" target="_blank">Channels</a> category.
+						</li>
+						<li>
+							Click <code>Create app</code>, then provide a <code>Name</code> and choose a <code>Cluster Region</code> based on your preference.
+						</li>
+						<li>
+							Access your app details, or visit <a href="https://dashboard.pusher.com/apps" target="_blank">Apps</a> and select your app.
+						</li>
+						<li>
+							Copy the <code>App ID</code>, <code>Key</code>, <code>Secret</code>, and <code>Cluster</code> values from Pusher,
+							then save them to the admin panel under <code>Admin > Settings > Websockets</code>.
+						</li>
+					</ol>
+
+					<div class="alert alert-info mt-2 small">
+						<p>
+							<i class="fa fa-exclamation-circle"></i>
+							<strong>Note:</strong> When using Pusher-based Websockets, the maximum message length is limited to 800 characters.
+						</p>
+					</div>
+				</section><!--//section-->
+
+				<!-- ===== Soketi Websockets ===== -->
+				<section class="docs-section" id="soketi">
+					<h2 class="section-heading">
+						<a href="#websockets-soketi" class="link-primary fw-light no-underline in-doc-link">#</a> Soketi Websockets
+					</h2>
+					<p>
+						Soketi is a self-hosted alternative to Pusher, offering cost-effectiveness and greater control. To configure Soketi:
+					</p>
+					<ol>
+						<li>
+							Change the <code>Websockets driver</code> to Soketi in the admin panel.
+						</li>
+						<li>
+							Add your configured <code>Host</code>, <code>Port</code>, <code>App ID</code>, <code>App Key</code>, and <code>App Secret</code>.
+						</li>
+						<li>
+							If your Soketi instance uses TLS, enable the <code>Use TLS for Soketi</code> toggle in the admin panel and set the port to <code>443</code>.
+						</li>
+					</ol>
+
+					<div class="alert alert-info mt-2 small">
+						<p>
+							<i class="fa fa-info-circle"></i>
+							<strong>Note:</strong> Ensure your Soketi server is running and accessible. Proper configuration is essential for reliable performance.
+						</p>
+					</div>
+				</section><!--//section-->
+
+				<section class="docs-section" id="storage">
+
+					<header class="docs-header">
+						<h2 class="section-heading">Storage providers</h2>
+					</header>
+
+					<p>If you don't want to be using the default <code>local</code> storage system, you can use wide range of scalable storage providers for storing your user-uploaded files, improving site I/O load,  response time and security.</p>
+
+
+					<div class="table-responsive mb-4">
+						<table class="table table-bordered">
+							<thead class="theme-bg-light">
+							<tr>
+								<th scope="col">Provider</th>
+								<th scope="col">Storage</th>
+								<th scope="col">CDN</th>
+								<th scope="col">SignedUrls</th>
+								<th scope="col">Adult content</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td><a href="#s3">AWS</a></td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td>
+
+																		<span class="text-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Limited use. Vendor's TOS must be checked for your use case.">
+										<i class="fa fa-warning"></i>
+									</span>
+
+								</td>
+							</tr>
+							<tr>
+								<td><a href="#do-spaces">DigitalOcean spaces</a></td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-danger"><i class="fa fa-times"></i></span> </td>
+								<td><span class="text-danger"><i class="fa fa-times"></i></span> </td>
+								<td>
+																	<span class="text-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Limited use. Vendor's TOS must be checked for your use case.">
+										<i class="fa fa-warning"></i>
+									</span>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="#pushrcdn">PushrCDN</a></td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-danger"><i class="fa fa-times"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+							</tr>
+							<tr>
+								<td><a href="#minio">Minio</a></td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+							</tr>
+							<tr>
+								<td><a href="#wasabi">Wasabi</a></td>
+								<td><span class="text-success"><i class="fa fa-check"></i></span> </td>
+								<td><span class="text-danger"><i class="fa fa-times"></i></span> </td>
+								<td><span class="text-danger"><i class="fa fa-times"></i></span> </td>
+								<td>
+									<span class="text-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Limited use. Vendor's TOS must be checked for your use case.">
+										<i class="fa fa-warning"></i>
+									</span>
+								</td>
+							</tr>
+							</tbody>
+						</table>
+					</div>
+
+
+				</section>
+
+				<section class="docs-section" id="s3">
+					<h2 class="section-heading">
+						<a href="#s3" class="link-primary fw-light no-underline in-doc-link">#</a>
+						Amazon's S3
+					</h2>
+					<p>
+						Use our AWS S3 implementation (including CloudFront and CloudFront Signed URLs) for faster and more secure delivery via pre-signed URLs.
+					</p>
+
+					<!-- S3 Subsection -->
+					<h3 id="s3-storage">S3 Storage</h3>
+					<p>Follow these steps to upload your data to Amazon S3:</p>
+					<ol>
+						<li>
+							<strong>Create an S3 Bucket:</strong>
+							<ol>
+								<li>Go to <a href="https://aws.amazon.com/console/" target="_blank">AWS Console</a> and log in or create an account.</li>
+								<li>Search for <strong>S3</strong> in the <code>Search for services</code> bar.</li>
+								<li>Click <code>Buckets > Create bucket</code>.</li>
+								<li>Specify the <code>Bucket name</code> and <code>Region</code>.</li>
+								<li>Enable <code>ACLs</code>.</li>
+								<li>Disable <code>Block all public access</code>.</li>
+								<li>
+									Acknowledge the warning by enabling:
+									<code>I acknowledge that the current settings might result in this bucket and the objects within becoming public</code>.
+								</li>
+								<li>Click <strong>Create bucket</strong>.</li>
+							</ol>
+						</li>
+						<li>
+							<strong>Create an IAM User with S3 Permissions:</strong>
+							<ol>
+								<li>Go to <code>IAM > Access management > Users</code>.</li>
+								<li>Click <strong>Add users</strong> and set a <code>Username</code>.</li>
+								<li>
+									Under <strong>Permissions</strong>, choose <code>Attach policies directly</code> and search for
+									<code>AmazonS3FullAccess</code>.
+								</li>
+								<li>Click <strong>Next</strong>, review the settings, and click <strong>Create user</strong>.</li>
+								<li>Once created, click the username to view details.</li>
+								<li>
+									Go to <strong>Security credentials</strong> and click <strong>Create access key</strong>.
+								</li>
+								<li>
+									Choose an appropriate use case (e.g., <code>Other</code>) and click <strong>Create access key</strong>.
+								</li>
+								<li>
+									Save the <code>AWS Access Key ID</code> and <code>Secret access key</code>. You won’t be able to view the secret key again.
+								</li>
+							</ol>
+						</li>
+						<li>
+							<strong>Configure S3 in the Admin Panel:</strong>
+							<ol>
+								<li>Go to <code>Admin > Settings > Storage</code>.</li>
+								<li>Enter the <code>Bucket name</code>, <code>AWS Access Key ID</code>, and <code>AWS Secret Access Key</code>.</li>
+							</ol>
+						</li>
+					</ol>
+
+					<!-- CloudFront Subsection -->
+					<h3 id="s3-cloudfront">S3 + CloudFront</h3>
+					<p>Use CloudFront to distribute your content globally:</p>
+					<ol>
+						<li>
+							Search for <strong>CloudFront</strong> in the AWS Console and go to
+							<code>Distributions > Create distribution</code>.
+						</li>
+						<li>
+							Copy the <code>Distribution domain name</code> (e.g., <code>abc123.cloudfront.net</code>) and configure it in
+							<code>Admin > Settings > Storage</code> under <code>Aws CloudFront Domain Name</code>.
+						</li>
+						<li>
+							Update the S3 bucket policy to allow CloudFront access while retaining IAM user write permissions:
+							<pre><code class="language-json">{
+    "Version": "2008-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowCloudFrontAccess",
+            "Effect": "Allow",
+            "Principal": {"Service": "cloudfront.amazonaws.com"},
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::your-bucket-name/*",
+            "Condition": {
+                "StringEquals": {
+                    "AWS:SourceArn": "arn:aws:cloudfront::your-account-id:distribution/your-cdn-distribution-id"
+                }
+            }
+        },
+        {
+            "Sid": "AllowIAMUserWrite",
+            "Effect": "Allow",
+            "Principal": {"AWS": "arn:aws:iam::your-account-id:user/your-iam-user-name"},
+            "Action": "s3:PutObject",
+            "Resource": "arn:aws:s3:::your-bucket-name/*"
+        }
+    ]
+}</code></pre>
+						</li>
+						<li>
+							Adjust <strong>Bucket Access Settings</strong>:
+							<ul>
+								<li>Disable <strong>Block all public access</strong>.</li>
+								<li>
+									Manually select options to allow write access for IAM users while restricting object access to CloudFront.
+									<br>
+									Disable <b>Block all public access</b> and <b>enable</b> all the options manually except <code>Block public access to buckets and objects granted through new access control lists (ACLs)</code>
+								</li>
+							</ul>
+						</li>
+					</ol>
+
+					<!-- Signed URLs Subsection -->
+					<h3 id="s3-cloudfront-signed-urls">S3 + CloudFront + Signed URLs</h3>
+					<p>Follow these steps to use signed URLs for secure access:</p>
+					<ol>
+						<li>
+							<strong>Create a key pair (e.g., via OpenSSL):</strong>
+							<div class="alert alert-info my-2">
+								<i class="fa fa-info-circle mr-2"></i>
+								The steps below use OpenSSL as an example. There are other methods as well.
+							</div>
+							<ul>
+								<li>Generate a private key: <code>openssl genrsa -out private_key.pem 2048</code></li>
+								<li>Extract the public key: <code>openssl rsa -pubout -in private_key.pem -out public_key.pem</code></li>
+							</ul>
+						</li>
+						<li>
+							<strong>Upload the public key to CloudFront:</strong>
+							<ul>
+								<li>
+									Log into
+									<a href="https://console.aws.amazon.com/cloudfront/v3/home" target="_blank">
+										CloudFront console
+									</a>.
+								</li>
+								<li>Go to <code>Key management > Public keys > Create public key</code>.</li>
+								<li>Paste the contents of <code>public_key.pem</code> and save.</li>
+								<li>
+									Copy the <strong>Public Key ID</strong> after adding. This is your
+									<code>Key-Pair-Id</code> (and corresponds to
+									<code>Aws CloudFront Key Pair Id</code> in the admin panel).
+								</li>
+							</ul>
+						</li>
+						<li>
+							<strong>Create a key group:</strong>
+							<ul>
+								<li>Go to <code>Key management > Key groups > Create key group</code>.</li>
+								<li>Add the uploaded public key to the group and save.</li>
+							</ul>
+						</li>
+						<li>
+							<strong>Link the key group to your distribution:</strong>
+							<ul>
+								<li>Open your distribution settings and edit the behavior for the desired path.</li>
+								<li>Enable <strong>Restrict Viewer Access</strong> and select the trusted key group.</li>
+							</ul>
+						</li>
+						<li>
+							Navigate to <strong>Admin &gt; Settings &gt; Storage</strong> in your admin panel.
+						</li>
+						<ul>
+							<li>Add the following:</li>
+							<ul>
+								<li><strong>Key-Pair-Id:</strong> Your CloudFront Public Key ID.</li>
+								<li>
+									Path to <strong>private_key.pem:</strong> The file path where your private key is stored
+									(e.g., <code>private_key.pem</code> if it’s in the root directory).
+								</li>
+							</ul>
+							<li>Enable <strong>CloudFront PreSigned URLs</strong>.</li>
+						</ul>
+
+					</ol>
+					<p>
+						For more information, refer to the official
+						<a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/PrivateContent.html" target="_blank">
+							AWS documentation on private content with signed URLs
+						</a>.
+					</p>
+				</section>
+
+
+
+				<!-- ===== Wasabi ===== -->
+				<section class="docs-section" id="wasabi">
+					<h2 class="section-heading"><a href="#wasabi" class="link-primary fw-light no-underline in-doc-link">#</a> Wasabi</h2>
+					<p>
+						If you prefer using Wasabi, change the driver in
+						<code>Admin &gt; Settings &gt; Storage &gt; Driver</code>.
+						Then add your Wasabi credentials (found on their website).
+					</p>
+					<p>
+						You must also add the following policy to your Wasabi bucket:
+					</p>
+					<pre><code class="language-json">{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowPublicRead",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "*"
+      },
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::your-bucket-name/*"
+    }
+  ]
+}
+</code>
+</pre>
+
+					<div class="alert alert-info mt-2 small">
+						<p class="mb-1">
+							<i class="fa fa-info-circle mr-2"></i>
+							<strong>Notes:</strong>
+						</p>
+						<ul class="mb-0">
+							<li class="py-1">
+								Make sure your account is validated so buckets can be public.
+							</li>
+							<li class="py-1">
+								Wasabi buckets <em>cannot</em> have dots in their names
+							</li>
+						</ul>
+					</div>
+
+				</section><!--//section-->
+
+
+				<!-- ===== DigitalOcean Spaces ===== -->
+				<section class="docs-section" id="do-spaces">
+					<h2 class="section-heading"><a href="#do-spaces" class="link-primary fw-light no-underline in-doc-link">#</a> DigitalOcean Spaces</h2>
+					<p>
+						If you want to use
+						<a href="https://m.do.co/c/dec4efd6a4d7">DigitalOcean Spaces</a>,
+						select it under
+						<code>Admin &gt; Settings &gt; Storage &gt; Driver</code>.
+						Then follow these steps:
+					</p>
+					<ol>
+						<li>
+							Create a new
+							<a href="https://cloud.digitalocean.com/account/api/tokens" target="_blank">
+								Spaces access key
+							</a> and save the key/secret.
+						</li>
+						<li>
+							In <code>Admin &gt; Settings &gt; Storage</code>, add your new
+							<code>DO Access Key</code> and <code>DO Secret Key</code>.
+						</li>
+						<li>
+							Go to <a href="https://cloud.digitalocean.com/spaces">Spaces</a> and create a new space.
+							Defaults should be fine.
+						</li>
+						<li>
+							Once created, you’ll see a URL like
+							<code>https://{bucket-name}.{region}.digitaloceanspaces.com</code>.
+						</li>
+						<li>
+							For <code>DO Bucket</code>, use <code>{bucket-name}</code>,
+							and for <code>DO Region</code>, use <code>{region}</code>.
+						</li>
+					</ol>
+				</section><!--//section-->
+
+
+				<!-- ===== Minio ===== -->
+				<section class="docs-section" id="minio">
+					<h2 class="section-heading"><a href="#minio" class="link-primary fw-light no-underline in-doc-link">#</a> Minio</h2>
+					<p>
+						If you have a self-hosted Minio instance, you can switch the driver to Minio in
+						<code>Admin &gt; Settings &gt; Storage &gt; Driver</code>. Then:
+					</p>
+					<ol>
+						<li>Create a new set of keys in Minio and copy them.</li>
+						<li>
+							In <code>Admin &gt; Settings &gt; Storage</code>, fill in
+							<code>Minio Access Key</code> and <code>Minio Secret Key</code>.
+						</li>
+						<li>
+							Create a new bucket and set it in
+							<code>Admin &gt; Settings &gt; Storage &gt; Minio bucket</code>.
+						</li>
+						<li>
+							For <code>Minio Region</code>, specify the region your instance uses.
+						</li>
+						<li>
+							For <code>Minio Endpoint</code>, specify your Minio server endpoint.
+						</li>
+					</ol>
+				</section><!--//section-->
+
+
+				<!-- ===== PushrCDN ===== -->
+				<section class="docs-section" id="pushrcdn">
+					<h2 class="section-heading"><a href="#pushrcdn" class="link-primary fw-light no-underline in-doc-link">#</a> PushrCDN</h2>
+					<p>
+						If you have a
+						<a href="https://www.pushrcdn.com/dashboard/cdn.php" target="_blank">PushrCDN</a>
+						account, you can switch the driver to PushrCDN under
+						<code>Admin &gt; Settings &gt; Storage &gt; Driver</code>. Then:
+					</p>
+					<ol>
+						<li>
+							Go to the
+							<a href="https://www.pushrcdn.com/dashboard/cdn.php" target="_blank">
+								CDN page
+							</a> and create a <code>Push zone</code>.
+						</li>
+						<li>
+							Set a label and for
+							<code>Sonic Storage Type</code>, choose <strong>AWS S3-compatible</strong>.
+						</li>
+						<li>
+							Open <code>Storage and Hostnames</code>, then fill in your
+							<code>keys</code>, <code>bucketname</code>, <code>S3 endpoint</code>,
+							and <code>CDN Hostname</code>.
+						</li>
+					</ol>
+				</section><!--//section-->
+
+
+
+				<!-- ===== Video Transcoding ===== -->
+				<section class="docs-section" id="video-transcoding">
+					<h2 class="section-heading">
+						Video Transcoding
+					</h2>
+					<p>
+						Video transcoding is essential for allowing users to upload and play videos in various formats. If no video transcoding service is not available, the platform will restrict uploads to <code>.mp4</code> files only.
+					</p>
+					<p>If no video transcoding service is not available, the platform will restrict uploads to <code>.mp4</code> files only.</p>
+					<p>Video transcoding drivers can be selected at <code>Admin > Settings > Media > Videos > Transcoding driver</code>.</p>
+				</section><!--//section-->
+
+				<!-- ===== FFMpeg Driver ===== -->
+				<section class="docs-section" id="ffmpeg-driver">
+					<h2 class="section-heading">
+						<a href="#ffmpeg-driver" class="link-primary fw-light no-underline in-doc-link">#</a> FFMpeg Driver
+					</h2>
+					<p>
+						FFMpeg is an open-source tool used for processing multimedia content. With FFMpeg installed on your server, users can upload videos in multiple formats, which will then be converted to playable formats.
+					</p>
+					<ol>
+						<li>
+							<strong>Testing FFMpeg Installation</strong>
+							<p>
+								After installing FFMpeg, you can verify the installation using the following commands:
+							</p>
+							<pre><code class="language-bash">ffmpeg -version # To test installation
+which ffmpeg && which ffprobe # To get full executable paths</code></pre>
+
+						</li>
+						<li>
+							<strong>Configuring FFMpeg in Admin</strong>
+							<p>
+								Copy the full paths of the <code>bin/ffmpeg</code> and <code>bin/ffprobe</code> executables and add them in the admin panel under <code>Admin > Settings > Media > Videos</code>, select <code>Transcoding Driver</code> to <code>FFMpeg</code>, then fill in the <code>FFmpeg path</code> and <code>FFProbe Path</code>.
+							</p>
+						</li>
+					</ol>
+				</section><!--//section-->
+
+				<!-- ===== Coconut Driver ===== -->
+				<section class="docs-section" id="coconut-driver">
+					<h2 class="section-heading">
+						<a href="#coconut-driver" class="link-primary fw-light no-underline in-doc-link">#</a> Coconut Driver
+					</h2>
+					<p>
+						Coconut is a cloud-based video transcoding solution that provides an alternative to FFMpeg. It enables remote transcoding, making it suitable for platforms that cannot host FFMpeg or require scalable processing.
+					</p>
+					<ol>
+						<li>
+							Register an account on <a href="https://www.coconut.co/" target="_blank" rel="nofollow">Coconut</a>.
+						</li>
+						<li>
+							Navigate to the <a href="https://app.coconut.co/api" target="_blank" rel="nofollow">API section</a> and retrieve your API key.
+						</li>
+						<li>
+							Go to <code>Admin > Settings > Media > Videos</code> and select <code>Coconut</code> for the <code>Transcoding driver</code> and add your API key.
+						</li>
+						<li>
+							Configure the encoding options according to your needs.
+						</li>
+					</ol>
+					<p>
+						Before launching your site, test the video transcoding functionality to ensure everything works as expected. You can preview transcoded videos on the
+						<a href="https://app.coconut.co/jobs" target="_blank" rel="nofollow">Coconut dashboard</a>.
+					</p>
+					<div class="alert small alert-info mt-2">
+						<strong>Note:</strong> Coconut transcoding requires a remote storage provider. Ensure you have set up a provider as described in the <a href="#storage">storage guide</a>.
+					</div>
+					<div class="alert small alert-info mt-2">
+						<strong>Note:</strong> Coconut transcoding requires a WebSockets provider. Ensure WebSockets are configured correctly as per the <a href="#websockets">WebSockets guide</a>.
+					</div>
+				</section><!--//section-->
+
+
+				<!-- ===== AWS S3 + CloudFront ===== -->
+
+				<!--				<header class="docs-header">
+                                    <h1 class="docs-heading">Setting Up Captcha (Anti-Spam)</h1>
+                                </header>-->
+
+
+				<!-- ===== Live Streaming ===== -->
+				<section class="docs-section" id="streaming">
+					<h2 class="section-heading">
+						Live Streaming
+					</h2>
+					<p>
+						To enable live streaming on your platform, you need a <a href="https://www.pushrcdn.com/signup" target="_blank">PushrCDN</a> account.
+						Once your account is created, follow the steps below to complete the configuration.
+					</p>
+
+					<!-- ===== Account Verification ===== -->
+					<h3 class="section-subheading">Account Verification</h3>
+					<p>
+						After registering for PushrCDN, verify your account by completing the following steps:
+					</p>
+					<ol>
+						<li>
+							Fill in your <a href="https://www.pushrcdn.com/dashboard/account.php" target="_blank">personal information</a>.
+						</li>
+						<li>
+							Provide your <a href="https://www.pushrcdn.com/dashboard/payments.php" target="_blank">payment information</a>.
+						</li>
+						<li>
+							Navigate to <code>Media Platform > Go Live</code> and submit the required verification details.
+						</li>
+					</ol>
+
+					<!-- ===== Configuration Steps ===== -->
+					<h3 class="section-subheading">Configuration Steps</h3>
+					<p>
+						Once your account is verified, set up live streaming by following these steps:
+					</p>
+					<ol>
+						<li>
+							Go to <a href="https://www.pushrcdn.com/dashboard/cdn.php" target="_blank">CDN > Push Zones</a> and create a new push zone.
+						</li>
+						<li>
+							Copy the <strong>CDN Push Zone ID</strong> and add it to the <code>Admin > Streaming > Pushr Zone Id</code> field in your admin panel.
+						</li>
+						<li>
+							Retrieve your API key from the <a href="https://www.pushrcdn.com/dashboard/account.php" target="_blank">Profile > Personal Information</a> section, and add it to the <code>Admin > Streaming > Pushr Key</code> field.
+						</li>
+						<li>
+							For the <code>Admin > Streaming > Pushr Encoder</code>, select one of the available encoders: <strong>eu</strong>, <strong>us</strong>, or <strong>sg</strong>.
+						</li>
+					</ol>
+
+					<!-- ===== Finalizing Setup ===== -->
+					<h3 class="section-subheading">Finalizing Setup</h3>
+					<p>
+						After entering your PushrCDN Zone ID and API Key, your platform will be configured to support live streaming. From the admin panel, you can also adjust additional settings, such as VODs, encoders, or bitrates, to optimize your streaming experience.
+					</p>
+				</section><!--//section-->
+
+
+				<!-- ===== Overview ===== -->
+				<section class="docs-section" id="captcha">
+					<h2 class="section-heading">Captcha</h2>
+					<p>
+						To protect your public forms (e.g., registration, contact, etc.) from spam, you can choose
+						one of the following drivers under
+						<code>Admin &gt; Settings &gt; Security &gt; Captcha</code>:
+					</p>
+					<ul>
+						<li><strong>Google reCAPTCHA</strong></li>
+						<li><strong>Cloudflare Turnstile</strong></li>
+						<li><strong>hCaptcha</strong></li>
+					</ul>
+					<p>
+						Each driver typically requires a <em>site key</em> and a <em>secret key</em>. Once these are
+						added, your chosen captcha will be enforced on the designated public forms.
+					</p>
+				</section><!--//section-->
+
+				<!-- ===== Google reCAPTCHA ===== -->
+				<section class="docs-section" id="recaptcha">
+					<h2 class="section-heading"><a href="#recaptcha" class="link-primary fw-light no-underline in-doc-link">#</a> Google reCAPTCHA</h2>
+					<p>
+						Google’s reCAPTCHA is a popular solution for verifying that form submissions are from real users.
+					</p>
+					<ul>
+						<li>
+							Go to
+							<a href="https://www.google.com/recaptcha/admin" target="_blank" rel="noopener">
+								Google reCAPTCHA Admin
+							</a> to create a new app.
+						</li>
+						<li>
+							Choose <code>reCAPTCHA v2 &gt; "I'm not a robot" Checkbox</code> (or whichever suits your needs).
+						</li>
+						<li>
+							Copy the provided <em>Site Key</em> and <em>Secret Key</em>.
+						</li>
+						<li>
+							In your admin panel, navigate to
+							<code>Admin &gt; Settings &gt; Security &gt; Captcha</code>.
+						</li>
+						<li>
+							Select <strong>Google reCAPTCHA</strong> as the <strong>Captcha Driver</strong>,
+							then paste your <em>Site Key</em> and <em>Secret Key</em> in the fields provided.
+						</li>
+					</ul>
+				</section><!--//section-->
+
+				<!-- ===== Cloudflare Turnstile ===== -->
+				<section class="docs-section" id="turnstile">
+					<h2 class="section-heading"><a href="#turnstile" class="link-primary fw-light no-underline in-doc-link">#</a> Cloudflare Turnstile</h2>
+					<p>
+						Cloudflare Turnstile is a user-friendly, privacy-focused captcha alternative.
+					</p>
+					<ul>
+						<li>
+							Log into
+							<a href="https://dash.cloudflare.com/" target="_blank" rel="noopener">
+								Cloudflare Dashboard
+							</a> and create or open your project.
+						</li>
+						<li>
+							Go to the Turnstile section to create a new site, then copy the
+							<strong>Site Key</strong> and <strong>Secret Key</strong>.
+						</li>
+						<li>
+							In <code>Admin &gt; Settings &gt; Security &gt; Captcha</code>,
+							select <strong>Turnstile</strong> as the <strong>Captcha Driver</strong>
+							and paste your keys.
+						</li>
+					</ul>
+				</section><!--//section-->
+
+				<!-- ===== hCaptcha ===== -->
+				<section class="docs-section" id="hcaptcha">
+					<h2 class="section-heading"><a href="#hcaptcha" class="link-primary fw-light no-underline in-doc-link">#</a> hCaptcha</h2>
+					<p>
+						hCaptcha is another popular captcha solution focused on privacy and security.
+						To set it up:
+					</p>
+					<ul>
+						<li>
+							Go to
+							<a href="https://www.hcaptcha.com/" target="_blank" rel="noopener">
+								hCaptcha’s official site
+							</a> or
+							<a href="https://dashboard.hcaptcha.com/" target="_blank" rel="noopener">
+								dashboard
+							</a> and create your account.
+						</li>
+						<li>
+							Once your project is created, copy the <strong>Site Key</strong>
+							and <strong>Secret Key</strong>.
+						</li>
+						<li>
+							In <code>Admin &gt; Settings &gt; Security &gt; Captcha</code>,
+							select <strong>hCaptcha</strong> as the <strong>Captcha Driver</strong>.
+						</li>
+						<li>
+							Paste your hCaptcha <em>Site Key</em> and <em>Secret Key</em> into the respective fields.
+						</li>
+					</ul>
+				</section><!--//section-->
+
+
+				<!-- ===== GEO-Blocking ===== -->
+				<section class="docs-section" id="geo-blocking">
+					<h2 class="section-heading">
+						GEO-Blocking
+					</h2>
+					<p>
+						The GEO-Blocking feature allows users to restrict access to their profiles based on geographical locations.
+						This feature can be managed globally from the admin panel.
+					</p>
+
+					<!-- ===== Enabling GEO-Blocking ===== -->
+					<h3 class="section-subheading">Enabling GEO-Blocking</h3>
+					<p>
+						To enable GEO-Blocking:
+					</p>
+					<ol>
+						<li>
+							Go to <code>Admin > Settings > Security</code>.
+						</li>
+						<li>
+							Enable the <code>Allow users to be able to geoblock their profiles</code> switch.
+						</li>
+					</ol>
+
+					<!-- ===== IP Geolocation API Key ===== -->
+					<h3 class="section-subheading">IP Geolocation API Key</h3>
+					<p>
+						For GEO-Blocking to work, you must set up an IP geolocation API key. Follow these steps:
+					</p>
+					<ol>
+						<li>
+							Register an account on <a href="https://app.abstractapi.com/api/ip-geolocation/tester" target="_blank">Abstract API</a>.
+						</li>
+						<li>
+							Generate your API key from the <a href="https://app.abstractapi.com/api/ip-geolocation/tester" target="_blank">IP Geolocation API</a> section.
+						</li>
+						<li>
+							Add the API key to <code>Admin > Settings > Security > IP Geolocation API Key</code>.
+						</li>
+					</ol>
+
+					<!-- ===== Notes/Recommendations ===== -->
+					<div class="alert alert-info mt-2 small">
+						<p class="mb-1">
+							<i class="fa fa-info-circle mr-2"></i>
+							<strong>Notes:</strong>
+						</p>
+						<ul class="mb-0">
+							<li class="py-1">
+								Ensure the Abstract API plan you choose supports the volume of geolocation requests your platform may generate.
+							</li>
+							<li class="py-1">
+								This feature is applied at the user level, meaning users can individually set which regions to block access from.
+							</li>
+						</ul>
+					</div><!--//alert-->
+				</section><!--//section-->
+
+
+				<!-- ===== Overview ===== -->
+				<section class="docs-section" id="social-login">
+					<h2 class="section-heading">Social logins</h2>
+					<p>
+						Though each social login provider’s interface may differ, the general steps to enable
+						social logins are:
+					</p>
+					<ul>
+						<li>Obtain an approved app on the social login provider.</li>
+						<li>Copy your <code>Client ID</code> and <code>Client Secret</code> keys.</li>
+						<li>
+							Add these keys to <code>Admin &gt; Settings &gt; Social media</code> in your admin panel.
+						</li>
+						<li>
+							In <code>Admin &gt; Settings &gt; Social media</code>, copy the
+							<code>Callback URL</code> for each provider.
+						</li>
+						<li>
+							Paste this <code>Callback URL</code> into the provider’s settings (e.g.,
+							“Authorized redirect URIs” or “Callback URLs” field).
+						</li>
+					</ul>
+				</section><!--//section-->
+
+				<!-- ===== Twitter ===== -->
+				<section class="docs-section" id="twitter-login">
+					<h2 class="section-heading"><a href="#twitter-login" class="link-primary fw-light no-underline in-doc-link">#</a> Twitter</h2>
+					<ul>
+						<li>
+							Go to
+							<a href="https://developer.twitter.com/" target="_blank" rel="noopener">
+								https://developer.twitter.com
+							</a> and create a new app.
+						</li>
+						<li>
+							Get elevated access to the Twitter API via
+							<a href="https://developer.twitter.com/en/portal/petition/essential/basic-info"
+							   target="_blank" rel="noopener">
+								this link
+							</a>.
+						</li>
+						<li>
+							Choose your Application Environment (dev or prod), name your app, and you’ll
+							receive an <code>API Key</code> and <code>API Key secret</code>.
+							Add them to <code>Admin &gt; Settings &gt; Social media</code>.
+						</li>
+						<li>
+							Once created, go to app settings &gt; “User authentication settings” &gt; Setup.
+						</li>
+						<li>
+							For “App permissions,” select “Read,” and also enable “Request email address
+							from users,” if desired.
+						</li>
+						<li>
+							Copy the <code>Callback URL</code> from your admin panel and add it to the
+							“Callback URLs” field in your Twitter app’s settings.
+						</li>
+					</ul>
+				</section><!--//section-->
+
+				<!-- ===== Google ===== -->
+				<section class="docs-section" id="google-login">
+					<h2 class="section-heading"><a href="#google-login" class="link-primary fw-light no-underline in-doc-link">#</a> Google</h2>
+					<ul>
+						<li>
+							Create a new project at
+							<a href="https://console.developers.google.com/projectcreate" target="_blank"
+							   rel="noopener">
+								https://console.developers.google.com/projectcreate
+							</a>.
+						</li>
+						<li>
+							Generate credentials at
+							<a href="https://console.developers.google.com/apis/credentials" target="_blank"
+							   rel="noopener">
+								https://console.developers.google.com/apis/credentials
+							</a>.
+						</li>
+						<li>
+							Choose “OAuth client ID &gt; Consent &gt; Web application.”
+						</li>
+						<li>
+							Copy your <code>Client ID</code> and <code>Client Secret</code>, then add them
+							to <code>Admin &gt; Settings &gt; Social media</code>.
+						</li>
+						<li>
+							Copy the <code>Callback URL</code> from your admin panel and add it to your
+							Google “Authorized redirect URIs.”
+						</li>
+					</ul>
+				</section><!--//section-->
+
+				<!-- ===== Facebook ===== -->
+				<section class="docs-section" id="facebook-login">
+					<h2 class="section-heading"><a href="#facebook-login" class="link-primary fw-light no-underline in-doc-link">#</a> Facebook</h2>
+					<ul>
+						<li>
+							Visit
+							<a href="https://developers.facebook.com/apps" target="_blank" rel="noopener">
+								https://developers.facebook.com/apps
+							</a> and create a new app (Consumer). Fill in any required details.
+						</li>
+						<li>
+							Go to <code>App settings &gt; Basic</code>, copy the
+							<code>App ID</code> &amp; <code>App secret</code>, and add them to
+							<code>Admin &gt; Settings &gt; Social media</code>.
+						</li>
+						<li>
+							Navigate to <code>App &gt; Facebook Login &gt; Settings</code>.
+						</li>
+						<li>
+							Copy the admin <code>Callback URL</code> and add it under
+							<code>Valid OAuth Redirect URIs</code> in your Facebook app settings.
+						</li>
+					</ul>
+				</section><!--//section-->
+
+				<section class="docs-section" id="openai">
+					<h2 class="section-heading">OpenAI</h2>
+					<p>
+						The AI-suggestions feature allows users to get smart text suggestions
+						(for posts, bios, or other areas) from OpenAI’s language models.
+						This can save time and help with writer’s block by automatically generating text ideas.
+					</p>
+					<p>
+						<strong>Important</strong>: OpenAI’s API is usage-based, meaning costs can accrue
+						if you or your users make many requests. Be sure to monitor your usage in your
+						OpenAI account to avoid unexpected charges.
+					</p>
+					<p>
+						To configure AI suggestions in this platform:
+					</p>
+					<ol>
+						<li>
+							Go to
+							<code>Admin &gt; Settings &gt; AI</code> and enable the “AI suggestions” feature.
+						</li>
+						<li>
+							Create or log in to your account at
+							<a href="https://platform.openai.com/signup" target="_blank" rel="noopener">
+								https://platform.openai.com
+							</a>.
+						</li>
+						<li>
+							In your OpenAI dashboard, find the “API Keys” section. Create a
+							<em>new secret key</em> and copy it. (You won’t be able to see it again later.)
+						</li>
+						<li>
+							Back in the admin panel, under <code>Admin &gt; Settings &gt; AI</code>,
+							paste your new <strong>OpenAI API Key</strong> into the field provided.
+							Click “Save” to update.
+						</li>
+
+					</ol>
+					<p>
+						Once configured, users can click a button (or similar UI element) to get text suggestions
+						in your app’s relevant areas. If you see any errors, confirm that your API key is valid and
+						that your OpenAI account has sufficient credits.
+					</p>
+				</section><!--//section-->
+
+
+				<!-- ===== Referrals ===== -->
+				<section class="docs-section" id="referrals">
+					<h2 class="section-heading">
+						<a href="#referrals" class="link-primary fw-light no-underline in-doc-link">#</a> Referrals
+					</h2>
+					<p>
+						The referral system incentivizes users to bring new creators to the platform by offering a commission
+						on the earnings of referred creators. This can be a cost-effective alternative to traditional marketing campaigns,
+						depending on your niche.
+					</p>
+
+					<!-- ===== How Referrals Work ===== -->
+					<h3 class="section-subheading">How Referrals Work</h3>
+					<ul>
+						<li>
+							When a user refers someone who signs up as a creator and sells content, the referrer earns a percentage of the creator's earnings.
+						</li>
+						<li>
+							The referral commission is paid by the platform owner, not the referred creator.
+						</li>
+						<li>
+							Users can generate and share their unique referral link from <code>Settings > Referral</code>.
+						</li>
+					</ul>
+
+					<!-- ===== Configuring Referrals ===== -->
+					<h3 class="section-subheading">Configuring Referrals</h3>
+					<p>
+						You can configure referral settings in the admin panel, at <code>Admin > Settings > Referrals</code>, being able to set options like:
+					</p>
+					<ol>
+						<li>
+							The percentage of earnings that referrers will receive.
+						</li>
+						<li>
+							The time limit for which referral commissions are valid.
+						</li>
+						<li>
+							Any monetary cap for referral payouts.
+						</li>
+					</ol>
+
+					<!-- ===== Notes/Recommendations ===== -->
+					<div class="alert alert-info mt-2 small">
+						<p class="mb-1">
+							<i class="fa fa-info-circle mr-2"></i>
+							<strong>Notes:</strong>
+						</p>
+						<ul class="mb-0">
+							<li class="py-1">
+								Consider setting realistic percentage and time limits to balance user incentives with platform sustainability.
+							</li>
+							<li class="py-1">
+								Evaluate if referral commissions are a better fit for your platform's growth strategy compared to marketing campaigns.
+							</li>
+						</ul>
+					</div><!--//alert-->
+				</section><!--//section-->
+
+
+				<section class="docs-section" id="translations">
+					<h2 class="section-heading">Localization</h2>
+					<p>
+						To translate your site into another language, make a copy of the default
+						<code>en.json</code> file found in the <code>lang</code> folder and modify
+						it as needed.
+					</p>
+					<ul>
+						<li>
+							The JSON language file must use an ISO code, e.g. <code>es.json</code>,
+							<code>ro.json</code>, or <code>en.json</code>.
+						</li>
+						<li>
+							If you need to overwrite validation messages or other library strings,
+							copy the <code>en</code> folder (and its files) and rename it to your new
+							language code.
+						</li>
+					</ul>
+
+					<div class="alert alert-info mt-3 small">
+						<p>
+							<i class="fa fa-info-circle"></i> Notes
+						</p>
+						<ul class="mb-0">
+							<li class="py-1">While not strictly required, installing the
+								<code>php-intl</code> extension can improve localization and help prevent
+								issues with custom or uncommon languages.</li>
+							<li>If the language file json file syntax is incorrect, it might render into 500 error over the website. You can check if it's valid using a JSON validator - <a href="https://jsonformatter.curiousconcept.com/" target="_blank" rel="nofollow">sample one</a>.</li>
+						</ul>
+					</div><!--//alert-->
+				</section><!--//docs-section-->
+
+
+			</article><!--//docs-article-->
+
+			<!--//article (END #configuration)-->
+
+
+			<!-- ===============================
+                 Admin Panel
+            ================================ -->
+			<article class="docs-article" id="admin">
+				<header class="docs-header">
+					<h1 class="docs-heading">Admin Panel</h1>
+				</header>
+
+				<!-- ===== General Info & Adding New Users ===== -->
+				<section class="docs-section" id="admin-panel-intro">
+					<p>
+						If everything went fine, you can access the Admin panel at
+						<code>http://your-domain.com/admin</code>. The initial admin credentials
+						were set during installation/user creation.
+					</p>
+					<p>
+						After setting up your main admin account, you can manage roles and
+						create other admin users within the admin panel.
+					</p>
+					<p>
+						If you lose access to your admin account, you can reset the user password
+						or create another user with admin privileges via the following command
+						or SQL query:
+					</p>
+					<ul>
+						<li><code>php artisan voyager:admin user@example.com</code></li>
+						<li><code>UPDATE users SET role_id = 1 WHERE email = 'user@example.com'</code></li>
+					</ul>
+
+					<p>Using the admin panel, you can now continue with setting up the rest of settings for your instance, like branding elements, colors, taxes and more.</p>
+				</section><!--//section-->
+
+			</article><!--//docs-article-->
+
+			<!--//article-->
+
+
+			<!-- ===============================
+                 Update
+            ================================ -->
+			<article class="docs-article" id="update">
+				<header class="docs-header">
+					<h1 class="docs-heading">How to Update</h1>
+				</header>
+
+
+				<section class="docs-section">
+
+					<div class="alert alert-primary">
+						Before making an update, always remember to do a complete backup of your website.
+					</div>
+					<div class="alert alert-primary">
+						If you've made any modifications to the software’s files, your changes will be lost.
+					</div>
+
+					<p>Whenever new major updates are available, you will be notified via Envato. When notified, head over your Envato Downloads area and download the latest <code>.zip</code> archive. Once downloaded, you can proceed with:</p>
+
+					<ol>
+						<li>
+							Make a backup of the <code>.env</code> config file located on your server.
+						</li>
+						<li>
+							Upload the <code>.zip</code>, onto your server and extract it.
+						</li>
+						<li>Copy over (<i>overwrite</i>) the contents of
+							<code>Script</code> folder into your website folder.</li>
+						<li>
+							Restore your <code>.env</code> config file on your server.
+						</li>
+						<li>
+							Go to <code>https://example.com/update</code> and follow the update
+							wizard.<sup>1</sup>
+						</li>
+					</ol>
+
+
+					<div class="alert alert-info mt-3 small">
+						<p><i class="fa fa-info-circle mr-1"></i> <strong>Common Issues</strong></p>
+						<!--						<p class="mb-2">Common update issues include:</p>-->
+						<ul class="mb-2">
+							<li class="py-1">Incomplete update &mdash; you did not run the <code>/update</code> (DB) update step.</li>
+							<li class="py-1">Missing/incorrect <code>.env</code> file after the update.</li>
+							<li class="py-1">Incompletely uploaded <code>vendor</code> folder - Rename old one and re-add the new one.</li>
+							<li class="py-1">Missing <code>storage/app/installed</code> file (you may see the installer again after update).
+							</li>
+						</ul>
+						<p class="mb-0">
+							You can check your server logs or the app logs in <code>storage/logs/laravel.log</code>
+							for any errors.
+						</p>
+					</div><!--//alert-->
+					<!--					<ol class="text-muted small">-->
+					<!--						<li>-->
+					<!--							Updates that do not have database changes will not appear in the update wizard.-->
+					<!--						</li>-->
+					<!--					</ol>-->
+				</section><!--//docs-section-->
+			</article><!--//docs-article-->
+
+			<!--//article-->
+
+
+			<!-- ===============================
+                 FAQ
+            ================================ -->
+			<article class="docs-article" id="faq">
+				<header class="docs-header">
+					<h1 class="docs-heading">Frequently Asked Questions</h1>
+				</header>
+
+				<section class="docs-section" id="faq-list">
+					<ul class="mt-4">
+						<!-- Q1 -->
+						<li class="pb-4">
+							<div class="mb-3 fw-bold mb-1">
+								I have a support inquiry, a question or a problem, how can I contact you?
+							</div>
+							<div class="text-muted">
+								You can contact us by sending us a private message over our
+								<a href="https://codecanyon.net/user/ic0de" target="_blank" rel="nofollow" class="text-primary mb-3 fw-bold">
+									Codecanyon profile
+								</a>.
+							</div>
+						</li>
+
+						<!-- Q2 -->
+						<li class="pb-4">
+							<div class="mb-3 fw-bold mb-1">
+								What hosting do you recommend?
+							</div>
+							<div class="text-muted">
+								We recommend using
+								<a href="https://m.do.co/c/dec4efd6a4d7" target="_blank" rel="nofollow" class="text-primary mb-3 fw-bold">
+									DigitalOcean
+								</a>, as they offer great performance and flexibility at an affordable price.
+							</div>
+						</li>
+
+						<!-- Q3 -->
+						<li class="pb-4">
+							<div class="mb-3 fw-bold mb-1">
+								Is installation included in the price?
+							</div>
+							<div class="text-muted">
+								No, installation is not included. We offer installation services for an
+								extra fee, for which you can send us a message.
+							</div>
+						</li>
+
+						<!-- Q4 -->
+						<li class="pb-4">
+							<div class="mb-3 fw-bold mb-1">
+								My website returns a Not Found message, why?
+							</div>
+							<div class="text-muted">
+								Please ensure that you have <code>mod_rewrite</code> enabled on your server.
+							</div>
+						</li>
+
+						<!-- Q5 (500-on-install) -->
+						<li class="pb-4 faq-link" id="500-on-install" data-href="500-on-install">
+							<div class="mb-3 fw-bold">
+								<a href="#500-on-install" class="link-primary fw-light no-underline in-doc-link extra-scroll-nav" >#</a> I have uploaded my files but get a 500 error. Why?
+							</div>
+							<div class="text-muted">
+								This usually happens due to a couple of reasons:
+								<ul>
+									<li>When uploading the script files via FTP,
+										and your operating system is skipping hidden files, including
+										<code>.env</code>. Re-upload that file, plus any other hidden files
+										(like <code>.htaccess</code>), or upload the entire .zip onto the server
+										and extract it there</li>
+									<li>It can also happen when moving files around in cPanel's File Manager. Make sure to go to
+										<code>Settings &gt; Preferences</code> and check <code>Show hidden Files (dotfiles)</code> so that hidden files are selectable.</li>
+									<li>Another cause could be a missing PHP extension. Check
+										<code>storage/logs/laravel.log</code> for the exact error or missing extension.</li>
+								</ul>
+							</div>
+						</li>
+
+						<!-- Q6 (homepage-edit) -->
+						<li class="pb-4" id="homepage-edit" data-href="homepage-edit">
+							<p class="mb-3 fw-bold mb-1 faq-link">
+								<a href="#homepage-edit" class="link-primary fw-light no-underline in-doc-link extra-scroll-nav" >#</a> How can I edit my homepage?
+							</p>
+							<div class="text-muted">
+								<p class="mb-1">
+									Generally, each page—including the homepage—has the following structure:
+								</p>
+								<ol>
+									<li>Controllers are located in the <code>app/Http/Controllers</code> folder.</li>
+									<li>Views (<i>the HTML</i>) are located <code>resources/views/page.blade.php</code> path.</li>
+									<li>Javascript code is located at <code>public/js/pages/page.js</code> path.</li>
+									<li>CSS code is located at <code>public/css/pages/page.css</code> path.</li>
+								</ol>
+								<p class="mb-1 mt-1">
+									So, for the homepage specifically, you might find files like
+									<code>home.css, home.js, home.blade.php</code>, etc. You’ll need to back up and replace any of the modified files after each update
+								</p>
+								<p>You can handle most of the branding elements out of the admin, as for the text/strings, you can simply change them out of the translation files.</p>
+							</div>
+						</li>
+
+						<!-- Q8 (custom-maintenance) -->
+						<li class="pb-4" id="custom-maintenance" data-href="custom-maintenance">
+							<p class="mb-3 fw-bold mb-1 faq-link">
+								<a href="#custom-maintenance" class="link-primary fw-light no-underline in-doc-link extra-scroll-nav" >#</a> How can I update my custom modified version of the script?
+							</p>
+							<div class="text-muted">
+								<p class="mb-1">
+									We recommend the following workflow for maintaining custom versions:
+								</p>
+								<ol>
+									<li>Create your own <em class="fw-bold">private</em> repository. Not using a <em class="fw-bold">private</em> will get the repo auto-taken down.</li>
+									<li>Host your custom code changes on a separate branch.</li>
+									<li>Pull or merge new updates from the main branch.</li>
+									<li>Resolve any conflicts if necessary.</li>
+									<li>Release your (<i>custom</i>) updated version of the script.</li>
+									<li>Use the <a href="#update">How to update</a> guide for applying final changes.</li>
+								</ol>
+							</div>
+						</li>
+
+						<!-- Q7 (pwa-icons) -->
+						<li class="pb-4" id="pwa-icons" data-href="pwa-icons">
+							<p class="mb-3 fw-bold mb-1 faq-link">
+								<a href="#pwa-icons" class="link-primary fw-light no-underline in-doc-link extra-scroll-nav" >#</a> How can I change the PWA app icons?
+							</p>
+							<div class="text-muted">
+								<p class="mb-1">
+									To change your PWA app icon and splash screen assets, replace the existing
+									icons within <code>public/img/pwa</code>.
+								</p>
+								<p class="mb-1">
+									After replacing them, clear your browser cache to see the updated
+									icon and splash screen.
+								</p>
+							</div>
+						</li>
+
+
+						<!-- Q9 (assets local storage) -->
+						<li class="pb-4">
+							<div class="mb-3 fw-bold mb-1">
+								Assets are not uploading or displaying when using local storage. Why?
+							</div>
+							<div class="text-muted">
+								First, check whether
+								<code>Admin &gt; Settings &gt; Site url</code> has an invalid value.
+								Next, confirm the storage symlink is active. If not, re-create it by:
+								<ol>
+									<li><code>rm -rf public/storage</code></li>
+									<li><code>ln -s storage/app/public public/storage</code></li>
+								</ol>
+							</div>
+						</li>
+
+						<!-- Q10 (500-on-storage-update) -->
+						<li class="pb-4 faq-link" id="500-on-storage-update" data-href="500-on-storage-update">
+							<div class="mb-3 fw-bold mb-1">
+								<a href="#500-on-storage-update" class="link-primary fw-light no-underline in-doc-link extra-scroll-nav" >#</a> I’m getting a 500 error after changing the file storage driver. Why?
+							</div>
+							<div class="text-muted">
+								This typically happens if the storage driver credentials are incorrect.
+								If you can’t access the admin panel, reset the driver via a DB query:
+								<code>UPDATE settings SET value='public' WHERE id=95;</code>
+							</div>
+						</li>
+
+						<!-- Q11 (file-upload-limits) -->
+						<li class="pb-4 faq-link" id="file-upload-limits" data-href="file-upload-limits">
+							<div class="mb-3 fw-bold mb-1">
+								<a href="#file-upload-limits" class="link-primary fw-light no-underline in-doc-link extra-scroll-nav" >#</a> I am having issues with uploading large files. What can I do?
+							</div>
+							<div class="text-muted">
+								This is usually related to server/web-server/PHP limits. You can tweak:
+							</div>
+							<ul class="my-1">
+								<li><code>Admin &gt; Settings &gt; Media &gt; Max file uploads size</code></li>
+								<li><code>Admin &gt; Settings &gt; Media &gt; Chunked uploads</code></li>
+							</ul>
+							<div class="text-muted">
+								If you still have issues,
+								<a href="https://pastebin.com/gM92APWv" target="_blank" rel="noopener">
+									these PHP settings
+								</a>
+								might help, but other firewall or server configurations can also affect uploads.
+							</div>
+						</li>
+
+						<!-- Q12 (ffmpeg-troubleshooting) -->
+						<li class="pb-4 faq-link" id="ffmpeg-troubleshooting" data-href="ffmpeg-troubleshooting">
+							<div class="mb-3 fw-bold mb-1">
+								<a href="#ffmpeg-troubleshooting" class="link-primary fw-light no-underline in-doc-link extra-scroll-nav" >#</a> I'm having issues with ffmpeg-encoded videos. Why?
+							</div>
+							<div class="text-muted mb-1">
+								This often stems from the server/web-server or the FFMpeg build.
+								Possible causes range from missing encoders to memory errors.
+								The <code>storage/logs/laravel.log</code> file usually shows the actual error.
+							</div>
+							<div class="text-muted">
+								If it's audio-encoder or memory-related, try adjusting:
+							</div>
+							<ul class="my-1">
+								<li><code>Admin &gt; Settings &gt; Media &gt; FFMpeg video conversion quality preset</code></li>
+								<li><code>Admin &gt; Settings &gt; Media &gt; FFMPEG Audio encoder</code></li>
+							</ul>
+							<div class="text-muted">
+								If problems persist, you may need to reconfigure server settings or
+								upgrade the FFMpeg build.
+							</div>
+						</li>
+
+						<!-- Q13 (demo-test-payments) -->
+						<li class="pb-4 faq-link" id="demo-test-payments" data-href="demo-test-payments">
+							<div class="mb-3 fw-bold mb-1">
+								<a href="#demo-test-payments" class="link-primary fw-light no-underline in-doc-link extra-scroll-nav" >#</a> How do I test payments on the demo website?
+							</div>
+							<div class="text-muted">
+								Depending on your chosen payment provider, these test credentials can be used:
+								<ul>
+									<li>
+										<strong>Stripe</strong>:
+										<br>Card: 4242 4242 4242 4242
+										<br>Date: Any future date
+										<br>CVC: 123
+									</li>
+									<li>
+										<strong>PayPal</strong>:
+										<br>Email: sb-mzdi86428457@business.example.com
+										<br>Password: Dz1d_EP/
+									</li>
+									<li>
+										<strong>CCBill</strong>:
+										<br>VISA: 4111111111111111
+										<br>MasterCard: 5105105105105100
+										<br>Discover: 6011111111111117
+										<br>CVV: 300
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</section><!--//docs-section-->
+			</article><!--//docs-article-->
+
+			<!--//article-->
+
+
+			<!-- ==============================
+                 Footer Example
+            =============================== -->
+			<footer class="footer">
+				<div class="container text-center py-5">
+					<small class="copyright">
+						© <script>document.write(new Date().getFullYear())</script> <a href="https://qdev.tech" target="_blank" class="no-underline">Qdev Techs</a> - All rights reserved.
+					</small>
+					<ul class="social-list list-unstyled pt-4 mb-0">
+						<li class="list-inline-item">
+							<a href="https://github.com/theqdev">
+								<i class="fa-brands fa-github fa-fw"></i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://x.com/Qwebdev">
+								<i class="fa-brands fa-x-twitter fa-fw"></i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.facebook.com/qwebdev">
+								<i class="fa-brands fa-facebook-f fa-fw"></i>
+							</a>
+						</li>
+					</ul><!--//social-list-->
+				</div>
+			</footer>
+
+		</div><!--//container-->
+	</div><!--//docs-content-->
+
+	<!--	old-->
+
+</div><!--//docs-wrapper-->
+
+
+<!-- Javascript -->
+<script src="assets/plugins/popper.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+
+<!-- Page Specific JS -->
+<script src="assets/plugins/smoothscroll.min.js"></script>
+<script src="assets/plugins/highlight/highlight.min.js"></script>
+<script src="assets/js/highlight-custom.js"></script>
+<script src="assets/plugins/simplelightbox/simple-lightbox.min.js"></script>
+<script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
+<script src="assets/js/docs.js"></script>
+
+<script src="assets/js/fuse.min.js"></script>
+<script src="assets/js/search.js"></script>
+</body>
+</html> 
+

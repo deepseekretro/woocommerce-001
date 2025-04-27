@@ -1,0 +1,51 @@
+/* Black Friday Sale Banner
+---------------------------------------------------------------*/
+.restrict-content-bf-2024-banner {
+	margin-top: 20px;
+	position: relative;
+	z-index: 10;
+}
+
+.restrict-content-bf-2024-banner .restrict-content-bf-2024-banner-image {
+	max-width: 100%;
+}
+
+.restrict-content-bf-2024-banner a:focus {
+	box-shadow: none;
+	outline: 0;
+}
+
+.restrict-content-bf-2024-banner .restrict-content-bf-2024-banner-close,
+.restrict-content-bf-2024-banner .restrict-content-bf-2024-banner-close:hover {
+	background: none;
+	border: none;
+	box-shadow: none;
+	cursor: pointer;
+	position: absolute;
+	right: 4px;
+	text-decoration: none;
+	top: 8px;
+	z-index: 100;
+}
+
+.restrict-content-bf-2024-banner .restrict-content-bf-2024-banner-close::before {
+	display: none;
+}
+
+@media screen and (min-width: 450px) {
+	.restrict-content-bf-2024-banner {
+		max-width: 428px;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	.restrict-content-bf-2024-banner {
+		max-width: 768px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.restrict-content-bf-2024-banner {
+		max-width: 1262px;
+	}
+}

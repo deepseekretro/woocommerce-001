@@ -1,0 +1,33 @@
+{
+	"build": [
+		"rm -rf vendor",
+		"rm -rf vendor-prefixed",
+		"composer install -o --no-dev"
+	],
+	"build_dev": [
+		"rm -rf vendor",
+		"rm -rf vendor-prefixed",
+		"composer install -o"
+	],
+	"paths": {
+		"versions": [
+			{
+				"file": "core/includes/class-restrict-content.php",
+				"regex": "(const VERSION += ')([^']+)"
+			},
+			{
+				"file": "restrict-content-pro.php",
+				"regex": "(Version: )(.+)"
+			},
+			{
+				"file": "package.json",
+				"regex": "(\"version\": \")([^\"]+)"
+			},
+			{
+				"file": "readme.txt",
+				"regex": "(Stable tag: )(.+)"
+			}
+		]
+	},
+	"zip_name": "restrict-content-pro"
+}
