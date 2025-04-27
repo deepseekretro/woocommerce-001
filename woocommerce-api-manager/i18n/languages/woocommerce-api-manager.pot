@@ -1,0 +1,2048 @@
+# Copyright (C) 2025 Kestrel
+# This file is distributed under the same license as the API Manager for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: API Manager for WooCommerce 3.4.2\n"
+"Report-Msgid-Bugs-To: https://kestrelwp.com/contact/\n"
+"Last-Translator: Kestrel <support@kestrelwp.com>\n"
+"Language-Team: Kestrel <support@kestrelwp.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-04-23T01:32:39+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0-alpha-59d94e3\n"
+"Copyright: (C) 2025 Kestrel\n"
+
+#. Plugin Name of the plugin
+#: woocommerce-api-manager.php
+msgid "API Manager for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: woocommerce-api-manager.php
+msgid "https://woo.com/products/woocommerce-api-manager/"
+msgstr ""
+
+#. Description of the plugin
+#: woocommerce-api-manager.php
+msgid "Sell license keys and subscriptions for software and online services to grow your subscription business."
+msgstr ""
+
+#. Author of the plugin
+#: woocommerce-api-manager.php
+msgid "Kestrel"
+msgstr ""
+
+#. Author URI of the plugin
+#: woocommerce-api-manager.php
+msgid "https://kestrelwp.com"
+msgstr ""
+
+#. translators: %d: interval
+#: includes/abstracts/wcam-background-process.php:173
+msgid "Every %d minutes"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:31
+msgid "API Customer"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:32
+#: includes/admin/menus/wc-am-menus.php:39
+#: includes/admin/menus/wc-am-menus.php:55
+msgid "API Customers"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:66
+msgid "%1$s%2$s%3$s"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:70
+#: includes/admin/menus/wc-am-customers-table-list.php:72
+#: includes/admin/menus/wc-am-customers-table-list.php:74
+#: includes/admin/menus/wc-am-customers-table-list.php:80
+msgid "n/a"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:74
+msgid "View other orders "
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:76
+msgid "AM Subscription"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:76
+msgid "WC Subscription"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:78
+#: templates/myaccount/api-keys.php:188
+#: templates/myaccount/api-keys.php:190
+#: templates/myaccount/api-keys.php:241
+#: templates/myaccount/api-keys.php:243
+msgid " out of "
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:83
+#: includes/admin/meta-boxes/html-order-api-resources.php:14
+#: includes/data-stores/wc-am-api-resource-data-store.php:1298
+#: templates/emails/api-keys-order-complete.php:66
+#: templates/emails/api-keys-order-complete.php:71
+#: templates/emails/plain/api-keys-order-complete.php:41
+#: templates/emails/plain/api-keys-order-complete.php:45
+msgctxt "Used as end date for an indefinite subscription"
+msgid "When Cancelled"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:85
+#: includes/admin/meta-boxes/html-order-api-resources.php:16
+#: includes/data-stores/wc-am-api-resource-data-store.php:1277
+#: templates/emails/api-keys-order-complete.php:69
+#: templates/emails/plain/api-keys-order-complete.php:43
+#: templates/myaccount/api-keys.php:257
+msgid "Expired"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:87
+#: includes/admin/meta-boxes/html-order-api-resources.php:18
+#: includes/data-stores/wc-am-api-resource-data-store.php:1279
+msgctxt "Used as end date for an indefinite subscription"
+msgid "Never"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:93
+msgid "Expires "
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:95
+msgid "None"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:101
+#: includes/admin/menus/wc-am-customers-table-list.php:103
+#: includes/data-stores/wc-am-api-resource-data-store.php:1294
+#: templates/myaccount/api-keys.php:155
+msgid "Pending Cancellation on "
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:106
+#: includes/data-stores/wc-am-api-resource-data-store.php:1273
+#: templates/myaccount/api-keys.php:159
+msgid "Lifetime Subscription"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:120
+msgid "Customer"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:121
+#: templates/emails/api-keys-order-complete.php:42
+msgid "Product"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:122
+msgid "Order"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:123
+msgid "Subscription Type"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:124
+#: templates/emails/api-keys-order-complete.php:44
+#: templates/myaccount/api-keys.php:93
+msgid "Activations"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:125
+msgid "Access Granted"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:126
+msgid "Access Expires"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:127
+#: includes/admin/wc-am-settings-admin.php:270
+#: includes/admin/wc-am-settings-admin.php:277
+msgid "Grace Period"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:128
+#: templates/myaccount/api-keys.php:94
+msgid "Next Payment"
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:234
+msgid "No API Customers found."
+msgstr ""
+
+#: includes/admin/menus/wc-am-customers-table-list.php:255
+msgid "Search"
+msgstr ""
+
+#: includes/admin/menus/wc-am-menus.php:37
+#: includes/admin/wc-am-settings-admin.php:71
+msgid "API Manager"
+msgstr ""
+
+#: includes/admin/menus/wc-am-menus.php:58
+#: includes/wc-am-install.php:114
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/menus/wc-am-menus.php:84
+msgid "Number of items per page"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-activations.php:16
+msgid "API Key Used"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-activations.php:17
+#: includes/wc-am-product-admin.php:316
+#: templates/myaccount/api-keys.php:87
+msgid "Product ID"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-activations.php:18
+#: includes/wc-am-product-admin.php:323
+#: templates/myaccount/api-downloads.php:51
+msgid "Version"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-activations.php:19
+msgid "Time"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-activations.php:20
+msgid "Object"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-activations.php:44
+msgid "Master"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-activations.php:46
+msgid "Product Order"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-activations.php:48
+msgid "Associated API"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-activations.php:80
+#: templates/myaccount/api-keys.php:293
+#: templates/myaccount/api-keys.php:322
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-activations.php:97
+#: includes/wc-am-order-admin.php:302
+#: includes/wc-am-order-admin.php:370
+msgid "No activations yet."
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-resources.php:44
+msgid "Click to toggle"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-resources.php:45
+msgid "Product ID: %1$s | Product Title: %2$s | Activations: %3$s out of %4$s | Current Version: %5$s | Expires: %6$s"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-resources.php:52
+msgid "Product Order API Key:"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-resources.php:57
+msgid "Activation Limit Total:"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-resources.php:59
+msgid "A value less than the current Activation Limit Total is not valid."
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-resources.php:67
+#: includes/wc-am-product-admin.php:453
+#: includes/wc-am-product-admin.php:803
+msgid "1"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-resources.php:73
+msgid "Current Version:"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-resources.php:76
+#: includes/admin/meta-boxes/html-order-api-resources.php:84
+#: includes/admin/meta-boxes/html-order-api-resources.php:92
+#: includes/admin/meta-boxes/html-order-api-resources.php:115
+msgid "Required"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-resources.php:81
+msgid "Resource Title:"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-resources.php:87
+#: includes/wc-am-product-admin.php:807
+msgid "Product ID:"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-resources.php:102
+msgid "Access Expires:"
+msgstr ""
+
+#: includes/admin/meta-boxes/html-order-api-resources.php:107
+msgid "A date in the future can be chosen to extend the Access Expires value."
+msgstr ""
+
+#: includes/admin/views/html-notice-api-products-update.php:13
+msgid "An API Product is being added to the API Resources database table in the background. Depending on the amount of orders that include the API Product in your store, this may take a while."
+msgstr ""
+
+#: includes/admin/views/html-notice-custom.php:12
+#: includes/admin/views/html-notice-updated.php:11
+msgid "Dismiss"
+msgstr ""
+
+#: includes/admin/views/html-notice-update.php:10
+#: includes/admin/views/html-notice-updating.php:10
+msgid "WooCommerce API Manager data update"
+msgstr ""
+
+#: includes/admin/views/html-notice-update.php:11
+msgid "We need to update your database to the latest version."
+msgstr ""
+
+#: includes/admin/views/html-notice-update.php:14
+msgid "Run the updater"
+msgstr ""
+
+#: includes/admin/views/html-notice-update.php:19
+msgid "It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the updater now?"
+msgstr ""
+
+#: includes/admin/views/html-notice-updated.php:13
+msgid "WooCommerce API Manager data update complete. Thank you for updating to the latest version!"
+msgstr ""
+
+#: includes/admin/views/html-notice-updating.php:11
+msgid "Your database is being updated in the background."
+msgstr ""
+
+#: includes/admin/views/html-notice-updating.php:12
+msgid "Taking a while? Click here to run it now."
+msgstr ""
+
+#: includes/admin/wc-am-admin-notices.php:132
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: includes/admin/wc-am-admin-notices.php:136
+msgid "You don&#8217;t have permission to do this."
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:93
+msgid "WooCommerce API Manager"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:94
+msgid "This section shows information about the WooCommerce API Manager."
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:118
+msgctxt "API & Database Cache Enabled, Label on WooCommerce -> System Status page"
+msgid "API & Database Cache Enabled"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:120
+#: includes/admin/wc-am-admin-system-status.php:136
+#: includes/admin/wc-am-admin-system-status.php:255
+#: includes/admin/wc-am-admin-system-status.php:346
+#: includes/admin/wc-am-admin-system-status.php:364
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:120
+#: includes/admin/wc-am-admin-system-status.php:136
+#: includes/admin/wc-am-admin-system-status.php:255
+#: includes/admin/wc-am-admin-system-status.php:346
+#: includes/admin/wc-am-admin-system-status.php:364
+msgid "No"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:134
+msgctxt "Is the homepage cachable, Label on WooCommerce -> System Status page"
+msgid "Homepage cachable?"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:150
+msgctxt "Live URL, Label on WooCommerce -> System Status page"
+msgid "Live URL"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:167
+msgctxt "WC API Manager Version, Label on WooCommerce -> System Status page"
+msgid "WC API Manager Version"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:186
+msgctxt "WC API Manager Database Version, Label on WooCommerce -> System Status page"
+msgid "WC API Manager Database Version"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:214
+msgctxt "label for the system status page"
+msgid "WooCommerce Account Connected"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:237
+msgctxt "label for the system status page"
+msgid "Active Product Key"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:253
+msgctxt "Amazon S3 Configured, Label on WooCommerce -> System Status page"
+msgid "Amazon S3 Configured"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:271
+msgctxt "Amazon S3 Region, Label on WooCommerce -> System Status page"
+msgid "Amazon S3 Region"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:273
+msgid "%1$sPick a region.%2$s"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:288
+msgctxt "API Cache Expires, Label on WooCommerce -> System Status page"
+msgid "API Cache Expires"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:290
+msgid " hour"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:305
+msgctxt "Database Cache Expires, Label on WooCommerce -> System Status page"
+msgid "Database Cache Expires"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:307
+msgid " hours"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:322
+msgid " day"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:322
+msgid " days"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:325
+msgctxt "Download URLs Expire, Label on WooCommerce -> System Status page"
+msgid "Download URLs Expire"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:344
+msgctxt "Hide Product Order API Keys, Label on WooCommerce -> System Status page"
+msgid "Hide Product Order API Keys?"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:362
+msgctxt "Hide Master Key, Label on WooCommerce -> System Status page"
+msgid "Hide Master API Key?"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:380
+msgctxt "Grace Period, Label on WooCommerce -> System Status page"
+msgid "Grace Period"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:397
+msgctxt "API Key Activations Count, Label on WooCommerce -> System Status page"
+msgid "API Key Activations"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:414
+msgctxt "API Products Count, Label on WooCommerce -> System Status page"
+msgid "API Products"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:431
+msgctxt "All API Resources Count, Label on WooCommerce -> System Status page"
+msgid "All API Resources"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:448
+msgctxt "WC AM Subscription Resources Count, Label on WooCommerce -> System Status page"
+msgid "WC AM Subscription Resources"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:450
+#: includes/admin/wc-am-admin-system-status.php:467
+msgid " - (Grouped "
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:465
+msgctxt "WC Subscriptions Resources Count, Label on WooCommerce -> System Status page"
+msgid "WC Subscriptions Resources"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:482
+msgctxt "Associated API Keys Count, Label on WooCommerce -> System Status page"
+msgid "Associated API Keys"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:499
+msgctxt "Secure Download URL Hashes Count, Label on WooCommerce -> System Status page"
+msgid "Secure Download URL Hashes"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:516
+msgctxt "Grace Periods Count, Label on WooCommerce -> System Status page"
+msgid "Grace Periods"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:533
+msgctxt "Legacy Product IDs Count, Label on WooCommerce -> System Status page"
+msgid "Legacy Product IDs"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:552
+msgctxt "Next Resources Cleanup Scheduled, Label on WooCommerce -> System Status page"
+msgid "Next API Resources Cleanup Scheduled"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:554
+msgid "Not scheduled."
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:572
+msgctxt "label for the system status page"
+msgid "WooCommerce API Manager Template Theme Overrides"
+msgstr ""
+
+#: includes/admin/wc-am-admin-system-status.php:581
+msgid "%1$sLearn how to update%2$s"
+msgstr ""
+
+#. translators: %1$s is the file version, %2$s is the core version
+#: includes/admin/wc-am-admin-system-status.php:626
+msgid " version %1$s is out of date. The core version is %2$s"
+msgstr ""
+
+#: includes/admin/wc-am-debug-tools.php:42
+msgid "API Resources Repair"
+msgstr ""
+
+#: includes/admin/wc-am-debug-tools.php:43
+msgid "Regenerate Missing API Resources"
+msgstr ""
+
+#: includes/admin/wc-am-debug-tools.php:44
+msgid "This will build API Resources from order line items that contain API Products with a subscription that has not yet expired, and meets all requirements to be an active API Resource."
+msgstr ""
+
+#: includes/admin/wc-am-debug-tools.php:44
+#: includes/admin/wc-am-debug-tools.php:51
+msgid "Note: "
+msgstr ""
+
+#: includes/admin/wc-am-debug-tools.php:44
+msgid "Only API Resources that are missing, but should exist, will be generated."
+msgstr ""
+
+#: includes/admin/wc-am-debug-tools.php:44
+msgid "To rebuild existing API Resource(s), go to the Order edit screen, change the order status to On-hold then back to Completed. This will rebuild the API Resource(s), but will also delete any existing API Key activations."
+msgstr ""
+
+#: includes/admin/wc-am-debug-tools.php:49
+#: includes/admin/wc-am-settings-admin.php:329
+msgid "API Resources Cleanup"
+msgstr ""
+
+#: includes/admin/wc-am-debug-tools.php:50
+msgid "Cleanup API Resources"
+msgstr ""
+
+#: includes/admin/wc-am-debug-tools.php:51
+msgid "This cleanup process will delete any API Resources that have expired, or no longer exist as line items on orders or subscriptions. Related API Key activations will also be deleted."
+msgstr ""
+
+#: includes/admin/wc-am-debug-tools.php:51
+#: includes/admin/wc-am-settings-admin.php:337
+msgid "The cleanup process will run automatically next on "
+msgstr ""
+
+#: includes/admin/wc-am-debug-tools.php:51
+#: includes/admin/wc-am-settings-admin.php:337
+msgid "The cleanup process is not scheduled to automatically run."
+msgstr ""
+
+#: includes/admin/wc-am-debug-tools.php:58
+#: includes/admin/wc-am-debug-tools.php:59
+msgid "Import WC Software Add-On Data"
+msgstr ""
+
+#: includes/admin/wc-am-debug-tools.php:60
+msgid "%1$s%2$s%3$s%4$sNote:%5$s This tool automatically imports the WooCommerce Software Add-On License Keys and Activations, and builds Order line items into API Resources. %6$sThe import event will run only once.%7$s%8$sNote:%9$s For each Product that should be an API Product, select the Product edit > API checkbox, set the Activation Limit on the Product edit > API form, and set the API Access Expires value if desired. All customer API Resources will be udpated with the new values.%10$sNote:%11$s Either add the %12$sWooCommerce API Manager PHP Library for Plugins and Themes%13$s to your plugin or theme, or build a new client to connect to the API Manager APIs according to the %14$sdocumentation%15$s to take advantage of all the features available."
+msgstr ""
+
+#: includes/admin/wc-am-debug-tools.php:60
+msgid "Import has already run."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:136
+#: includes/admin/wc-am-settings-admin.php:163
+msgid "Amazon S3"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:138
+msgid "For better security add the following to wp-config.php, so your AWS Keys are not stored in the database:%1$s%2$s%3$s%4$s%5$s%6$s%7$s%8$s"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:143
+msgid "Access Key ID"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:144
+msgid "The Amazon Web Services Access Key ID."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:152
+msgid "Secret Access Key"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:153
+msgid "The Amazon Web Services Secret Access Key is securely encrypted in the database."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:154
+msgid "The Amazon Web Services Secret Access Key."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:165
+msgid "Values defined in wp-config.php."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:186
+msgid "Amazon S3 Region"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:187
+msgid "The Amazon S3 Region where files are stored."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:188
+msgid "The region is required."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:201
+msgid "Download Links"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:208
+msgid "URL Expire Time"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:209
+msgid "Expiration time in days, for Amazon S3 and local server WooCommerce URLs."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:210
+msgid "Sets the time limit in days before a secure URL will expire. If a download begins before the expiration time limit is reached, the download will continue until complete."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:218
+msgid "Save to Dropbox App Key"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:219
+msgid "This creates a Save to Dropbox link in the My Account > My API Downloads section. Create an App Key %1$shere%2$s."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:232
+#: includes/wc-api-manager-query.php:121
+#: includes/wc-api-manager-query.php:147
+#: includes/wc-api-manager-query.php:150
+#: includes/wc-api-manager-query.php:271
+#: templates/myaccount/related-api-resources.php:37
+#: templates/myaccount/related-api-resources.php:43
+msgid "API Keys"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:239
+msgid "Product Order API Keys"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:240
+msgid "%sHide the Product Order API Keys on My Account > API Keys tab screen. Hide if customers must use only the Master API Key."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:252
+#: includes/wc-am-order-admin.php:72
+#: templates/emails/api-keys-order-complete.php:109
+msgid "Master API Key"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:253
+msgid "%1$sHide the Master API Key on My Account > API Keys tab screen if customers must use only the Product Order API Keys.%2$sCannot be hidden if the Product Order API Keys are also hidden."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:278
+msgid "Time interval before renewable API Resource(s) and API Key activations will be deleted."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:279
+msgid "Allows the customer more time to renew their API Resource before the API Resource and API Key activations are deleted."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:282
+#: includes/admin/wc-am-settings-admin.php:305
+#: includes/emails/wcam-email-expiring-subscription.php:287
+msgid "N/A"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:293
+msgid "WC AM Renewals"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:300
+msgid "Manual Renewal Period"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:301
+msgid "The time interval between when the manual renewal period begins and before a renewable API Manager Subscription expires, plus the grace period.%1$sThis is when the My Account > API Keys > Renew button will become visible.%2$sFor example, if set for 2 months, an annual WC AM Subscription would begin its renewal period 2 months before it expires, plus the grace period after the expiration date.%3$sAutomated renewal reminder emails are sent 30 days and 7 days before the expiration date, and 1 day after the expiration date if there is a grace period value of 2 days or greater."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:302
+#: includes/admin/wc-am-settings-admin.php:316
+msgid "Only applies to WooComerce API Manager Subscriptions."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:314
+msgid "Manual Renewal Discount"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:315
+msgid "This is the percentage discount applied to manually renewed API Manager Subscriptions."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:336
+msgid "Schedule Event"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:337
+msgid "%1$sSchedule the weekly cleanup of expired API Resources and related API Key activations. %2$s%3$s"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:349
+msgid "Log Event"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:350
+msgid "%sLog the API Resources cleanup event."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:367
+msgid "API Doc Tabs"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:368
+msgid "Choose which tabs will display on the WordPress plugin information screen. Can also be used for non-WordPress software. A changelog is required. %1$sScreenshot example%2$s."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:374
+#: includes/wc-am-product-admin.php:537
+#: includes/wc-am-product-admin.php:918
+msgid "Description"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:386
+#: includes/wc-am-product-admin.php:575
+#: includes/wc-am-product-admin.php:960
+#: includes/wc-am-product-tabs.php:59
+msgid "Installation"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:398
+#: includes/wc-am-product-admin.php:594
+#: includes/wc-am-product-admin.php:981
+#: includes/wc-am-product-tabs.php:66
+msgid "FAQ"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:410
+#: includes/wc-am-product-admin.php:613
+#: includes/wc-am-product-admin.php:1002
+#: includes/wc-am-product-tabs.php:73
+msgid "Screenshots"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:422
+#: includes/wc-am-product-admin.php:632
+#: includes/wc-am-product-admin.php:1023
+#: includes/wc-am-product-tabs.php:80
+msgid "Other Notes"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:434
+msgid "Add tabs to frontend product pages"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:435
+msgid "Adds tabs to the frontend product page populated with API Manager Product data when using the Storefront theme."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:452
+msgid "API Response"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:459
+msgid "Send API Resource Data"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:460
+msgid "%1$sSending extended resource data in API responses is not required, and will slow down response time.%2$sRecommended Off."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:477
+msgid "Debug"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:479
+msgid "%1$sPostman%2$s is recommended for API testing."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:484
+msgid "API Request Log"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:485
+msgid "%1$sLogs query events inside %2$s Log file size %3$s %4$sView Log%5$s"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:497
+msgid "API Error Log"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:498
+msgid "%1$sLogs error events inside %2$s Log file size %3$s %4$sView Log%5$s"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:510
+msgid "API Response Log"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:511
+msgid "%1$sLogs response events inside %2$s Log file size %3$s %4$sView Log%5$s"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:528
+msgid "Migrations"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:535
+msgid "WC Software Add-On"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:536
+msgid "%1$sWhen this option is selected the API Manager will listen for HTTP(s) API queries intended for the WooCommerce Software Add-On plugin.%2$sThe WC Software Add-On plugin can be deleted after its data has been imported into the API Manager.%3$s%4$sNote:%5$s The import tool will not run unless this option is selected. Go to %6$sTools%7$s to Import the WC Software Add-On Data into the API Manager."
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:553
+msgid "API Manager Extensions"
+msgstr ""
+
+#: includes/admin/wc-am-settings-admin.php:554
+msgid "%1$s%2$sIntegrate plugins and themes easily with %3$sWooCommerce API Manager PHP Library for Plugins and Themes%4$s%5$s"
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:97
+#: includes/api/wc-am-api-requests.php:110
+msgid "Error in __construct() method. Error message is \"Error code 100. The source did not send a required IP address.\""
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:100
+msgid "The source did not send a required IP address."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:113
+msgid "Error in __construct() method. Error message is \"Error code 100. The trusted source list does not contain a valid IP address.\""
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:119
+msgid "Error in __construct() method. Error message is \"Error code 100. The source is not trusted.\""
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:122
+msgid "The source is not trusted."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:129
+msgid "Error in __construct() method. Error message is \"Error code 100. No request value received.\""
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:132
+msgid "No request value received."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:248
+msgid "Error in route_request() method. Error message is \"Error code 100. Request value does not exist.\""
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:251
+msgid "Request value does not exist."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:264
+msgid "Error in verify_user() method. Error message is \"Error code 100. An empty API Key was sent.\""
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:267
+msgid "An empty API Key was sent."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:276
+msgid "Error in verify_user() method. Error message is \"Error code 100. A customer account does not exist for this API Key.\""
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:279
+msgid "A customer account does not exist for this API Key."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:296
+msgid "Error in verify_user() method. Error message is \"Error code 100. A Master API Key did not exist for this customer, and all customers are required to have a Master API Key, so a Master API Key has been created.\""
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:299
+msgid "A Master API Key did not exist for this account, but is required, so a A Master API Key was created. Please try your request again, or contact support."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:302
+msgid "Error in verify_user() method. Error message is \"Error code 100. The API access for this API Key has been disabled, or an API Key was sent that does not exist on this store.\""
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:305
+msgid "The API access for this API Key has been disabled, or an API Key was sent that does not exist on this store."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:310
+msgid "Details from verify_user() method."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:332
+msgid "Error in required() method. Error message is \"Error code 100. The following required query string data is missing:\""
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:332
+msgid "Details from the HTTP(s) query are:"
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:337
+msgid "The following required query string data is missing"
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:355
+msgid "Error in get_resources() method. Error message is \"Error code 100. No API Resources exist. Verify there are activations remaining, and the API Key and Product ID are correct.\""
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:358
+msgid "No API Resources exist. Login to %1$sMy Account%2$s to verify there are activations remaining, and the API Key and Product ID are correct."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:362
+#: includes/api/wc-am-api-requests.php:370
+msgid "Details from get_resources() method."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:367
+#: includes/api/wc-am-api-requests.php:1383
+msgid "There was an error getting API Resources"
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:412
+msgid "Error in activate() method. Error message is \"Error code 100. Cannot activate API Key. The API Key has already been activated with the same unique instance ID sent with this request.\""
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:412
+#: includes/api/wc-am-api-requests.php:450
+msgid "Resources available:"
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:412
+#: includes/api/wc-am-api-requests.php:450
+msgid "Request data received:"
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:415
+msgid "Cannot activate API Key. The API Key has already been activated with the same unique instance ID sent with this request."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:430
+#: includes/api/wc-am-api-requests.php:538
+msgid "%1$s out of %2$s activations remaining"
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:450
+msgid "Error in activate() method. Error message is \"Error code 100. Cannot activate API Key. No API Resources available.\""
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:453
+msgid "Cannot activate API Key. No API Resources available."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:457
+#: includes/api/wc-am-api-requests.php:469
+msgid "Details from activate() method."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:472
+msgid "There was an error getting API Resources in activate()"
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:556
+msgid "The API Key could not be deactivated."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:560
+#: includes/api/wc-am-api-requests.php:572
+msgid "Details from deactivate() method."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:575
+msgid "There was an error getting API Resources in deactivate()"
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:643
+#: includes/api/wc-am-api-requests.php:657
+msgid "Details from status() method."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:654
+msgid "There was an error getting API Resources in status()"
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:691
+#: includes/api/wc-am-api-requests.php:694
+msgid "Error in status() method. Error message is \"The product ID "
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:796
+#: includes/api/wc-am-api-requests.php:888
+#: includes/api/wc-am-api-requests.php:890
+msgid "Error in information() method. Error message is \"The product ID "
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:803
+#: includes/api/wc-am-api-requests.php:1066
+msgid "The product ID "
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:941
+msgid "Details from information() method."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:1058
+#: includes/api/wc-am-api-requests.php:1184
+#: includes/api/wc-am-api-requests.php:1186
+msgid "Error in update() method. Error message is \"The product ID "
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:1219
+msgid "Details from update() method."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:1373
+msgid "Error in get_api_resources_for_master_api_key_or_product_order_api_key() method. Error message is \"Error code 100. No API Resources exist. Verify there are activations remaining, and the API Key is correct.\""
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:1376
+msgid "No API Resources exist. Login to %1$sMy Account%2$s to verify there are activations remaining, and the API Key is correct."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:1380
+#: includes/api/wc-am-api-requests.php:1386
+msgid "Details from get_api_resources_for_master_api_key_or_product_order_api_key() method."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:1391
+msgid "Details from product_list() method."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:1447
+msgid "The API Key is not active or does not exist."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:1452
+msgid "There was an error verifying the API Key"
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:1455
+#: includes/api/wc-am-api-requests.php:1460
+msgid "Details from verify_api_key_is_active() method."
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:1488
+msgid "Details from success_response() method. This is the success response from the API:"
+msgstr ""
+
+#: includes/api/wc-am-api-requests.php:1544
+msgid "Details from error_response() method. This is the error response from the API:"
+msgstr ""
+
+#: includes/data-stores/wc-am-api-activation-data-store.php:895
+#: includes/data-stores/wc-am-api-activation-data-store.php:925
+msgid "The activation could not be deleted."
+msgstr ""
+
+#: includes/data-stores/wc-am-api-resource-data-store.php:1271
+#: templates/myaccount/api-keys.php:157
+msgid "Renewable until: "
+msgstr ""
+
+#: includes/emails/wcam-email-expiring-subscription.php:32
+msgid "Expiring Subscription"
+msgstr ""
+
+#: includes/emails/wcam-email-expiring-subscription.php:33
+msgid "Expiring API Manager Subscription emails are sent when a customer's subscription will expire soon, and provide a renewal link."
+msgstr ""
+
+#: includes/emails/wcam-email-expiring-subscription.php:60
+#: includes/emails/wcam-email-expiring-subscription.php:80
+msgid "Subscription on order #{order_number} is expiring soon on {site_title}"
+msgstr ""
+
+#: includes/emails/wcam-email-expiring-subscription.php:62
+#: includes/emails/wcam-email-expiring-subscription.php:82
+msgid "Subscription on order #{order_number} has expired but is renewable on {site_title}"
+msgstr ""
+
+#: includes/emails/wcam-email-expiring-subscription.php:65
+#: includes/emails/wcam-email-expiring-subscription.php:85
+msgid "Subscription on order #{order_number} has expired on {site_title}"
+msgstr ""
+
+#: includes/emails/wcam-email-expiring-subscription.php:148
+msgid "Thanks for using {site_url}!"
+msgstr ""
+
+#: includes/emails/wcam-email-expiring-subscription.php:182
+msgid "WCAM_Email_Expiring_Subscription()->trigger() error: "
+msgstr ""
+
+#. translators: %s: list of placeholders
+#: includes/emails/wcam-email-expiring-subscription.php:233
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: includes/emails/wcam-email-expiring-subscription.php:236
+msgid "Subject expiring"
+msgstr ""
+
+#: includes/emails/wcam-email-expiring-subscription.php:244
+msgid "Email heading expiring"
+msgstr ""
+
+#: includes/emails/wcam-email-expiring-subscription.php:252
+msgid "Subject still renewable"
+msgstr ""
+
+#: includes/emails/wcam-email-expiring-subscription.php:260
+msgid "Email heading still renewable"
+msgstr ""
+
+#: includes/emails/wcam-email-expiring-subscription.php:268
+msgid "Subject expired"
+msgstr ""
+
+#: includes/emails/wcam-email-expiring-subscription.php:276
+msgid "Email heading expired"
+msgstr ""
+
+#: includes/emails/wcam-email-expiring-subscription.php:284
+msgid "Additional content"
+msgstr ""
+
+#: includes/emails/wcam-email-expiring-subscription.php:285
+msgid "Text to appear below the main email content."
+msgstr ""
+
+#: includes/emails/wcam-email-expiring-subscription.php:293
+msgid "Email type"
+msgstr ""
+
+#: includes/emails/wcam-email-expiring-subscription.php:295
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: includes/queue/wc-am-queue.php:54
+msgid "This function should not be called before plugins_loaded."
+msgstr ""
+
+#. translators: %s: Default class name
+#: includes/queue/wc-am-queue.php:71
+msgid "The class attached to the \"wc_am_queue_class\" does not implement the WCAM_Queue_Interface interface. The default %s class will be used instead."
+msgstr ""
+
+#: includes/wc-am-background-events.php:85
+msgid "Expired API Resources Cleanup event was completed on "
+msgstr ""
+
+#: includes/wc-am-background-events.php:99
+msgid "Missing API Resources Repair event was completed on "
+msgstr ""
+
+#: includes/wc-am-background-events.php:114
+msgid "Add WC Software Add-on data event was completed on "
+msgstr ""
+
+#: includes/wc-am-background-events.php:281
+msgid "Expired API Resources Cleanup ERROR for Order ID # "
+msgstr ""
+
+#: includes/wc-am-background-events.php:347
+msgid "Expired API Activations Cleanup ERROR for Order ID# "
+msgstr ""
+
+#: includes/wc-am-background-events.php:674
+msgid "Missing API Resources Repaired."
+msgstr ""
+
+#: includes/wc-am-background-events.php:676
+msgid "There Were No Missing API Resources To Repair."
+msgstr ""
+
+#: includes/wc-am-background-events.php:710
+msgid "Missing API Resources Repair ERROR for Order ID # "
+msgstr ""
+
+#: includes/wc-am-background-events.php:750
+msgid "WC Software Add-on API Keys added to the Asscociated API Keys database table."
+msgstr ""
+
+#: includes/wc-am-background-events.php:752
+msgid "There Were No WC Software Add-on API Keys added to the Asscociated API Keys database table."
+msgstr ""
+
+#: includes/wc-am-background-events.php:814
+msgid "Add WC Software Add-on data ERROR for key_id "
+msgstr ""
+
+#: includes/wc-am-download-handler.php:61
+#: includes/wc-am-download-handler.php:109
+msgid "Invalid download link."
+msgstr ""
+
+#: includes/wc-am-download-handler.php:70
+msgid "Access expired."
+msgstr ""
+
+#: includes/wc-am-download-handler.php:75
+msgid "Authentication failed."
+msgstr ""
+
+#: includes/wc-am-download-handler.php:89
+#: includes/wc-am-download-handler.php:136
+msgid "No file defined"
+msgstr ""
+
+#: includes/wc-am-download-handler.php:156
+msgid "Invalid order."
+msgstr ""
+
+#: includes/wc-am-download-handler.php:170
+msgid "Sorry, you have reached your download limit for this file"
+msgstr ""
+
+#: includes/wc-am-download-handler.php:183
+msgid "Sorry, this download has expired"
+msgstr ""
+
+#: includes/wc-am-download-handler.php:409
+msgid "File not found"
+msgstr ""
+
+#: includes/wc-am-download-handler.php:601
+#: templates/myaccount/api-downloads.php:349
+#: templates/myaccount/api-keys.php:354
+msgid "Go to shop"
+msgstr ""
+
+#: includes/wc-am-encryption.php:108
+#: includes/wc-am-encryption.php:128
+msgid "Encryption failed: %s"
+msgstr ""
+
+#. translators: placeholder is human time diff (e.g. "3 weeks")
+#: includes/wc-am-format.php:54
+msgid "In %s"
+msgstr ""
+
+#. translators: placeholder is human time diff (e.g. "3 weeks")
+#: includes/wc-am-format.php:57
+msgid "%s ago"
+msgstr ""
+
+#: includes/wc-am-install.php:129
+msgid "Docs"
+msgstr ""
+
+#: includes/wc-am-install.php:130
+msgid "Support"
+msgstr ""
+
+#: includes/wc-am-order-admin.php:73
+msgid "API Resources"
+msgstr ""
+
+#: includes/wc-am-order-admin.php:74
+msgid "API Resource Activations"
+msgstr ""
+
+#: includes/wc-am-order-admin.php:92
+#: includes/wc-am-order-admin.php:136
+#: includes/wc-am-order-admin.php:291
+msgid "Contains no API Product."
+msgstr ""
+
+#: includes/wc-am-order-admin.php:116
+#: includes/wc-am-order-admin.php:270
+msgid "No API resources for this order."
+msgstr ""
+
+#: includes/wc-am-order-admin.php:264
+#: includes/wc-am-order-admin.php:266
+msgid "See Parent Order %1$s%2$s"
+msgstr ""
+
+#: includes/wc-am-order-admin.php:314
+msgid "Are you sure you want to delete this activation?"
+msgstr ""
+
+#: includes/wc-am-order-admin.php:521
+msgid "Contains API Product"
+msgstr ""
+
+#: includes/wc-am-order-admin.php:521
+msgid "API Product"
+msgstr ""
+
+#: includes/wc-am-order-admin.php:541
+msgid "Has activations."
+msgstr ""
+
+#: includes/wc-am-order-admin.php:543
+msgid "No activations."
+msgstr ""
+
+#: includes/wc-am-order.php:1133
+msgid "yes"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:161
+msgid "Restore this item from the Trash"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:162
+msgid "Restore"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:277
+#: includes/wc-am-product-admin.php:301
+#: includes/wc-am-product-admin.php:401
+msgid "API"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:278
+#: includes/wc-am-product-admin.php:302
+msgid "Enable this option if this is a resource that requires the API Manager."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:317
+msgid "Unique ID used to indentify this API resource. Do NOT delete this product or ID."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:324
+msgid "The software version number."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:325
+#: includes/wc-am-product-admin.php:860
+msgid "e.g. 1.2.5"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:331
+msgid "Page URL"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:332
+#: includes/wc-am-product-admin.php:911
+msgid "The software page URL."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:333
+#: includes/wc-am-product-admin.php:915
+msgid "http://myplugin.com"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:339
+msgid "Author"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:340
+msgid "The author of the software."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:341
+#: includes/wc-am-product-admin.php:906
+msgid "Vault-Tec"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:347
+msgid "Version Required"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:348
+msgid "Minimum version of platform/framework, such as WordPress, software requires."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:349
+msgid "e.g. 3.6"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:355
+msgid "Version Tested Up To"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:356
+msgid "Highest version platform/framework, such as WordPress, software was tested on."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:357
+#: includes/wc-am-product-admin.php:878
+msgid "e.g. 4.0"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:363
+msgid "Requires PHP Version"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:364
+#: includes/wc-am-product-admin.php:883
+msgid "Minimum version of PHP software requires."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:365
+#: includes/wc-am-product-admin.php:887
+msgid "e.g. 7.3"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:371
+msgid "Last Updated"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:372
+msgid "When the software was last updated."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:373
+#: includes/wc-am-product-admin.php:897
+msgid "YYYY-MM-DD"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:379
+msgid "Upgrade Notice"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:380
+#: includes/wc-am-product-admin.php:847
+msgid "A notice displayed when an update is available."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:381
+#: includes/wc-am-product-admin.php:851
+msgid "Optional"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:426
+msgid "All data below is copied to all variations, unless the checkbox is selected per variation labeled \"Set API options for this variable product only.\" Activation limit, not listed below, must be set per variation."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:441
+#: includes/wc-am-product-admin.php:789
+msgid "Unlimited Activations"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:443
+#: includes/wc-am-product-admin.php:791
+msgid "Enable for unlimited number of activations."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:452
+msgid "Activation Limit"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:456
+#: includes/wc-am-product-admin.php:799
+msgid "Limits the number of API Key activations. Default is 1 when left empty. Caution: Changing this value will cause all existing API Resources/purchases with this Product ID to match the new value."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:483
+msgid "API Access Expires"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:484
+#: includes/wc-am-product-admin.php:838
+#: includes/wc-am-product-admin.php:839
+msgid "Never"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:487
+#: includes/wc-am-product-admin.php:835
+msgid "Enter the number of days before API access expires, or leave blank to never expire. Caution: Changing this value will cause all existing API Resources/purchases with this Product ID to recalculate using this new value."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:518
+#: includes/wc-am-product-tabs.php:38
+#: templates/myaccount/api-downloads.php:53
+#: templates/myaccount/api-downloads.php:179
+#: templates/myaccount/api-downloads.php:289
+msgid "Documentation"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:534
+#: includes/wc-am-product-admin.php:553
+#: includes/wc-am-product-admin.php:572
+#: includes/wc-am-product-admin.php:591
+#: includes/wc-am-product-admin.php:610
+#: includes/wc-am-product-admin.php:629
+#: includes/wc-am-product-admin.php:648
+msgid "Select a page &hellip;"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:534
+msgid "Documentation link for My Account."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:553
+msgid "A description of the software."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:556
+#: includes/wc-am-product-admin.php:939
+#: includes/wc-am-product-tabs.php:52
+#: templates/myaccount/api-downloads.php:166
+#: templates/myaccount/api-downloads.php:276
+msgid "Changelog"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:572
+msgid "Changes in the software."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:591
+msgid "How to install the software."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:610
+msgid "Frequently Asked Questions."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:629
+#: includes/wc-am-product-admin.php:1002
+msgid "Screenshots of the software."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:648
+msgid "Other details or special facts."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:715
+msgid "A checked, and saved, API checkbox CANNOT be unchecked later. This product will remain a permanent API Manager product, and CANNOT be deleted from the store. This product will be made available as an API Resource on existing, and future, purchases."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:771
+msgid "API Manager Options"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:779
+msgid "Set API options for this variable product only."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:781
+msgid "The information set here will only apply to this variable product."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:798
+msgid "Activation Limit:"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:809
+msgid "Unique ID used to indentify this API resource. Do NOT delete this product."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:834
+msgid "API Access Expires:"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:846
+msgid "Upgrade Notice:"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:855
+msgid "Version:"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:856
+msgid "The current software version number, which triggers an update notification if the customer has an older version installed."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:864
+msgid "Version Required:"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:865
+msgid "The minimum version of platform/framework, such as WordPress, required to run the software."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:869
+msgid "e.g. 3.3"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:873
+msgid "Version Tested Up To:"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:874
+msgid "The highest version of platform/framework, such as WordPress, the software has been tested on."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:882
+msgid "Requires PHP Version:"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:891
+msgid "Last Updated:"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:892
+msgid "The date the software was last updated."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:901
+msgid "Author:"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:902
+msgid "The name of the software author."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:910
+msgid "Page URL:"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:918
+msgid "A description of the software, and how it works."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:936
+#: includes/wc-am-product-admin.php:978
+#: includes/wc-am-product-admin.php:999
+#: includes/wc-am-product-admin.php:1020
+#: includes/wc-am-product-admin.php:1041
+#: includes/wc-am-product-admin.php:1062
+msgid "Select a page &hellip; (Optional)"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:939
+msgid "A list of changes to the software that should be grouped by date."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:957
+msgid "Select a page &hellip; (Recommended)"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:960
+msgid "Instructions on how to install the software, and notes regarding installation."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:981
+msgid "Frequently Asked Questions about the software."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:1023
+msgid "Other notes about the software."
+msgstr ""
+
+#: includes/wc-am-product-admin.php:1044
+msgid "My Account Documentation"
+msgstr ""
+
+#: includes/wc-am-product-admin.php:1044
+msgid "Documentation link for My Account dashboard."
+msgstr ""
+
+#: includes/wc-am-product-tabs.php:45
+msgid "API Description"
+msgstr ""
+
+#: includes/wc-am-product-tabs.php:100
+msgid "Release Notes"
+msgstr ""
+
+#: includes/wc-am-product-tabs.php:125
+msgid "%1$sDocumentation%2$s"
+msgstr ""
+
+#: includes/wc-am-product-tabs.php:143
+msgid "%1$sAPI Description%2$s"
+msgstr ""
+
+#: includes/wc-am-product-tabs.php:161
+msgid "%1$sChangelog%2$s"
+msgstr ""
+
+#: includes/wc-am-product-tabs.php:179
+msgid "%1$sInstallation%2$s"
+msgstr ""
+
+#: includes/wc-am-product-tabs.php:197
+msgid "%1$sFAQ%2$s"
+msgstr ""
+
+#: includes/wc-am-product-tabs.php:215
+msgid "%1$sScreenshots%2$s"
+msgstr ""
+
+#: includes/wc-am-product-tabs.php:233
+msgid "%1$sOther Notes%2$s"
+msgstr ""
+
+#: includes/wc-am-product-tabs.php:251
+msgid "%1$sRelease Notes%2$s"
+msgstr ""
+
+#: includes/wc-am-product-tabs.php:252
+#: includes/wc-am-product-tabs.php:253
+#: includes/wc-am-product-tabs.php:259
+#: includes/wc-am-product-tabs.php:260
+msgid "%s"
+msgstr ""
+
+#: includes/wc-am-product-tabs.php:254
+#: includes/wc-am-product-tabs.php:255
+#: includes/wc-am-product-tabs.php:256
+#: includes/wc-am-product-tabs.php:257
+#: includes/wc-am-product-tabs.php:258
+msgid "%1$s%2$s%3$s%4$s"
+msgstr ""
+
+#: includes/wc-am-product-tabs.php:254
+msgid "Version: "
+msgstr ""
+
+#: includes/wc-am-product-tabs.php:255
+msgid "Requires WordPress Version: "
+msgstr ""
+
+#: includes/wc-am-product-tabs.php:255
+#: includes/wc-am-product-tabs.php:257
+msgid " or higher"
+msgstr ""
+
+#: includes/wc-am-product-tabs.php:256
+msgid "WordPress Version Compatible Up To: "
+msgstr ""
+
+#: includes/wc-am-product-tabs.php:257
+msgid "Requires PHP Version: "
+msgstr ""
+
+#: includes/wc-am-product-tabs.php:258
+msgid "Last Updated: "
+msgstr ""
+
+#: includes/wc-am-renew-subscription.php:59
+msgid "Nonce security check failed."
+msgstr ""
+
+#: includes/wc-am-renew-subscription.php:73
+msgid "Invalid Product ID."
+msgstr ""
+
+#: includes/wc-am-renew-subscription.php:81
+msgid "This product can no longer be purchased."
+msgstr ""
+
+#: includes/wc-am-renew-subscription.php:116
+#: includes/wc-am-renew-subscription.php:140
+msgid "Renewal"
+msgstr ""
+
+#: includes/wc-am-renew-subscription.php:233
+msgid "Expired API Resource"
+msgstr ""
+
+#: includes/wc-am-renew-subscription.php:237
+msgid "New Product ID"
+msgstr ""
+
+#: includes/wc-am-renew-subscription.php:241
+msgid "New Order ID"
+msgstr ""
+
+#: includes/wc-am-renew-subscription.php:245
+msgid "API Resource Renewal"
+msgstr ""
+
+#: includes/wc-am-renew-subscription.php:249
+msgid "Discount Applied"
+msgstr ""
+
+#: includes/wc-am-smart-cache.php:275
+#: includes/wc-am-smart-cache.php:324
+msgid "Details from refresh_cache() method, get_all_api_resources_for_order_id() error."
+msgstr ""
+
+#: includes/wc-am-smart-cache.php:281
+#: includes/wc-am-smart-cache.php:330
+msgid "Details from refresh_cache() method, get_all_api_resources_for_sub_parent_id() error."
+msgstr ""
+
+#: includes/wc-am-smart-cache.php:287
+#: includes/wc-am-smart-cache.php:336
+msgid "Details from refresh_cache() method, get_all_api_non_wc_subscription_resources_for_order_id() error."
+msgstr ""
+
+#: includes/wc-am-smart-cache.php:293
+#: includes/wc-am-smart-cache.php:342
+msgid "Details from refresh_cache() method, get_api_resources_for_user_id_sort_by_product_title() error."
+msgstr ""
+
+#: includes/wc-am-smart-cache.php:399
+#: includes/wc-am-smart-cache.php:456
+msgid "Details from delete_cache() method, random_int() error."
+msgstr ""
+
+#: includes/wc-am-user.php:402
+msgid "API Manager API Key"
+msgstr ""
+
+#: includes/wc-am-user.php:408
+msgid "Generate Master API Key"
+msgstr ""
+
+#: includes/wc-am-user.php:410
+msgid "Master API Key:"
+msgstr ""
+
+#: includes/wc-am-user.php:416
+msgid "Replace Master API Key"
+msgstr ""
+
+#: includes/wc-am-user.php:421
+msgid "Disable Master API Key"
+msgstr ""
+
+#: includes/wc-api-manager-query.php:124
+#: includes/wc-api-manager-query.php:148
+#: includes/wc-api-manager-query.php:151
+#: includes/wc-api-manager-query.php:280
+#: templates/myaccount/related-api-resources.php:38
+#: templates/myaccount/related-api-resources.php:46
+msgid "API Downloads"
+msgstr ""
+
+#: includes/wc-api-manager-query.php:272
+msgid "Endpoint for the My Account &rarr; API Keys page"
+msgstr ""
+
+#: includes/wc-api-manager-query.php:281
+msgid "Endpoint for the My Account &rarr; API Downloads page"
+msgstr ""
+
+#: templates/emails/api-keys-order-complete.php:36
+#: templates/emails/plain/api-keys-order-complete.php:35
+msgid "API Product Information"
+msgstr ""
+
+#: templates/emails/api-keys-order-complete.php:43
+msgid "ID"
+msgstr ""
+
+#: templates/emails/api-keys-order-complete.php:45
+msgid "Expires"
+msgstr ""
+
+#: templates/emails/api-keys-order-complete.php:83
+msgid "Product Order API Key(s):"
+msgstr ""
+
+#: templates/emails/api-keys-order-complete.php:101
+msgid "Click here to login and download your file(s)"
+msgstr ""
+
+#: templates/emails/api-keys-order-complete.php:116
+#: templates/emails/plain/api-keys-order-complete.php:76
+msgid "A Master API Key can be used to activate any and all products."
+msgstr ""
+
+#. translators: Placeholder: %s - First name
+#. translators: Placeholder: %s - Customer first name
+#: templates/emails/expiring-subscription.php:46
+#: templates/emails/plain/expiring-subscription.php:33
+msgid "Hi %s,"
+msgstr ""
+
+#. translators: Placeholders: %1$s - Opening link <a> tag, %2$s - Closing link </a> tag
+#: templates/emails/expiring-subscription.php:56
+msgid "%1$sRenew your API Product%2$s."
+msgstr ""
+
+#. translators: Placeholder: %s - Expiration date
+#: templates/emails/expiring-subscription.php:72
+#: templates/emails/plain/expiring-subscription.php:50
+msgid "The API Product is renewable until: %s"
+msgstr ""
+
+#. translators: Placeholder: %s - Discount percentage
+#: templates/emails/expiring-subscription.php:86
+#: templates/emails/plain/expiring-subscription.php:57
+msgid "If you renew before your API Product access expires you will get a %s discount."
+msgstr ""
+
+#. translators: Placeholder: %s Product title
+#: templates/emails/plain/api-keys-order-complete.php:49
+msgid "Product: %s"
+msgstr ""
+
+#. translators: Placeholder: %s - Product Order Api Key
+#: templates/emails/plain/api-keys-order-complete.php:54
+msgid "Product Order API Key(s): %s"
+msgstr ""
+
+#. translators: Placeholder: %s - Product ID
+#: templates/emails/plain/api-keys-order-complete.php:59
+msgid "Product ID: %s"
+msgstr ""
+
+#. translators: Placeholder: %s - Number of activations
+#: templates/emails/plain/api-keys-order-complete.php:62
+msgid "Activations: %s"
+msgstr ""
+
+#. translators: Placeholder: %s - Expiry date and time
+#: templates/emails/plain/api-keys-order-complete.php:65
+msgid "Expires: %s"
+msgstr ""
+
+#. translators: %s placeholder is Master API Key
+#: templates/emails/plain/api-keys-order-complete.php:73
+msgid "Master API Key: %s"
+msgstr ""
+
+#. translators: %s placeholder is My Account > API Downloads -> URL
+#: templates/emails/plain/api-keys-order-complete.php:83
+msgid "Click here to login and download your file(s):"
+msgstr ""
+
+#. translators: Placeholder: %s - Product title
+#: templates/emails/plain/expiring-subscription.php:43
+msgid "An access renewal link for your API Product has been prepared for you on %s. Use this link to login to your account to renew the API Product: "
+msgstr ""
+
+#: templates/myaccount/api-downloads.php:50
+#: templates/myaccount/api-keys.php:86
+msgid "Product Title"
+msgstr ""
+
+#: templates/myaccount/api-downloads.php:52
+msgid "Release Date"
+msgstr ""
+
+#: templates/myaccount/api-downloads.php:54
+#: templates/myaccount/api-downloads.php:190
+#: templates/myaccount/api-downloads.php:193
+#: templates/myaccount/api-downloads.php:300
+#: templates/myaccount/api-downloads.php:305
+msgid "Download"
+msgstr ""
+
+#: templates/myaccount/api-downloads.php:154
+#: templates/myaccount/api-downloads.php:264
+msgid "No Date"
+msgstr ""
+
+#: templates/myaccount/api-downloads.php:196
+#: templates/myaccount/api-downloads.php:216
+#: templates/myaccount/api-downloads.php:308
+#: templates/myaccount/api-downloads.php:328
+msgid "Disabled"
+msgstr ""
+
+#: templates/myaccount/api-downloads.php:351
+msgid "No API downloads available yet."
+msgstr ""
+
+#: templates/myaccount/api-downloads.php:360
+#: templates/myaccount/api-keys.php:363
+msgid "This account has been disabled."
+msgstr ""
+
+#: templates/myaccount/api-keys.php:55
+msgid "Master API Key - Can be used to activate any product."
+msgstr ""
+
+#: templates/myaccount/api-keys.php:77
+msgid "A Product Order API Key is used to activate a single product from a single order."
+msgstr ""
+
+#: templates/myaccount/api-keys.php:91
+msgid "Product Order API Key"
+msgstr ""
+
+#: templates/myaccount/api-keys.php:201
+msgctxt "view a subscription"
+msgid "View"
+msgstr ""
+
+#. translators: Placeholder: %s - Percentage discount amount
+#: templates/myaccount/api-keys.php:229
+msgid "At a %s discount."
+msgstr ""
+
+#: templates/myaccount/api-keys.php:263
+#: templates/myaccount/api-keys.php:271
+msgid "Renew"
+msgstr ""
+
+#: templates/myaccount/api-keys.php:303
+#: templates/myaccount/api-keys.php:308
+#: templates/myaccount/api-keys.php:329
+#: templates/myaccount/api-keys.php:332
+msgid " Activated on "
+msgstr ""
+
+#: templates/myaccount/api-keys.php:356
+msgid "No API products available yet."
+msgstr ""
+
+#: templates/myaccount/related-api-resources.php:31
+msgid "Related API Resources"
+msgstr ""
+
+#: templates/myaccount/related-api-resources.php:44
+msgid "View API Keys"
+msgstr ""
+
+#: templates/myaccount/related-api-resources.php:47
+msgid "View API Downloads"
+msgstr ""
