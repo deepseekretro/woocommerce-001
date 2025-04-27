@@ -1,0 +1,1469 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: enhancer-for-woocommerce-subscriptions\n"
+"POT-Creation-Date: 2024-07-31 13:02+0530\n"
+"PO-Revision-Date: 2018-04-27 12:20+0530\n"
+"Last-Translator: \n"
+"Language-Team: Flintop\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: templates\n"
+"X-Poedit-SearchPath-2: enhancer-for-woocommerce-subscriptions.php\n"
+"X-Poedit-SearchPath-3: assets\n"
+
+#: assets/blocks/admin/index.js:50
+#: includes/abstracts/abstract-enr-subscribe-now.php:271
+#: includes/admin/class-enr-admin.php:164
+msgid "Subscribe Now"
+msgstr ""
+
+#: assets/blocks/frontend/index.js:173
+msgid "Billed every day"
+msgstr ""
+
+#: assets/blocks/frontend/index.js:175
+msgid "Billed every week"
+msgstr ""
+
+#: assets/blocks/frontend/index.js:177
+msgid "Billed every month"
+msgstr ""
+
+#: assets/blocks/frontend/index.js:179
+msgid "Billed every year"
+msgstr ""
+
+#: assets/blocks/frontend/index.js:185
+#, javascript-format
+msgid "Billed every 2nd %1$s"
+msgstr ""
+
+#: assets/blocks/frontend/index.js:191
+#, javascript-format
+msgid "Billed every 3rd %1$s"
+msgstr ""
+
+#: assets/blocks/frontend/index.js:196
+#, javascript-format
+msgid "Billed every %1$dth %2$s"
+msgstr ""
+
+#: assets/blocks/frontend/index.js:237 templates/html-subscribe-now-form.php:25
+msgid "Select Plan"
+msgstr ""
+
+#: assets/blocks/frontend/index.js:239 templates/html-subscribe-now-form.php:32
+msgid "No plans available"
+msgstr ""
+
+#: assets/blocks/frontend/index.js:257 templates/html-subscribe-now-form.php:48
+msgid "Subscription billing interval"
+msgstr ""
+
+#: assets/blocks/frontend/index.js:272 templates/html-subscribe-now-form.php:62
+msgid "Subscription period"
+msgstr ""
+
+#: assets/blocks/frontend/index.js:287
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:93
+#: templates/html-subscribe-now-form.php:76
+msgid "Expire after"
+msgstr ""
+
+#: includes/abstracts/abstract-enr-email.php:88
+msgid "Thanks for shopping with us."
+msgstr ""
+
+#: includes/abstracts/abstract-enr-email.php:231
+#, php-format
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: includes/abstracts/abstract-enr-email.php:234
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/abstracts/abstract-enr-email.php:236
+msgid "Enable this email notification"
+msgstr ""
+
+#: includes/abstracts/abstract-enr-email.php:240
+msgid "Subject"
+msgstr ""
+
+#: includes/abstracts/abstract-enr-email.php:243
+#: includes/admin/meta-boxes/class-enr-meta-box-subscription-email-template-data.php:137
+#, php-format
+msgid "This controls the email subject line. Leave blank to use the default subject: <code>%s</code>."
+msgstr ""
+
+#: includes/abstracts/abstract-enr-email.php:248
+msgid "Email Heading"
+msgstr ""
+
+#: includes/abstracts/abstract-enr-email.php:251
+#: includes/admin/meta-boxes/class-enr-meta-box-subscription-email-template-data.php:141
+#, php-format
+msgid "This controls the main heading contained within the email notification. Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+
+#: includes/abstracts/abstract-enr-email.php:256
+msgid "Additional content"
+msgstr ""
+
+#: includes/abstracts/abstract-enr-email.php:257
+msgid "Text to appear below the main email content."
+msgstr ""
+
+#: includes/abstracts/abstract-enr-email.php:259
+msgid "N/A"
+msgstr ""
+
+#: includes/abstracts/abstract-enr-email.php:265
+msgid "Email type"
+msgstr ""
+
+#: includes/abstracts/abstract-enr-email.php:267
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: includes/abstracts/abstract-enr-email.php:271
+msgid "Plain text"
+msgstr ""
+
+#: includes/abstracts/abstract-enr-email.php:272
+msgid "HTML"
+msgstr ""
+
+#: includes/abstracts/abstract-enr-email.php:273
+msgid "Multipart"
+msgstr ""
+
+#: includes/admin/class-enr-admin-post-types.php:71
+msgid "Subscription Plan name"
+msgstr ""
+
+#: includes/admin/class-enr-admin-post-types.php:74
+msgid "Subscription email template name"
+msgstr ""
+
+#: includes/admin/class-enr-admin-post-types.php:190
+#: includes/admin/class-enr-admin-post-types.php:191
+#: includes/admin/class-enr-admin-post-types.php:192
+msgid "Email template updated."
+msgstr ""
+
+#: includes/admin/class-enr-admin-post-types.php:193
+msgid "Email template saved."
+msgstr ""
+
+#: includes/admin/class-enr-admin-post-types.php:194
+msgid "Email template submitted."
+msgstr ""
+
+#: includes/admin/class-enr-admin-post-types.php:210
+#, php-format
+msgid "%s email template updated."
+msgstr ""
+
+#: includes/admin/class-enr-admin-post-types.php:212
+#, php-format
+msgid "%s email template not updated, somebody is editing it."
+msgstr ""
+
+#: includes/admin/class-enr-admin-post-types.php:214
+#, php-format
+msgid "%s email template permanently deleted."
+msgstr ""
+
+#: includes/admin/class-enr-admin-post-types.php:216
+#, php-format
+msgid "%s email template moved to the Trash."
+msgstr ""
+
+#: includes/admin/class-enr-admin-post-types.php:218
+#, php-format
+msgid "%s email template restored from the Trash."
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:58
+msgid "Back to all"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:131
+msgid "Limit subscription level"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:133
+msgid "Product Level"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:134
+msgid "Variant Level"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:144
+msgid "Limit trial to one"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:145
+msgid "Restrict customers to use trial only once"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:162
+msgid "Subscribe Now Checkbox Text"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:172
+msgid "Subscription Price for Old Subscriptions"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:177
+#: includes/admin/views/html-subscription-product-enr-options.php:116
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:115
+msgid "Old price"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:178
+#: includes/admin/views/html-subscription-product-enr-options.php:117
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:116
+msgid "New price"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:181
+msgid "If the subscription price for products are updated and if you want to update new price for the old subscriptions which are renewed hereafter, then select \"New price\" option. The customers will be notified by email regarding the subscription price update. Note: If the subscription is placed using Auto Renewal, then new price will be updated only if the payment gateway supports \"amount change\" subscription feature. You can also configure this settings for each product separately within the product settings."
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:184
+#: includes/admin/views/html-subscription-product-enr-options.php:121
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:120
+msgid "Notify Subscription Price Update for Old Subscriptions"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:190
+#: includes/admin/views/html-subscription-product-enr-options.php:123
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:122
+#, php-format
+msgid "day(s) before the subscription due date. <br><br>You will be able to create multiple email templates to send different email content. To create a new email template/edit an existing one click <a class=\"button-primary\" target=\"_blank\" href=\"%s\">Add/Edit subscription email template</a>"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:197
+msgid "Allow Switching After"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:201
+#: includes/admin/class-enr-admin.php:209
+msgid "Set 0 to allow subscribers to switch immediately. If left empty, customers will not be able to switch their subscriptions."
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:202
+#: includes/admin/class-enr-admin.php:284
+#: includes/admin/views/html-subscription-product-enr-options.php:87
+msgid "day(s) from the subscription start date"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:205
+msgid "Allow Switching After Each Renewal"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:210
+#: includes/admin/class-enr-admin.php:292
+#: includes/admin/views/html-subscription-product-enr-options.php:94
+msgid "day(s) from the subscription renewal date"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:213
+msgid "Prevent Switching"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:217
+msgid "If left empty or set 0, subscribers will not be prevented from switching their subscriptions until the renewal date."
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:218
+#: includes/admin/class-enr-admin.php:300
+#: includes/admin/views/html-subscription-product-enr-options.php:101
+msgid "day(s) before the subscription renewal date"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:225
+msgid "Cart Level Subscription"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:230
+msgid "Allow Cart Level Subscription"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:234
+msgid "Allow customers to subscribe the whole cart items as a single subscription. <br><b>Note:</b> Customer can subscribe only if cart contains non-subscription products"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:240
+msgid "Page to Display Cart Level Subscription"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:246
+msgid "Cart"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:247
+msgid "Checkout"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:251
+msgid "Position to Display Subscribe Option in Checkout Page"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:261
+msgid "Positioning updated here doesn't work for Block Editor. To change positioning in Block Editor, edit the cart and checkout blocks and move the 'Cart Level Subscription' block as per your needs."
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:265
+msgid "Cancelling"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:268
+#, php-format
+msgid "Be aware that removing cancellation buttons can have legal implications. For example, %1$sCalifornia has an Automatic Renewal Law%2$s which requires stores to provide an easy-to-use mechanism for cancelling. Before removing cancellation button, we recommend you discuss potential implications with a legal professional."
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:272
+msgid "Allow Cancelling"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:276
+msgid "Allow subscribers to cancel their subscriptions"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:279
+msgid "Allow Cancelling After"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:283
+#: includes/admin/class-enr-admin.php:291
+msgid "Set 0 to allow subscribers to cancel immediately. If left empty, customers will not be able to cancel their subscriptions. You can also set cancel delay duration for each product separately within the product settings."
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:287
+msgid "Allow Cancelling After Each Renewal"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:295
+msgid "Prevent Cancelling"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:299
+msgid "If left empty or set 0, subscribers will not be prevented from cancelling their subscriptions until the renewal date. You can also set cancel prevention duration for each product separately within the product settings."
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:308
+msgid "Disable WooCommerce Emails for Shipping Fulfillment Orders"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:314
+msgid "New order"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:315
+msgid "Processing order"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:316
+msgid "Completed order"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:321
+msgid "Reminder Emails"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:324
+#, php-format
+msgid ""
+"You will be able to create multiple email templates to send different email content. To create a new email template/edit an existing one click <a class=\"button-primary\" target=\"_blank\" href=\"%s\">Add/Edit subscription email template</a>\n"
+"                    <b>Note:</b>\n"
+"                    1. If no templates are created for the respective reminder email type / if there is any mismatch in the day for which the email has to be send is set, then the default email templates created in \"WooCommerce > Emails\" will be sent.\n"
+"                    2. If a new template is created, then the new template will be sent only for the new subscriptions / after one renewal for the existing subscriptions.\n"
+"                        "
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:332
+msgid "Send Trial Ending Reminder"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:335
+#: includes/admin/class-enr-admin.php:344
+#: includes/admin/class-enr-admin.php:353
+#: includes/admin/class-enr-admin.php:362
+msgid "e.g. 3,2,1"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:337
+msgid "day(s) before trial end date."
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:338
+msgid "Multiple trial ending reminders can be sent to the customer. To send multiple reminders, enter the day(s) to send notification before the trial end date in descending order. Multiple values should be separated by comma(for example 3,2,1)"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:341
+msgid "Send Auto Renewal Reminder"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:346
+#: includes/admin/class-enr-admin.php:355
+msgid "day(s) before subscription due date."
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:347
+msgid "Multiple auto renewal reminders can be sent to the customer. To send multiple reminders, enter the day(s) to send notification before the renewal date in descending order. Multiple values should be separated by comma(for example 3,2,1)"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:350
+msgid "Send Manual Renewal Reminder"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:356
+msgid "Multiple manual renewal reminders can be sent to the customer. To send multiple reminders, enter the day(s) to send notification before the renewal date in descending order. Multiple values should be separated by comma(for example 3,2,1)"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:359
+msgid "Send Expiry Reminder"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:364
+msgid "day(s) before subscription expiry date."
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:365
+msgid "Multiple expiry reminders can be sent to the customer. To send multiple reminders, enter the day(s) to send notification before the expiry date in descending order. Multiple values should be separated by comma(for example 3,2,1)"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:383
+msgid "Between Subscription Plans"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:395
+msgid "Subscription Plans to be Shown for Cart Level Subscription"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:396
+#: includes/admin/views/html-product-enr-options.php:47
+msgid "Customer can choose the subscription plans from this list."
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:406
+#: includes/admin/views/html-product-enr-options.php:43
+#: includes/admin/views/html-product-variation-enr-options.php:44
+msgid "Search for a subscription plan&hellip;"
+msgstr ""
+
+#: includes/admin/class-enr-admin.php:410
+#: includes/admin/views/html-product-enr-options.php:49
+#: includes/admin/views/html-product-variation-enr-options.php:49
+msgid "Add/Edit subscription plan"
+msgstr ""
+
+#: includes/admin/list-tables/class-enr-admin-list-table-subscription-email-templates.php:37
+msgid "Template Name"
+msgstr ""
+
+#: includes/admin/list-tables/class-enr-admin-list-table-subscription-email-templates.php:38
+msgid "For Email ID"
+msgstr ""
+
+#: includes/admin/list-tables/class-enr-admin-list-table-subscription-email-templates.php:39
+#: includes/admin/list-tables/class-enr-admin-list-table-subscription-plans.php:39
+msgid "Created Date"
+msgstr ""
+
+#: includes/admin/list-tables/class-enr-admin-list-table-subscription-plans.php:37
+msgid "Plan Name"
+msgstr ""
+
+#: includes/admin/list-tables/class-enr-admin-list-table-subscription-plans.php:38
+msgid "Plan Type"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-enr-meta-box-subscription-email-template-data.php:76
+msgid "To display customer name."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-enr-meta-box-subscription-email-template-data.php:79
+msgid "To display customer first name."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-enr-meta-box-subscription-email-template-data.php:82
+msgid "To display customer last name."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-enr-meta-box-subscription-email-template-data.php:85
+msgid "To display subscription url."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-enr-meta-box-subscription-email-template-data.php:88
+msgid "To display renewal amount."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-enr-meta-box-subscription-email-template-data.php:91
+msgid "To display trial end date."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-enr-meta-box-subscription-email-template-data.php:94
+msgid "To display next payment date."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-enr-meta-box-subscription-email-template-data.php:97
+msgid "To display subscription end date."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-enr-meta-box-subscription-email-template-data.php:100
+msgid "To display subscription price changed details."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-enr-meta-box-subscription-email-template-data.php:103
+msgid "To display subscription details."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-enr-meta-box-subscription-email-template-data.php:106
+msgid "To display trial end details."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-enr-meta-box-subscription-email-template-data.php:109
+msgid "To display subscription end details."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-enr-meta-box-subscription-email-template-data.php:112
+msgid "To display customer addresses."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-enr-meta-box-subscription-email-template-data.php:147
+msgid "day(s) before trial end date"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-enr-meta-box-subscription-email-template-data.php:150
+msgid "day(s) before subscription expiry date"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-enr-meta-box-subscription-email-template-data.php:153
+msgid "day(s) before subscription due date"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-email-template-data.php:9
+msgid "Select reminder type"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-email-template-data.php:21
+msgid "Use this template for sending email"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-email-template-data.php:30
+msgid "Product filter"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-email-template-data.php:34
+msgid "All products"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-email-template-data.php:35
+msgid "Included products"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-email-template-data.php:36
+msgid "Included categories"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-email-template-data.php:42
+msgid "Select products"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-email-template-data.php:51
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-email-template-data.php:59
+msgid "Select categories"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-email-template-data.php:79
+msgid "Email subject"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-email-template-data.php:88
+msgid "Email heading"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-email-template-data.php:97
+msgid "Shortcodes supported"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-email-template-data.php:103
+msgid "Placeholder"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-email-template-data.php:104
+msgid "Purpose"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-email-template-data.php:120
+msgid "Email content"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:9
+msgid "Plan type"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:24
+#, php-format
+msgid "Sign-up fee (%s)"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:29
+msgid "e.g. 9.90"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:34
+msgid "Free trial"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:50
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:172
+#, php-format
+msgid "Subscription price (%s)"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:56
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:178
+#, no-php-format
+msgid "% of Regular Price/Sale Price"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:71
+msgid "Synchronise renewals"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:87
+msgid "Day"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:105
+#: includes/admin/views/html-subscription-product-enr-options.php:35
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:33
+msgid "Separate shipping cycle"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:108
+#: includes/admin/views/html-subscription-product-enr-options.php:37
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:35
+msgid "Enabling this option creates separate shipping fulfilment orders for the subscription"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:114
+#: includes/admin/views/html-subscription-product-enr-options.php:45
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:43
+msgid "Shipping Frequency Every"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:117
+#: includes/admin/views/html-subscription-product-enr-options.php:57
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:44
+msgid "Choose the interval to create the shipping fulfilment order"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:128
+#: includes/admin/views/html-subscription-product-enr-options.php:76
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:75
+msgid "Allow cancelling"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:132
+#: includes/admin/views/html-subscription-product-enr-options.php:78
+#: includes/admin/views/html-subscription-product-enr-options.php:107
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:77
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:106
+msgid "Inherit storewide settings"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:133
+#: includes/admin/views/html-subscription-product-enr-options.php:79
+#: includes/admin/views/html-subscription-product-enr-options.php:108
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:78
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:107
+msgid "Override storewide settings"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:139
+#: includes/admin/views/html-subscription-product-enr-options.php:83
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:82
+msgid "Allow cancelling after"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:142
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:152
+#: includes/admin/views/html-subscription-product-enr-options.php:84
+#: includes/admin/views/html-subscription-product-enr-options.php:91
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:83
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:90
+msgid "Set 0 to allow subscribers to cancel immediately. If empty, customers will not be allowed to cancel."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:144
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:86
+msgid "day(s) from the subscription start date."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:149
+#: includes/admin/views/html-subscription-product-enr-options.php:90
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:89
+msgid "Allow cancelling after each renewal"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:154
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:93
+msgid "day(s) from the subscription renewal date."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:159
+#: includes/admin/views/html-subscription-product-enr-options.php:97
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:96
+msgid "Prevent cancelling"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:162
+#: includes/admin/views/html-subscription-product-enr-options.php:98
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:97
+msgid "If left empty or set 0, subscribers will not be prevented from cancelling their subscriptions until the renewal date."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:164
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:100
+msgid "day(s) before the subscription renewal date."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:183
+msgid "Subscription Period Options to be Shown for Customer"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:205
+msgid "Subscription Billing Interval Options to be Shown for Customer"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:212
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:273
+msgid "Min"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:213
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:274
+msgid "Max"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:223
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:284
+#, php-format
+msgid "For %s(s)"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:243
+#, php-format
+msgid "every %1$s"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:248
+#, php-format
+msgid "every %1$s %2$s"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-subscription-plan-data.php:266
+msgid "Expire After Options to be Shown for Customer"
+msgstr ""
+
+#: includes/admin/views/html-add-preview-email-inputs.php:12
+#: includes/admin/views/html-add-preview-email-inputs.php:25
+#: includes/admin/views/html-add-preview-email-inputs.php:39
+#: includes/admin/views/html-add-preview-email-inputs.php:73
+msgid "Enter Order Number"
+msgstr ""
+
+#: includes/admin/views/html-add-preview-email-inputs.php:17
+#: includes/admin/views/html-add-preview-email-inputs.php:31
+#: includes/admin/views/html-add-preview-email-inputs.php:45
+msgid "Note: To Preview the Email with the exact data, give the correct Order Number."
+msgstr ""
+
+#: includes/admin/views/html-add-preview-email-inputs.php:59
+#: includes/admin/views/html-add-preview-email-inputs.php:68
+#: includes/admin/views/html-add-preview-email-inputs.php:85
+msgid "Enter Subscription Number"
+msgstr ""
+
+#: includes/admin/views/html-add-preview-email-inputs.php:78
+msgid "Note: To Preview the Email with the exact data, give the correct Subscription Number and Order Number in the respective fields."
+msgstr ""
+
+#: includes/admin/views/html-add-preview-email-inputs.php:92
+msgid "Note: The \"Old Price\" and \"New Price\" displayed in the Preview is only for reference purpose and it is not the actual data."
+msgstr ""
+
+#: includes/admin/views/html-preview-email-inputs.php:8
+msgid "Email Preview"
+msgstr ""
+
+#: includes/admin/views/html-preview-email-inputs.php:10
+#: includes/admin/views/html-preview-email.php:10
+msgid "Close modal panel"
+msgstr ""
+
+#: includes/admin/views/html-preview-email-inputs.php:21
+#: includes/class-enr-emails.php:149
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/views/html-product-enr-options.php:29
+#: includes/admin/views/html-product-variation-enr-options.php:29
+msgid "Allow product level subscription"
+msgstr ""
+
+#: includes/admin/views/html-product-enr-options.php:30
+#: includes/admin/views/html-product-variation-enr-options.php:30
+msgid "Enabling this option will give option for the customer to subscribe this product"
+msgstr ""
+
+#: includes/admin/views/html-product-enr-options.php:36
+#: includes/admin/views/html-product-variation-enr-options.php:36
+msgid "Select subscription plans"
+msgstr ""
+
+#: includes/admin/views/html-product-enr-options.php:53
+#: includes/admin/views/html-product-variation-enr-options.php:53
+#: includes/admin/views/html-subscription-product-enr-options.php:127
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:126
+msgid "Disable reminder emails"
+msgstr ""
+
+#: includes/admin/views/html-product-enr-options.php:54
+#: includes/admin/views/html-product-variation-enr-options.php:54
+#: includes/admin/views/html-subscription-product-enr-options.php:128
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:127
+msgid "The selected reminder emails will not be sent for the customers."
+msgstr ""
+
+#: includes/admin/views/html-product-variation-enr-options.php:48
+msgid "Customer can choose the subscription plans from this list"
+msgstr ""
+
+#: includes/admin/views/html-subscription-product-enr-options.php:40
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:38
+msgid "Separate shipping cycle for old subscriptions"
+msgstr ""
+
+#: includes/admin/views/html-subscription-product-enr-options.php:42
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:40
+msgid "Enabling this option creates separate shipping fulfillment orders for previously placed subscriptions from the next renewal onward"
+msgstr ""
+
+#: includes/admin/views/html-subscription-product-enr-options.php:47
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:47
+msgid "Shipping interval"
+msgstr ""
+
+#: includes/admin/views/html-subscription-product-enr-options.php:50
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:50
+msgid "Shipping period"
+msgstr ""
+
+#: includes/admin/views/html-subscription-product-enr-options.php:60
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:59
+msgid "Synchronise shipping frequency"
+msgstr ""
+
+#: includes/admin/views/html-subscription-product-enr-options.php:105
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:104
+msgid "Subscription price update for old subscriptions"
+msgstr ""
+
+#: includes/admin/views/html-subscription-product-enr-options.php:112
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:111
+msgid "Subscription price for old subscriptions"
+msgstr ""
+
+#: includes/admin/views/html-subscription-product-enr-options.php:113
+#: includes/admin/views/html-subscription-product-variation-enr-options.php:112
+msgid "If the subscription price for products are updated and if you want to update new price for the old subscriptions which are renewed hereafter, then select \"New price\" option. The customers will be notified by email regarding the subscription price update. Note: If the subscription is placed using Auto Renewal, then new price will be updated only if the payment gateway supports \"amount change\" subscription feature."
+msgstr ""
+
+#: includes/class-enr-ajax.php:186
+msgid "Invalid inputs"
+msgstr ""
+
+#: includes/class-enr-ajax.php:205 includes/class-enr-ajax.php:219
+msgid "Invalid Order Number"
+msgstr ""
+
+#: includes/class-enr-ajax.php:211
+msgid "Invalid Subscription Number"
+msgstr ""
+
+#: includes/class-enr-cart-level-subscribe-now.php:165
+#, php-format
+msgid "Billed %s"
+msgstr ""
+
+#: includes/class-enr-emails.php:114
+msgid "Preview Subscription Emails"
+msgstr ""
+
+#: includes/class-enr-post-types.php:29 includes/class-enr-post-types.php:31
+msgid "Subscription Plans"
+msgstr ""
+
+#: includes/class-enr-post-types.php:30
+msgid "Subscription Plan"
+msgstr ""
+
+#: includes/class-enr-post-types.php:32
+msgid "Add subscription plan"
+msgstr ""
+
+#: includes/class-enr-post-types.php:33
+msgid "Add new subscription plan"
+msgstr ""
+
+#: includes/class-enr-post-types.php:34
+msgid "New subscription plan"
+msgstr ""
+
+#: includes/class-enr-post-types.php:35
+msgid "Edit subscription plan"
+msgstr ""
+
+#: includes/class-enr-post-types.php:36
+msgid "View subscription plan"
+msgstr ""
+
+#: includes/class-enr-post-types.php:37
+msgid "Search subscription plans"
+msgstr ""
+
+#: includes/class-enr-post-types.php:38
+msgid "No subscription plan found."
+msgstr ""
+
+#: includes/class-enr-post-types.php:39
+msgid "No subscription plan found in Trash."
+msgstr ""
+
+#: includes/class-enr-post-types.php:41
+msgid "This is where store subscription plans are stored."
+msgstr ""
+
+#: includes/class-enr-post-types.php:64 includes/class-enr-post-types.php:66
+msgid "Subscription Email Templates"
+msgstr ""
+
+#: includes/class-enr-post-types.php:65
+msgid "Subscription Email Template"
+msgstr ""
+
+#: includes/class-enr-post-types.php:67
+msgid "Add subscription email template"
+msgstr ""
+
+#: includes/class-enr-post-types.php:68
+msgid "Add new subscription email template"
+msgstr ""
+
+#: includes/class-enr-post-types.php:69
+msgid "New subscription email template"
+msgstr ""
+
+#: includes/class-enr-post-types.php:70
+msgid "Edit subscription email template"
+msgstr ""
+
+#: includes/class-enr-post-types.php:71
+msgid "View subscription email template"
+msgstr ""
+
+#: includes/class-enr-post-types.php:72
+msgid "Search subscription email templates"
+msgstr ""
+
+#: includes/class-enr-post-types.php:73
+msgid "No subscription email template found."
+msgstr ""
+
+#: includes/class-enr-post-types.php:74
+msgid "No subscription email template found in Trash."
+msgstr ""
+
+#: includes/class-enr-post-types.php:76
+msgid "This is where store subscription email templates are stored."
+msgstr ""
+
+#: includes/class-enr-shipping-cycle.php:108
+#: includes/class-enr-shipping-cycle.php:116
+#, php-format
+msgid "Delivered every %s"
+msgstr ""
+
+#: includes/class-enr-shipping-cycle.php:119
+#, php-format
+msgid "Delivered every %1$s on %2$s"
+msgstr ""
+
+#: includes/class-enr-shipping-cycle.php:125
+msgid "Delivered on the last day of each month"
+msgstr ""
+
+#: includes/class-enr-shipping-cycle.php:128
+#, php-format
+msgid "Delivered on the %s of each month"
+msgstr ""
+
+#: includes/class-enr-shipping-cycle.php:132
+#, php-format
+msgid "Delivered on the last day of every %s month"
+msgstr ""
+
+#: includes/class-enr-shipping-cycle.php:135
+#, php-format
+msgid "Delivered on the %1$s day of every %2$s month"
+msgstr ""
+
+#: includes/class-enr-shipping-cycle.php:625
+#: includes/class-enr-shipping-cycle.php:653
+msgid "Shipping Fulfilment Order"
+msgstr ""
+
+#: includes/class-enr-shipping-cycle.php:628
+msgid "Unknown Order Type"
+msgstr ""
+
+#: includes/class-enr-store-api.php:156
+#: templates/html-subscribe-now-form.php:102
+msgid "Never expire"
+msgstr ""
+
+#: includes/class-enr-store-api.php:244
+msgid "Check if cart/product level is enabled."
+msgstr ""
+
+#: includes/class-enr-store-api.php:250
+msgid "Subscribe label."
+msgstr ""
+
+#: includes/class-enr-store-api.php:256
+msgid "Subscribed key."
+msgstr ""
+
+#: includes/class-enr-store-api.php:262
+msgid "Subscribe type."
+msgstr ""
+
+#: includes/class-enr-store-api.php:268
+msgid "Subscribed price string."
+msgstr ""
+
+#: includes/class-enr-store-api.php:274
+msgid "Chosen subscription interval."
+msgstr ""
+
+#: includes/class-enr-store-api.php:280
+msgid "Chosen subscription period."
+msgstr ""
+
+#: includes/class-enr-store-api.php:286
+msgid "Chosen subscription length."
+msgstr ""
+
+#: includes/class-enr-store-api.php:292
+msgid "Subscribed plan type."
+msgstr ""
+
+#: includes/class-enr-store-api.php:298
+msgid "Check if cart level is subscribed."
+msgstr ""
+
+#: includes/class-enr-store-api.php:304
+msgid "Check if cart level subscription is forced."
+msgstr ""
+
+#: includes/class-enr-store-api.php:310
+msgid "Available cart level subscription plans."
+msgstr ""
+
+#: includes/class-enr-store-api.php:316
+msgid "Cart level default subscription plan."
+msgstr ""
+
+#: includes/class-enr-store-api.php:322
+msgid "Cart level chosen subscription plan."
+msgstr ""
+
+#: includes/class-enr-store-api.php:328
+msgid "Minimum subscription length."
+msgstr ""
+
+#: includes/class-enr-store-api.php:334
+msgid "Maximum subscription length."
+msgstr ""
+
+#: includes/class-enr-subscriptions-limiter.php:142
+msgid "You have an active subscription to this product already."
+msgstr ""
+
+#: includes/class-enr-subscriptions-limiter.php:147
+msgid "Resubscribe"
+msgstr ""
+
+#: includes/class-enr-subscriptions-manager.php:286
+#, php-format
+msgid "%s shipping fulfilment order for the subscription."
+msgstr ""
+
+#: includes/class-enr-subscriptions-manager.php:288
+#, php-format
+msgid "%1$s shipping fulfilment order <a href=\"%2$s\">#%3$s</a>"
+msgstr ""
+
+#: includes/class-enr-subscriptions-price-update.php:312
+#, php-format
+msgid "<p>The product price of this subscription has been updated to <strong>%s</strong>. You have to pay the Total amount based on the updated product price now and for the future renewals of this subscription.</p>"
+msgstr ""
+
+#: includes/class-wc-subscriptions-enhancer.php:45
+msgid "Cloning is forbidden."
+msgstr ""
+
+#: includes/class-wc-subscriptions-enhancer.php:52
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: includes/class-wc-subscriptions-enhancer.php:95
+msgid "<strong>Enhancer for WooCommerce Subscriptions is inactive.</strong> The <a href=\"http://woocommerce.com/products/woocommerce-subscriptions/\" target=\"_blank\">WooCommerce Subscriptions plugin</a> must be active for Enhancer for WooCommerce Subscriptions to work. Please install & activate WooCommerce Subscriptions."
+msgstr ""
+
+#: includes/class-wc-subscriptions-enhancer.php:98
+#, php-format
+msgid "<strong>Enhancer for WooCommerce Subscriptions is inactive.</strong> <a href=\"http://woocommerce.com/products/woocommerce-subscriptions/\" target=\"_blank\">WooCommerce Subscriptions</a> plugin version <strong>%s</strong> or higher must be active for Enhancer for WooCommerce Subscriptions to work. Please update WooCommerce Subscriptions plugin and check."
+msgstr ""
+
+#: includes/class-wc-subscriptions-enhancer.php:110
+#, php-format
+msgid "%1$sEnhancer for WooCommerce Subscriptions is inactive.%2$s The %3$sWooCommerce plugin%4$s must be active for Enhancer for WooCommerce Subscriptions to work. Please %5$sinstall & activate WooCommerce &raquo;%6$s"
+msgstr ""
+
+#: includes/class-wc-subscriptions-enhancer.php:272
+msgid "Add to cart"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-auto-renewal-reminder.php:43
+#: includes/enr-core-functions.php:333
+msgid "Auto Renewal Reminder"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-auto-renewal-reminder.php:44
+msgid "Auto renewal reminder emails are sent to the customers(subscribers) when their automatically renewing subscriptions are due for renewal."
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-auto-renewal-reminder.php:45
+msgid "Your subscription is going to auto renew"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-auto-renewal-reminder.php:46
+msgid "Your {blogname} subscription is going to auto renew"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-auto-renewal-reminder.php:62
+msgid "Your Subscription {view_subscription_url} is due for renewal on {next_payment_date}. Please make sure that you have sufficient funds in your account. {customer_addresses}"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-expiry-reminder.php:43
+#: includes/enr-core-functions.php:335
+msgid "Expiry Reminder"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-expiry-reminder.php:44
+msgid "Expiry reminder emails are sent to the customers(subscribers) before their subscription is going to expire."
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-expiry-reminder.php:45
+msgid "Your subscription going to expire"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-expiry-reminder.php:46
+msgid "Your {blogname} subscription going to expire"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-expiry-reminder.php:62
+msgid "Your subscription is going to expire. Here's the details of your subscription. {subscription_end_details} {subscription_details} {customer_addresses}"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-manual-renewal-reminder.php:43
+#: includes/enr-core-functions.php:334
+msgid "Manual Renewal Reminder"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-manual-renewal-reminder.php:44
+msgid "Manual renewal reminder emails are sent to the customers(subscribers) when their manually renewing subscriptions are due for renewal."
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-manual-renewal-reminder.php:45
+msgid "Your subscription renewal is nearing"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-manual-renewal-reminder.php:46
+msgid "Your {blogname} subscription renewal is nearing"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-manual-renewal-reminder.php:62
+msgid "This email is to inform you that your Subscription {view_subscription_url} is due for renewal on {next_payment_date}. {customer_addresses}"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-processing-shipping-fulfilment-order.php:37
+msgid "Processing Shipping Fulfillment Order"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-processing-shipping-fulfilment-order.php:38
+msgid "Processing shipping fulfillment order emails are sent to the customers(subscribers) when a shipping fulfillment order is created. It contains the shipping fulfillment order details."
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-processing-shipping-fulfilment-order.php:39
+msgid "Your subscription shipping fulfillment order is being processed"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-processing-shipping-fulfilment-order.php:40
+msgid "Your {blogname} subscription shipping fulfillment order is being processed"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-shipping-frequency-notification.php:23
+#: includes/emails/class-enr-email-customer-shipping-frequency-notification.php:25
+#: includes/emails/class-enr-email-customer-shipping-frequency-notification.php:26
+msgid "Subscription Shipping Frequency Notification"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-shipping-frequency-notification.php:24
+msgid "Subscription shipping frequency notification emails are sent to the previously purchased customers of the subscription product at the time of their next renewal, when the subscription product is enabled with Separate shipping cycle for old subscriptions."
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-subscription-price-updated.php:50
+msgid "Subscription Price Updated"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-subscription-price-updated.php:51
+msgid "Subscription price updated emails are sent to the customers(subscribers) when the price of the subscribed product has been modified. Your customers(subscribers) will have to pay the updated price for their upcoming renewals."
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-subscription-price-updated.php:52
+msgid "Your subscription price is updated"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-subscription-price-updated.php:53
+msgid "Your {blogname} subscription price updated"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-subscription-price-updated.php:69
+msgid "The subscription price for your subscription {view_subscription_url} has been updated. You have to pay the updated price for the future renewals. Here's the details of your subscription. {subscription_price_changed_details} {customer_addresses}"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-trial-ending-reminder.php:43
+#: includes/enr-core-functions.php:332
+msgid "Trial Ending Reminder"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-trial-ending-reminder.php:44
+msgid "Trial Ending Reminder emails are sent to the customers(subscribers) before their subscription trial is going to end."
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-trial-ending-reminder.php:45
+msgid "Your subscription trial going to end"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-trial-ending-reminder.php:46
+msgid "Your {blogname} subscription trial going to end"
+msgstr ""
+
+#: includes/emails/class-enr-email-customer-trial-ending-reminder.php:62
+msgid "Your subscription trial is going to end soon. Here's the details of your subscription. {trial_end_details} {subscription_details} {customer_addresses}"
+msgstr ""
+
+#: includes/enr-core-functions.php:245
+msgid "Predefined"
+msgstr ""
+
+#: includes/enr-core-functions.php:246
+msgid "Customer Defined"
+msgstr ""
+
+#: includes/enr-template-functions.php:148
+msgid "Delivered every"
+msgstr ""
+
+#: includes/privacy/class-enr-privacy.php:48
+msgid "This includes the basics of what personal data your store may be collecting, storing and sharing. Depending on what settings are enabled and which additional plugins are used, the specific information shared by your store will vary."
+msgstr ""
+
+#: includes/privacy/class-enr-privacy.php:49
+msgid "What the Plugin does"
+msgstr ""
+
+#: includes/privacy/class-enr-privacy.php:50
+msgid "Using this plugin, your can use additional features for your WooCommerce Subscriptions plugin using which you can use new features which are not available in the existing WooCommerce Subscriptions plugin."
+msgstr ""
+
+#: includes/privacy/class-enr-privacy.php:51
+msgid "What we collect and share"
+msgstr ""
+
+#: includes/privacy/class-enr-privacy.php:52
+msgid "This plugin does not collect or store any personal information about the users."
+msgstr ""
+
+#: templates/emails/customer-auto-renewal-reminder.php:19
+#, php-format
+msgid "Your Subscription %1$s is due for renewal on %2$s. Please make sure that you have sufficient funds in your account."
+msgstr ""
+
+#: templates/emails/customer-expiry-reminder.php:16
+#: templates/emails/plain/customer-expiry-reminder.php:12
+msgid "Your subscription is going to expire. Here's the details of your subscription."
+msgstr ""
+
+#: templates/emails/customer-manual-renewal-reminder.php:19
+#, php-format
+msgid "This email is to inform you that your Subscription %1$s is due for renewal on %2$s."
+msgstr ""
+
+#: templates/emails/customer-processing-shipping-fulfilment-order.php:19
+#: templates/emails/plain/customer-processing-shipping-fulfilment-order.php:13
+#, php-format
+msgid "Just to let you know &mdash; your shipping fulfillment order for Subscription #%s is created and it is now being processed."
+msgstr ""
+
+#: templates/emails/customer-shipping-frequency-notification.php:27
+#: templates/emails/plain/customer-shipping-frequency-notification.php:21
+#, php-format
+msgid "This is to inform you that your Subscription #%1$s will be %2$s from your next renewal onward.."
+msgstr ""
+
+#: templates/emails/customer-subscription-price-updated.php:19
+#, php-format
+msgid "The subscription price for your subscription %s has been updated. You have to pay the updated price for the future renewals. Here's the details of your subscription."
+msgstr ""
+
+#: templates/emails/customer-trial-ending-reminder.php:16
+#: templates/emails/plain/customer-trial-ending-reminder.php:12
+msgid "Your subscription trial is going to end soon. Here's the details of your subscription."
+msgstr ""
+
+#: templates/emails/email-subscription-end-details.php:15
+#: templates/emails/email-subscription-trial-end-details.php:15
+msgid "Subscription"
+msgstr ""
+
+#: templates/emails/email-subscription-end-details.php:16
+#: templates/emails/email-subscription-trial-end-details.php:16
+msgid "Price"
+msgstr ""
+
+#: templates/emails/email-subscription-end-details.php:17
+msgid "End Date"
+msgstr ""
+
+#: templates/emails/email-subscription-price-changed-details.php:15
+msgid "New Price"
+msgstr ""
+
+#: templates/emails/email-subscription-price-changed-details.php:16
+msgid "Old Price"
+msgstr ""
+
+#: templates/emails/email-subscription-trial-end-details.php:17
+msgid "Trial End Date"
+msgstr ""
+
+#: templates/emails/plain/customer-auto-renewal-reminder.php:13
+#, php-format
+msgid "Your Subscription #%1$s is due for renewal on %2$s. Please make sure that you have sufficient funds in your account."
+msgstr ""
+
+#: templates/emails/plain/customer-auto-renewal-reminder.php:25
+#: templates/emails/plain/customer-expiry-reminder.php:40
+#: templates/emails/plain/customer-manual-renewal-reminder.php:25
+#: templates/emails/plain/customer-subscription-price-updated.php:32
+#: templates/emails/plain/customer-trial-ending-reminder.php:40
+#, php-format
+msgid "View Subscription: %s"
+msgstr ""
+
+#: templates/emails/plain/customer-expiry-reminder.php:29
+#, php-format
+msgid "End Date: %s"
+msgstr ""
+
+#: templates/emails/plain/customer-manual-renewal-reminder.php:13
+#, php-format
+msgid "This email is to inform you that your Subscription #%1$s is due for renewal on %2$s."
+msgstr ""
+
+#: templates/emails/plain/customer-subscription-price-updated.php:13
+#, php-format
+msgid "The subscription price for your subscription #%s has been updated. You have to pay the updated price for the future renewals. Here's the details of your subscription."
+msgstr ""
+
+#: templates/emails/plain/customer-subscription-price-updated.php:19
+#: templates/emails/plain/email-subscription-price-changed-details.php:19
+#, php-format
+msgid "New Price: %s"
+msgstr ""
+
+#: templates/emails/plain/customer-subscription-price-updated.php:21
+#: templates/emails/plain/email-subscription-price-changed-details.php:21
+#, php-format
+msgid "Old Price: %s"
+msgstr ""
+
+#: templates/emails/plain/customer-trial-ending-reminder.php:29
+#: templates/emails/plain/email-subscription-trial-end-details.php:19
+#, php-format
+msgid "Trial End Date: %s"
+msgstr ""
+
+#: templates/emails/plain/email-subscription-end-details.php:10
+#: templates/emails/plain/email-subscription-price-changed-details.php:10
+#: templates/emails/plain/email-subscription-trial-end-details.php:10
+msgid "Subscription information"
+msgstr ""
+
+#: templates/emails/plain/email-subscription-end-details.php:13
+#: templates/emails/plain/email-subscription-price-changed-details.php:13
+#: templates/emails/plain/email-subscription-trial-end-details.php:13
+#, php-format
+msgid "Subscription: %s"
+msgstr ""
+
+#: templates/emails/plain/email-subscription-end-details.php:15
+#: templates/emails/plain/email-subscription-price-changed-details.php:15
+#: templates/emails/plain/email-subscription-trial-end-details.php:15
+#, php-format
+msgid "View subscription: %s"
+msgstr ""
+
+#: templates/emails/plain/email-subscription-end-details.php:17
+#: templates/emails/plain/email-subscription-trial-end-details.php:17
+#, php-format
+msgid "Price: %s"
+msgstr ""
+
+#: templates/emails/plain/email-subscription-end-details.php:19
+#, php-format
+msgid "End date: %s"
+msgstr ""

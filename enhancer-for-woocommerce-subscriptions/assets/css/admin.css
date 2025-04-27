@@ -1,0 +1,14 @@
+.enr_preview_email_inputs {display:block;width: 100%;padding: 10px 0;margin: 0 !important;}
+.enr_preview_email_inputs label {display: inline-block;width: 40%}
+.enr-email-preview {border: none !important;background: none !important;}
+.enr-email-preview:hover {background: none !important;}
+
+#_enr_subscription_plan_data .postbox-header{display:none}
+#_enr_subscription_plan_data .inside{margin:0;padding:0;}
+#_enr_subscription_plan_data{border: none;}
+.wc-wp-version-gte-55 #_enr_subscription_plan_data .hndle{display:block;line-height:24px;}
+
+#_enr_email_template_data .postbox-header{display:none}
+#_enr_email_template_data .inside{margin:0;padding:0;}
+#_enr_email_template_data{border: none;}
+.wc-wp-version-gte-55 #_enr_email_template_data .hndle{display:block;line-height:24px;}

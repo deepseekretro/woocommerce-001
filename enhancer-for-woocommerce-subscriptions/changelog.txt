@@ -1,0 +1,252 @@
+*** Enhancer for WooCommerce Subscriptions ***
+
+2024-12-21 - version 4.7.0
+
+ * Tweak - Improvements in po translation
+ * Tweak - Tested with WooCommerce 9.5.1
+ * Fix - Current month shipping fulfillment order not generated if synchronized shipping is set
+
+2024-12-03 - version 4.6.0
+
+ * Tweak - Compatibility improvements with WordPress 6.7.x
+ * Tweak - Tested with WooCommerce 9.4.2
+ * Tweak - Tested with WordPress 6.7.1
+ * Tweak - Tested with WooCommerce Subscriptions 6.9.1
+ * Fix - Restrict usage of cart level subscription in checkout for guest users in order to avoid guest subscription purchase
+ * Fix - Price display issue when Tax configuration is set as inclusive of tax
+ * Fix - Template overriding not working
+ * Fix - Warning error in frontend
+ * Fix - Shipping cycle not scheduled properly in same day shipping synchronization
+
+2024-06-21 - version 4.5.0
+
+ * New   - New Price Update compatibility with Discounts for WooCommerce Subscriptions plugin
+ * Tweak - Code improvements
+ * Tweak - Tested with WooCommerce 9.0.1
+ * Tweak - Tested with WordPress 6.5.4
+ * Tweak - Tested with WooCommerce Subscriptions 6.3.2
+ * Fix   - Fatal Error in backend in some cases
+
+2024-02-28 - version 4.4.0
+
+ * Tweak - Scheduled Actions will be rescheduled when updating products 
+ * Tweak - Tested with WooCommerce 8.6.1
+ * Tweak - Tested with WordPress 6.4.3
+ * Tweak - Tested with WooCommerce Subscriptions 6.0.0
+ * Fix   - Fatal Error when updating crons in background
+ * Fix   - Scheduled Actions for Shipping fulfillment orders unscheduled in some cases
+
+2024-01-22 - version 4.3.0
+
+ * New   - Compatible with Cart and Checkout Blocks
+ * Tweak - Tested with WooCommerce 8.5.1
+ * Tweak - Tested with WordPress 6.4.2
+ * Tweak - Tested with WooCommerce Subscriptions 5.9.0
+ * Fix   - Emails being sent in Staging environment
+
+2023-11-23 - version 4.2.0
+
+ * Tweak - Crons will be automatically set for old subscriptions
+ * Tweak - Usability improvements
+ * Tweak - Tested with WooCommerce 8.3.1
+ * Tweak - Tested with WordPress 6.4.1
+ * Tweak - Tested with WooCommerce Subscriptions 5.7.0
+
+2023-10-12 - version 4.1.0
+
+ * New   - Option to get Subscribe Now Checkbox text
+ * Tweak - Disable reminder emails supported for old subscriptions
+ * Tweak - Code improvements
+ * Tweak - Tested with WooCommerce 8.2.0
+ * Tweak - Tested with WordPress 6.3.1
+ * Tweak - Tested with WooCommerce Subscriptions 5.5.0
+ * Fix - WPML issues
+
+2023-06-27 - version 4.0.0
+
+ * Tweak - Tested with WooCommerce 7.8.0
+ * Tweak - Tested with WooCommerce Subscriptions 5.1.3
+ * Fix   - Synchronization in shipping cycle not working correctly
+ * Fix   - Fatal Error in My Account page when the subscription product is deleted
+
+2023-06-12 - version 3.9.0
+
+ * Tweak - WPML compatibility improvements
+ * Tweak - Compatible with High-Performance Order Storage[HPOS]
+ * Tweak - Tested with WooCommerce 7.7.2
+ * Tweak - Tested with WordPress 6.2.2
+
+2023-03-22 - version 3.8.0
+
+ * Tweak - WPML compatibility added
+ * Tweak - Same price will be updated for subscription renewals for all users if filter to charge same amount to everyone and absorb difference in tax is used
+ * Tweak - Tested with WooCommerce 7.5.0
+ * Tweak - Tested with WooCommerce Subscriptions 5.0.0
+ * Fix - Fatal Error when WooCommerce database is not updated
+ * Fix - Reminder emails being sent in pending cancellation status
+
+2023-01-23 - version 3.7.0
+
+ * New   - Developer hooks added
+ * Tweak - Code improvements related to price update feature
+ * Tweak - Supported price update feature for subscriptions purchased using plans
+ * Tweak - Tested with WooCommerce 7.3.0
+ * Fix   - Customization removed when the email templates are saved as Draft
+ * Fix   - Reminder emails being sent with old price even after price is updated
+ * Fix   - Discount amount calculated incorrectly when price is updated
+ * Fix   - Warning error in edit subscription page
+
+2022-11-18 - version 3.6.0
+
+ * New   - Shortcodes added to display customer name, first name, last name in email templates
+ * New   - Product Filter added in email templates
+ * Tweak - Tested with WordPress 6.1.1
+ * Tweak - Tested with WooCommerce 7.1.0
+ * Tweak - Tested with WooCommerce Subscriptions 4.6.0
+
+2022-10-12 - version 3.5.0
+
+ * Tweak - New Price Update behavior code improvements
+ * Tweak - Subscription Plans sorting
+ * Tweak - Tested with WordPress 6.0.2
+ * Tweak - Tested with WooCommerce 7.0.0
+
+2022-05-10 - version 3.4.0
+
+ * New - Option to disable reminder emails in product level
+
+2022-04-25 - version 3.3.0
+
+ * Tweak - Tested with WordPress 5.9.3
+ * Tweak - Tested with WooCommerce 6.4.1
+ * Fix   - Reminder email crons unscheduled
+
+2022-04-07 - version 3.2.0
+
+ * Fix - Uncaught Error when subscription is deleted
+
+2022-04-01 - version 3.1.0
+
+ * New   - Multiple email templates supported for reminder emails
+ * Tweak - Subscription price update supported for old subscriptions
+ * Tweak - Tested with WooCommerce Subscriptions 4.1.0
+ * Tweak - Tested with WordPress 5.9.2
+ * Tweak - Tested with WooCommerce 6.3.1
+
+2022-03-03 - version 3.0.0
+
+ * New   - Subscription price for old subscriptions can be configured in product level
+ * Tweak - Limit trial based on subscription status
+ * Tweak - Tested with WordPress 5.9.1
+ * Tweak - Tested with WooCommerce 6.2.1
+
+2021-09-29 - version 2.9.0
+
+ * New   - Switching between subscription plans
+ * Tweak - Tested with WooCommerce 5.7.1
+ * Tweak - Tested with WordPress 5.8.1
+
+2021-09-16 - version 2.8.0
+
+ * New   - New price update supported for Early Renewals
+ * New   - New price update supported for Resubscription
+ * Tweak - WooCommerce Subscription lower version support notice added
+ * Tweak - Code Improvements
+
+2021-09-04 - version 2.7.0
+
+ * New   - Synchronize Shipping Cycle
+ * New 	 - Subscription Cancelling support for Predefined plans
+ * Tweak - Compatible with PHP V8.x
+ * Tweak - Tested with WooCommerce 5.6.0
+ * Tweak - Tested with WordPress 5.8.0
+ * Fix   - Trial not working for Synchronized subscriptions
+
+2021-07-27 - version 2.6.0
+
+ * New   - Separate Shipping Cycle supported for Synchronized Subscriptions
+ * New   - Signup fee supported for Predefined plans
+ * New   - Separate Shipping Cycle supported for Predefined plans
+ * New   - Synchronization supported for Predefined plans
+ * Tweak - Tested with WooCommerce 5.5.1
+ * Tweak - Tested with WordPress 5.7.2
+ * Fix   - Separate Shipping Cycle working for subscriptions by default
+
+2021-05-24 - version 2.5.0
+
+ * Tweak - Restricted New Price update feature for Cart Level Subscription and Simple/Variable Product Type subscriptions
+
+2021-04-30 - version 2.4.0
+
+ * Tweak - Shipping Fulfillment orders will be created while the subscription is in Pending Cancellation status
+ * Tweak - Creation of Shipping Fulfillment orders will be updated if the subscription due date is updated
+
+2021-04-27 - version 2.3.0
+
+ * New   - Price Update reminder supported for non subscription product types
+ * New   - Free Trial supported for Cart Level and Product Level Subscriptions
+ * Tweak - Get Subscribe Now button text from WooCommerce Subscriptions settings
+
+2021-04-20 - version 2.2.0
+
+ * New   - Option to Allow Switching after specific number of days of subscription start date
+ * New   - Option to Allow Switching after specific number of days of each renewal
+ * New   - Option to Prevent Switching before specific number of days before renewal
+ * New   - Option to Allow Cancelling after specific number of days of each renewal
+ * New   - Trial Ending reminder email
+ * Tweak - Tested with WooCommerce 5.2.0
+
+2021-04-13 - version 2.1.0
+
+ * New   - Option to prevent WooCommerce emails for shipping fulfillment orders
+ * New   - Added "enr_get_shipping_fulfilment_dates" filter hook to modify shipping fulfillment order dates
+ * Tweak - Code optimized for Buy Now/Subscribe
+ * Tweak - Tested with WooCommerce 5.1.0
+ * Tweak - Tested with WooCommerce Subscriptions 3.0.14
+ * Tweak - Tested with WordPress 5.7.0
+ * Fix   - Shipping cycle not worked for last renewal
+ * Fix   - Subscription coupon discount removed New Price is applied for Old Subscriptions
+
+2021-01-01 - version 2.0.0
+
+ * New - Subscribe option for Simple and Variable Product Types
+ * New - Cart Level Subscription to purchase whole Cart Items as a Single Subscription
+ * New - Option for Admin to Allow shipping frequency for old subscriptions
+ * Fix - Subscription line total zero error when shipping order is created
+
+2020-11-17 - version 1.7.0
+
+ * Tweak - Validation improvements for Shipping Cycle
+ * Fix - Shipping Cycle orders created with shipping cost
+
+2020-09-11 - version 1.6.0
+
+ * Tweak - Resubscribe allowed on Variant level when Subscription limit is applied
+ * Tweak - Subscription variant level limit notice added on single product page
+ * Fix - Unable to Resubscribe when Product level Subscription limit is applied
+
+2020-09-03 - version 1.5.0
+
+ * New - Limit Subscription in Variant Level for Variable Subscriptions
+ * New - Limit customers to use Trial once per subscription
+
+2020-08-12 - version 1.4.0
+
+ * New - Preview Subscription Emails
+
+2020-07-22 - version 1.3.0
+
+ * New - Separate Shipping Cycle
+
+2020-06-13 - version 1.2.0
+
+ * New - Option to Prevent Cancelling Before Specific Days of Renewal Date
+
+2020-06-06 - version 1.1.0
+
+ * New - Manual Renewal Reminder Email
+
+2020-04-28 - version 1.0.0
+
+ * Initial Release
+

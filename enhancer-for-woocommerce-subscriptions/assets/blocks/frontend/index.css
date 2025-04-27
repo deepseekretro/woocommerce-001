@@ -1,0 +1,11 @@
+.enr-cart-level-subscription-form-wrapper__subscribe-now .wc-block-components-totals-item__value,
+.enr-cart-level-subscription-form-wrapper__userdefined .wc-block-components-totals-item__value{font-weight: normal;}
+
+.enr-cart-level-subscription-form-wrapper__subscribe-now{padding-bottom: 16px;}
+
+.enr-component--disabled{opacity:.6}
+
+.enr-cart-level-subscription-form-wrapper__subscription-plans .wc-block-components-totals-item__description{margin-top: 5px;}
+
+.enr-cart-level-subscription-form-wrapper__userdefined .wc-block-components-totals-item__value{width: 100%;}
+.enr-cart-level-subscription-form-wrapper__userdefined select{width: 100%;}
